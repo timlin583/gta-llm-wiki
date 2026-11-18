@@ -1,7 +1,7 @@
 ---
 title: Rockstar Games
 type: entity
-sources: [raw/01-wikipedia-gta-series.md, raw/02-wikipedia-gta-iii.md, raw/03-wikipedia-gta-v.md, raw/05-news-gta-vi-delay.md]
+sources: [raw/01-wikipedia-gta-series.md, raw/02-wikipedia-gta-iii.md, raw/03-wikipedia-gta-v.md, raw/05-news-gta-vi-delay.md, raw/06-wikipedia-gta-vi.md]
 updated: 2026-11-18
 ---
 
@@ -18,6 +18,15 @@ GTA 系列的發行商，旗下工作室 Rockstar North（前身 DMA Design）�
 - 母公司是 Take-Two Interactive [raw/01]。
 - Take-Two 執行長是 Strauss Zelnick [raw/01]；raw/05 拼作「Strass Zelnick」[raw/05]，疑似錯字，並陳。
 - 2025-11-06，Rockstar 與 Take-Two 一同宣布 GTA VI 延期至 2026-11-19 [raw/05]，見 [[GTA VI]]。
+
+## GTA VI 時期（raw/06）
+- Rockstar 總裁是 Sam Houser，參與 GTA VI 的開發回饋 [raw/06]。
+- 編劇 Dan Houser 於 2020 年離開 Rockstar [raw/06]。
+- 員工人數：從 2,441 人增加到 4,711 人，分布在 12 個辦公室 [raw/06]。
+- 2023 年成立 Rockstar Los Angeles，專門負責 GTA VI 的 NPC（非玩家角色：遊戲裡由電腦控制的路人與配角）[raw/06]。
+- Rockstar North 的辦公室在愛丁堡（Edinburgh）[raw/06]。
+- 2024 年 4 月起要求員工回辦公室上班，英國獨立工人工會（IWGB）批評此舉違反彈性工作的承諾 [raw/06]。
+- 2025 年 10 月以散佈機密為由解雇 34 名員工（Rockstar North 31 人、Rockstar Toronto 3 人），IWGB 指控這是打壓工會 [raw/06]。
 - 參與過系列開發的工作室還有 Rockstar Leeds、Rockstar Canada、Digital Eclipse [raw/01]。
 - 1999 年 9 月，Take-Two Interactive 從 Infogrames 手中收購 DMA Design [raw/02]。
 - GTA III 的核心團隊約 23 人，在愛丁堡（Edinburgh）的 DMA Design，與紐約的 Rockstar Games 合作 [raw/02]。raw/01 則寫 DMA Design 位於 Dundee [raw/01]；兩者可能是不同據點，並陳，待查。

@@ -333,3 +333,73 @@
 4. 補第 6 類的術語解釋。
 5. 第 1 類加來源摘要連結、第 3 類統一 ⚠ 標記、第 4 類補排名的「截至」。
 6. 規則修改：CLAUDE.md 補「來源沒有日期時用抓取日」；「一句話介紹也要標來源」。
+
+## [2026-11-18] ingest | Wikipedia：Grand Theft Auto VI（raw/06）
+- 背景：依第一次 Lint 的建議，回到「取得資料」補來源（外層 loop 第 2 圈的第 1 篇）。
+- 新增／更新的頁：
+  - 新增：sources/06-wikipedia-gta-vi
+  - 更新：GTA VI（大幅改寫）、罪惡城（Vice City）、Rockstar Games、GTA IV、index.md
+- 自我檢查：對照 46 個事實，修正 3 個
+
+| # | 事實 | wiki 頁 | raw 原句 | 是否符合 |
+|---|---|---|---|---|
+| 1 | 系列第 8 部主線 | GTA VI | It is the eighth main entry in the Grand Theft Auto series | ✅ |
+| 2 | 開發、發行 Rockstar Games；引擎 RAGE；單人 | GTA VI | \| Developer \| Rockstar Games \| ／ \| Publisher \| Rockstar Games \| ／ \| Engine \| RAGE \| ／ \| Mode \| Single-player \| | ✅ |
+| 3 | Leonida 州以佛羅里達為原型 | GTA VI、罪惡城 | the fictional US state of Leonida, based on Florida | ✅ |
+| 4 | Grassrivers、Leonida Keys 的原型 | GTA VI、罪惡城 | Vice City, Grassrivers, and the Leonida Keys (inspired by Miami, the Everglades, and the Florida Keys, respectively) | ✅ |
+| 5 | Ambrosia、Mount Kalaga National Park、Port Gellhorn | 罪惡城 | Additional locations include Ambrosia, Mount Kalaga National Park, and Port Gellhorn | ✅ |
+| 6 | 地圖約 RDR2 可遊玩範圍三倍（據報導）| GTA VI | its map is reported to be three times larger than the playable area of Red Dead Redemption 2 | ✅ |
+| 7 | 諷刺 2020 年代美國文化、Florida Man | GTA VI、罪惡城 | The game world parodies 2020s American culture… references to Internet memes such as Florida Man | ✅ |
+| 8 | Lucia 由 Manni L. Perez 演出、系列第一位正式女主角 | GTA VI | Lucia Caminos (Manni L. Perez), the series' first canon female protagonist | ✅ |
+| 9 | Lucia 為來自自由城的家人挺身而戰後入獄 | GTA VI | who was imprisoned at Leonida Penitentiary after fighting for her family from Liberty City | ❌→已修正：原寫「為了家人而入獄」，漏掉「挺身而戰」與「來自自由城」 |
+| 10 | Jason 退伍後替 Leonida Keys 毒販工作 | GTA VI | who worked for local drug runners in the Leonida Keys after serving in the Army | ✅ |
+| 11 | 銀行搶案失敗後捲入全州陰謀 | GTA VI | Following a failed bank heist, the duo encounters a state-wide conspiracy and are forced to protect each other | ✅ |
+| 12 | 以 Bonnie and Clyde 為靈感 | GTA VI | The protagonists' dynamic is inspired by the notorious outlaw duo Bonnie and Clyde | ❌→已修正：原寫「美國 1930 年代的雌雄大盜」，「1930 年代」不在 raw 裡，是用自己的記憶補的，已刪除 |
+| 13 | Xbox One 可透過 Xbox Cloud Gaming | GTA VI | Grand Theft Auto VI is also playable on Xbox One via Xbox Cloud Gaming | ✅ |
+| 14 | 截至 2026-10 無 Windows 版、PC 版傳 2027 Q1 | GTA VI | with no Windows release scheduled as of October 2026 ／ industry sources reported that the game had a PC release date of Q1 2027 | ✅ |
+| 15 | 開頭寫已發售 vs Release 段寫預計發售 | GTA VI、sources/06 | it was released on 19 November 2026 ／ The game is planned to be released for PlayStation 5… | ✅（raw/06 內部矛盾，已並陳）|
+| 16 | 售價 $79.99 | GTA VI | it was ultimately priced at $79.99 | ✅ |
+| 17 | Criminal Profile 系統 | GTA VI | The game has a "Criminal Profile" rating system that tracks each player character's reputation | ✅ |
+| 18 | 2 把主武器、2 把副武器 | GTA VI | restricts the player to carrying two primary firearms and two sidearms at once | ✅ |
+| 19 | 飲食、運動、熬夜改變外觀 | GTA VI | eating, exercising, and evading police ／ if the player stays awake as either character for days on end, it will become visible on their faces | ✅ |
+| 20 | Snapmatic 諷刺 TikTok、Instagram | GTA VI | social media app called Snapmatic… parody 2020s social media trends and apps such as TikTok and Instagram | ✅ |
+| 21 | 首次可在車外聽 Podcast | GTA VI | In a first for the series, players can listen to on-demand podcasts outside of a vehicle | ✅ |
+| 22 | 發售時無第一人稱（瞄準例外）| GTA VI | did not include a first-person gameplay mode at launch, with the exception of when aiming certain weapons | ✅ |
+| 23 | 兩台主機都是 30 FPS | GTA VI | the game would run at 30 frames per second (FPS) on both consoles at launch | ✅ |
+| 24 | 2014 初步規劃、2020 正式製作 Project Americas | GTA VI | preliminary work… in 2014 ／ Principal production began in 2020, code-named Project Americas | ✅ |
+| 25 | 沒有 Dan Houser 參與、他 2020 年離開 | GTA VI、Rockstar Games | the first mainline Grand Theft Auto story written without the involvement of Dan Houser since Grand Theft Auto (1997), as Houser left Rockstar in 2020 | ✅ |
+| 26 | 傳聞預算 US$1–2 billion、否認超過 US$1.5 billion | GTA VI | Rumours and analysts suggested the budget surpassed US$1–2 billion… Rockstar denied rumours that it cost over US$1.5 billion | ✅ |
+| 27 | 2015 年起到邁阿密考察，訪問警察、夜店推廣人、前罪犯 | GTA VI、罪惡城 | Starting in 2015, they organised research trips to Miami… law enforcement, club promoters, ex-criminals, and gun dealers | ✅ |
+| 28 | Metacritic PS5／XSX 99、161 篇評論 | GTA VI | (PS5) 99/100 (XSXS) 99/100 ／ with 161 critic reviews | ✅ |
+| 29 | OpenCritic 100% | GTA VI | OpenCritic assessed that 100% of critics recommend it | ✅ |
+| 30 | 「joint highest-rated」vs「topping Ocarina」| GTA VI、GTA IV、sources/06 | joint highest-rated video game of all time ／ topping The Legend of Zelda: Ocarina of Time | ✅（raw/06 內部矛盾，並與 raw/01 矛盾，已並陳）|
+| 31 | 評論「在發售前刊出」| GTA VI | （raw/06 沒有這句）| ❌→已修正：這是我的推論，raw 沒寫，已刪除 |
+| 32 | 預購超過 17 million、超過 US$1.6 billion、史上最多 | GTA VI | more than 17 million digital preorder copies, equating to an approximate revenue of over $1.6 billion. This made it the most preordered video game of all time | ✅ |
+| 33 | 約 75% 預購在 PS5 | GTA VI | Approximately 75% of preorders were made for PlayStation 5 | ✅ |
+| 34 | 第二支預告 2025-05-06、24 小時 475 million 次 | GTA VI | A second trailer was released on 6 May 2025… 475 million views across all platforms within 24 hours | ✅ |
+| 35 | 2024、2025 最受期待遊戲 | GTA VI | Most Anticipated Game \| Won ／ Most Wanted Game \| Won | ✅ |
+| 36 | 2022-09-18 外流 90 段影片、損失 $5 million、17 歲少年被捕 | GTA VI | published 90 videos to the website GTAForums on 18 September 2022 ／ cost the company $5 million ／ A 17-year-old boy… was arrested | ✅ |
+| 37 | 2026-08 CyberLeek 外流 | GTA VI | leaked in August 2026 by an account known as "CyberLeek" | ✅ |
+| 38 | 2025-10 解雇 34 人（North 31、Toronto 3）、IWGB 指控打壓工會 | GTA VI、Rockstar Games | Rockstar fired 34 employees in October 2025 ／ Thirty-one from Rockstar North and three from Rockstar Toronto ／ The IWGB accused Rockstar of union busting | ✅ |
+| 39 | 實體版不附光碟、部分零售商拒絕上架 | GTA VI | criticised content locked behind special editions and the lack of discs… some retailers refused to stock the game | ✅ |
+| 40 | 南韓差點拒絕分級 | GTA VI | The game was nearly banned in South Korea… did not want to be "the sole country to refuse classification | ✅ |
+| 41 | 2025-05 第一次延期至 2026-05-26 | GTA VI、sources/06 | in May 2025, the game was delayed to 26 May 2026 | ✅（解決 Lint 待查）|
+| 42 | 2023-12 公布、預告片公布 2025 年發售時段 | GTA VI、sources/06 | formally revealed in December 2023 ／ The first trailer in December 2023 revealed a 2025 release window | ✅（解決 Lint 矛盾）|
+| 43 | 2026-06-25 開放預購 | GTA VI | Preorders opened on 25 June | ✅ |
+| 44 | 員工 2,441 → 4,711、12 個辦公室 | Rockstar Games | Rockstar had 2,441 employees which grew to 4,711 across 12 offices | ✅ |
+| 45 | 2023 年成立 Rockstar Los Angeles | Rockstar Games | Rockstar Los Angeles was founded in 2023 | ✅ |
+| 46 | 2024-04 要求回辦公室 | Rockstar Games | return to offices from April 2024 | ✅ |
+
+- 第一次 Lint 問題的處理結果：
+  - 已解決：「第一次延期宣布日期待查」→ 2025 年 5 月（#41）。
+  - 已解決：raw/05「originally announced in 2025」vs raw/01「2023-12」→ raw/06 支持 raw/01（#42），GTA VI 頁改寫成「已解決的說法差異」。
+  - 補強：raw/05 把 Leonida 寫成罪惡城別稱 → raw/06 也寫 Leonida 是州，矛盾保留但多一篇佐證。
+  - 未解決：GTA VI 時代歸屬、ESRB 分級（raw/06 都沒寫）。
+- 本次新發現的來源問題：
+  - ⚠ raw/06 內部：開頭「it was released on 19 November 2026」vs Release 段「is planned to be released」。這是第二篇在發售前一天就寫「已發售」的來源（第一篇是 raw/03）。
+  - ⚠ raw/06 內部：「joint highest-rated」vs「topping Ocarina of Time」。
+  - ⚠ raw/06 vs raw/01：Metacritic 史上排名（GTA VI 99 vs GTA IV 98 為史上第二），已在 GTA IV 頁標註。
+- 本次的錯誤類型：3 個修正裡，有 2 個是「用自己的記憶或推論補細節」（#12「1930 年代」、#31「評論在發售前刊出」），正是 CLAUDE.md「不要用自己的記憶補」要防的錯誤。
+- 人工檢查（使用者請 Claude 代為抽查，以 shuf 隨機抽出 #8、#39）：
+  - #8 Lucia 由 Manni L. Perez 演出、系列第一位正式女主角：wiki GTA VI 第 34 行「Lucia Caminos（Manni L. Perez 演出）…是系列第一位正式設定的女主角」；raw/06 第 49 行「Lucia Caminos (Manni L. Perez), the series' first canon female protagonist」→ 相符。補充：raw/06 第 202 行註腳說明，GTA（1997）、GTA 2（GBC 版）、GTA Online 都有可選的女性角色，但都不是有劇情對白的主角；wiki 用「正式設定的」對應原文的「canon」，意思正確。
+  - #39 實體版不附光碟、部分零售商拒絕上架：wiki GTA VI 第 73 行「實體版只附下載碼，加上部分內容綁定特別版，引發玩家與記者批評，部分零售商拒絕上架」；raw/06 第 109 行「Physical versions, containing download codes in lieu of discs…」「Players and journalists criticised content locked behind special editions and the lack of discs… and some retailers refused to stock the game」→ 相符。

@@ -1,7 +1,7 @@
 ---
 title: GTA IV
 type: game
-sources: [raw/01-wikipedia-gta-series.md]
+sources: [raw/01-wikipedia-gta-series.md, raw/06-wikipedia-gta-vi.md]
 updated: 2026-11-18
 ---
 
@@ -33,6 +33,7 @@ ESRB M（17 歲以上）[raw/01]。其他地區：待查。
 - GameRankings：PS3 97%、Xbox 360 97%、PC 88% [raw/01]
 - Metacritic：PS3 98、Xbox 360 98、PC 90 [raw/01]
 - 截至 2026-11-18，在 Metacritic 是史上評分第二高的遊戲（98 分），僅次於《薩爾達傳說：時之笛》[raw/01]
+- ⚠ 來源矛盾：raw/06 寫 GTA VI 以 99 分成為 Metacritic 史上最高分（或並列最高），超越《時之笛》[raw/06]，若屬實，GTA IV 的排名已不是第二。
 - 截至 2026-11-18，銷量 25 million+ [raw/01]
 
 ## 6. 爭議事件
