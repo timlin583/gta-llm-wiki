@@ -1,7 +1,7 @@
 ---
 title: Rockstar Games
 type: entity
-sources: [raw/01-wikipedia-gta-series.md, raw/02-wikipedia-gta-iii.md, raw/03-wikipedia-gta-v.md]
+sources: [raw/01-wikipedia-gta-series.md, raw/02-wikipedia-gta-iii.md, raw/03-wikipedia-gta-v.md, raw/05-news-gta-vi-delay.md]
 updated: 2026-11-18
 ---
 
@@ -16,6 +16,8 @@ GTA 系列的發行商，旗下工作室 Rockstar North（前身 DMA Design）�
 - 系列主要由 Rockstar North 開發、由 Rockstar Games 發行 [raw/01]。
 - 後期作品由 Dan Houser、Sam Houser 兄弟，以及 Leslie Benzies、Aaron Garbut 主導 [raw/01]。
 - 母公司是 Take-Two Interactive [raw/01]。
+- Take-Two 執行長是 Strauss Zelnick [raw/01]；raw/05 拼作「Strass Zelnick」[raw/05]，疑似錯字，並陳。
+- 2025-11-06，Rockstar 與 Take-Two 一同宣布 GTA VI 延期至 2026-11-19 [raw/05]，見 [[GTA VI]]。
 - 參與過系列開發的工作室還有 Rockstar Leeds、Rockstar Canada、Digital Eclipse [raw/01]。
 - 1999 年 9 月，Take-Two Interactive 從 Infogrames 手中收購 DMA Design [raw/02]。
 - GTA III 的核心團隊約 23 人，在愛丁堡（Edinburgh）的 DMA Design，與紐約的 Rockstar Games 合作 [raw/02]。raw/01 則寫 DMA Design 位於 Dundee [raw/01]；兩者可能是不同據點，並陳，待查。

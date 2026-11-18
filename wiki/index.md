@@ -11,7 +11,7 @@
 - [[GTA IV]]：2008 年，HD 時代第一款，寫實的紐約風格自由城
 - [[GTA V]]：2013 年，三位主角、洛聖都；截至 2026 年 9 月出貨將近 235 million，史上第二暢銷
 - [[GTA Online]]：2013-10-01 上線的 GTA V 線上多人模式，持續免費更新
-- [[GTA VI]]：截至 2026-11-18 尚未發售（官方：預定 2026-11-19），主角 Jason 與 Lucia，舞台 Leonida 州的罪惡城
+- [[GTA VI]]：截至 2026-11-18 尚未發售（官方：預定 2026-11-19，2025-11-06 第二次延期後的日期），主角 Jason Duval 與 Lucia Caminos，舞台 Leonida 州的罪惡城
 
 ## 概念（concepts）
 - [[2D 時代]]：GTA、GTA 2 與倫敦資料片
@@ -31,3 +31,4 @@
 - [[02-wikipedia-gta-iii]]：英文維基百科 GTA III 條目（開發、911 修改、分級、影響）
 - [[03-wikipedia-gta-v]]：英文維基百科 GTA V 條目（三主角、銷量紀錄、GTA Online、爭議）
 - [[04-rockstar-gta-vi]]：Rockstar 官方 GTA VI 頁面（官方第一手：發售日、平台、主角、預載）
+- [[05-news-gta-vi-delay]]：TechRadar 新聞（2025-11-06）：GTA VI 從 2026-05-26 再延期至 2026-11-19

@@ -1,7 +1,7 @@
 ---
 title: GTA VI
 type: game
-sources: [raw/01-wikipedia-gta-series.md, raw/03-wikipedia-gta-v.md, raw/04-rockstar-gta-vi.md]
+sources: [raw/01-wikipedia-gta-series.md, raw/03-wikipedia-gta-v.md, raw/04-rockstar-gta-vi.md, raw/05-news-gta-vi-delay.md]
 updated: 2026-11-18
 ---
 
@@ -22,10 +22,12 @@ updated: 2026-11-18
 | 開發商 | Rockstar Games [raw/01] |
 | 城市 | 罪惡城（原型邁阿密），位於 Leonida 州（原型佛羅里達）[raw/01]；官方稱「Vice City, USA」[raw/04] |
 | 故事年代 | 現代 [raw/01] |
-| 主角 | Jason 與 Lucia [raw/04] |
+| 主角 | Jason 與 Lucia [raw/04]；全名 Jason Duval、Lucia Caminos [raw/05] |
 
 ### 故事前提（官方文案）
 Jason 與 Lucia 一直知道自己處境不利。一次原本輕鬆的行動（easy score）出了差錯後，兩人捲入一場橫跨 Leonida 州的犯罪陰謀，只能比以往更依賴彼此才能活下來 [raw/04]。官方標語：「The darkest side of the sunniest place in America」（美國最陽光的地方，最黑暗的一面）[raw/04]。
+
+⚠ 來源矛盾（Leonida 是什麼）：raw/05 的報導文字寫「a modern Vice City, dubbed Leonida」[raw/05]，彷彿 Leonida 是罪惡城的別稱；但 raw/01 [raw/01]、官方 raw/04 [raw/04]，以及 raw/05 自己引用的 Rockstar 聲明「the sprawling state of Leonida and a return to modern-day Vice City」[raw/05]，都把 Leonida 寫成州、罪惡城是州內的城市。
 
 ## 3. 分級
 待查
@@ -47,12 +49,20 @@ Jason 與 Lucia 一直知道自己處境不利。一次原本輕鬆的行動（e
 | 2022-02-04 | Rockstar 確認新作「well underway」[raw/01]；raw/03 也寫 2022 年 2 月確認開發 [raw/03] |
 | 2022-09 | 開發中影片外流 [raw/01] |
 | 2023-12 | 正式公布為 GTA VI，預計 2025 年推出 [raw/01] |
-| 之後 | 延期至 2026-11-19 [raw/01] |
+| 待查 | 第一次延期，新發售日 2026-05-26 [raw/05]（宣布日期待查）|
+| 2025-11-06 | 第二次延期：Rockstar 與 Take-Two 宣布從 2026-05-26 延後六個月至 2026-11-19（星期四）[raw/05]；raw/01 也寫延期至 2026-11-19 [raw/01] |
 | 2026-11-03 | 官方新聞：預載（Pre-Load，發售前先下載遊戲檔案）將於 11-10 開始 [raw/04] |
 | 2026-11-05 | 官方發布上市圖集（Launch Gallery）[raw/04] |
 | 2026-11-10 | 官方新聞：開放預載 [raw/04] |
 | 2026-11-19 | 預定發售 [raw/04] |
 | 2026-11 | raw/03 稱已發售 [raw/03]（⚠ 見頁首矛盾說明）|
+
+⚠ 來源說法差異（何時公布）：raw/05 寫「originally announced in 2025」[raw/05]；raw/01 寫 2023 年 12 月公布、預計 2025 年推出 [raw/01]。raw/05 可能是指「原定 2025 年推出」，並陳待查。
+
+### 第二次延期時的官方說法（截至 2025-11-06）
+- Rockstar 在 X 上的聲明：為延長等待道歉，並表示「these extra months will allow us to finish the game with the level of polish you have come to expect and deserve」[raw/05]。
+- Take-Two 執行長在財報會議上表示：「We remain both excited and confident they will deliver an unrivalled blockbuster entertainment experience」[raw/05]。
+- TechRadar 指出，從春季（2026-05-26）改到秋冬（2026-11-19），也讓發售更接近年底購物季 [raw/05]。
 
 ## 所屬時代
 截至 2026-11-18，raw/01 的作品列表把本作的宇宙欄標為「TBA」[raw/01]，時代歸屬待查。參見 [[HD 時代]] 的說明。官方頁面 raw/04 也沒有提到時代歸屬 [raw/04]。

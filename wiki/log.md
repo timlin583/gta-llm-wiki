@@ -225,3 +225,39 @@
 - 人工檢查（使用者請 Claude 代為抽查，以 shuf 隨機抽出 #10、#5）：
   - #10 截至 2026-11-18 已開放預載：wiki sources/04 第 23 行「截至 2026-11-18 已開放預載（Pre-Load）」、GTA VI 時間線「2026-11-10 官方新聞：開放預載」；raw/04 第 6 行與第 28 行「Pre-Load Now」，第 80–82 行「Pre-Load Grand Theft Auto VI Now / November 10, 2026」→ 相符。
   - #5 輕鬆的行動出錯：wiki GTA VI 第 28 行「一次原本輕鬆的行動（easy score）出了差錯後」；raw/04 第 32 行「But when an easy score goes wrong」→ 相符。
+
+## [2026-11-18] ingest | TechRadar：Grand Theft Auto 6 delayed again, but it'll still ship in 2026（raw/05）
+- 新增／更新的頁：
+  - 新增：sources/05-news-gta-vi-delay
+  - 更新：GTA VI（主角全名、兩次延期時間線、官方延期聲明、Leonida 矛盾）、Rockstar Games、index.md
+- 自我檢查：對照 17 個事實，修正 0 個。本篇的新聞發布日是 2025-11-06，引用其「目前狀態」時以發布日標「截至」，不用抓取日。
+
+| # | 事實 | wiki 頁 | raw 原句 | 是否符合 |
+|---|---|---|---|---|
+| 1 | 作者 Jacob Krol | sources/05 | By Jacob Krol | ✅ |
+| 2 | 發布日 2025-11-06 | sources/05、GTA VI | Published 6 November 2025 | ✅ |
+| 3 | 延期至 2026-11-19 | GTA VI、sources/05 | pushing the release date for GTA 6 to November 19, 2026 | ✅ |
+| 4 | 原發售日 2026-05-26，延後六個月 | GTA VI、sources/05 | six months after the previous release date of May 26, 2026 | ✅ |
+| 5 | Rockstar 與 Take-Two 一同宣布再次延期 | GTA VI、Rockstar Games | Rockstar Games – and its parent company, Take-Two Interactive – have announced yet another delay | ✅ |
+| 6 | 2026-11-19 是星期四 | GTA VI、sources/05 | will now release on Thursday, November 19, 2026 | ✅ |
+| 7 | 延期聲明引文（polish）| GTA VI | these extra months will allow us to finish the game with the level of polish you have come to expect and deserve | ✅ |
+| 8 | 為延長等待道歉 | GTA VI、sources/05 | We are sorry for adding additional time to what we realize has been a long wait | ✅ |
+| 9 | 在 X 上確認新日期 | GTA VI、sources/05 | Rockstar Games also confirmed the new release date on X | ✅ |
+| 10 | 執行長在財報會議上的發言 | GTA VI、sources/05 | during Take-Two Interactive's earnings call, CEO Strass Zelnick wrote in a statement | ✅ |
+| 11 | 「unrivalled blockbuster entertainment experience」引文 | GTA VI | We remain both excited and confident they will deliver an unrivalled blockbuster entertainment experience | ✅ |
+| 12 | 主角全名 Lucia Caminos、Jason Duval | GTA VI | two protagonists, Lucia Caminos and Jason Duval | ✅ |
+| 13 | 「a modern Vice City, dubbed Leonida」 | GTA VI、sources/05 | GTA 6 is set to return to us a modern Vice City, dubbed Leonida | ✅（與 raw/01、raw/04 及本篇引文矛盾，已並陳）|
+| 14 | Rockstar 聲明：state of Leonida、modern-day Vice City | GTA VI、sources/05 | the sprawling state of Leonida and a return to modern-day Vice City | ✅ |
+| 15 | 更接近年底購物季 | GTA VI | brings the launch closer to the holiday season as well | ✅ |
+| 16 | 截至 2025-11-06 平台 Xbox Series X、Series S、PS5 | sources/05 | GTA 6 is still set to release on the Xbox Series X, Xbox Series S, and PS5 | ✅ |
+| 17 | 「originally announced in 2025」| GTA VI、sources/05 | considering it was originally announced in 2025 and then delayed to 2026 | ✅（與 raw/01「2023-12 公布」說法有差異，已並陳）|
+
+- 本次發現的來源問題：
+  - ⚠ Leonida：raw/05 報導文字寫成罪惡城的別稱，但 raw/01、raw/04 與 raw/05 自己引用的 Rockstar 聲明都說 Leonida 是州。同一篇文章內，記者的轉述與引用的原話不一致。
+  - ⚠ Take-Two 執行長：raw/05「Strass Zelnick」vs raw/01「Strauss Zelnick」，疑似錯字，並陳於 Rockstar Games。
+  - ⚠ 公布時間：raw/05「originally announced in 2025」vs raw/01「2023 年 12 月公布、預計 2025 年推出」。
+  - 第一次延期（2025 → 2026-05-26）的宣布日期，raw/05 未寫，GTA VI 時間線標「待查」。
+  - 頁面「You may like」推薦文章標題（金氏紀錄、上市預告片等）不是本篇內容，未採用。
+- 人工檢查（使用者請 Claude 代為抽查，以 shuf 隨機抽出 #2、#4）：
+  - #2 發布日 2025-11-06：wiki sources/05 第 13 行「發布日：2025-11-06」、GTA VI 時間線第 53 行「2025-11-06｜第二次延期」；raw/05 第 12 行「Published 6 November 2025」，第 67 行 Rockstar 推文日期「November 6, 2025」→ 相符。
+  - #4 原發售日 2026-05-26、延後六個月：wiki GTA VI 第 53 行「從 2026-05-26 延後六個月至 2026-11-19」、sources/05 第 17 行；raw/05 第 47 行「which is six months after the previous release date of May 26, 2026」→ 相符。
