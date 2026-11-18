@@ -194,3 +194,34 @@
 - 人工檢查（使用者請 Claude 代為抽查，以 shuf 隨機抽出 #11、#45）：
   - #11 三位主角的特殊能力：wiki GTA V 第 37 行「Michael 的子彈時間、Franklin 開車時讓時間變慢、Trevor 傷害加倍並減半受到的傷害」；raw/03 第 43 行「Michael enters bullet time in combat, Franklin slows down time while driving, and Trevor deals twice as much damage to enemies while taking half as much in combat」→ 相符（wiki 省略了 Michael 與 Trevor 的「in combat」，不影響意思）。
   - #45 Ludendorff 原型 Fargo：wiki 聖安地列斯 第 32 行「序章發生在 North Yankton 的 Ludendorff，原型主要是北達科他州的 Fargo」；raw/03 第 271 行「Ludendorff is largely inspired by Fargo, North Dakota」，第 49 行「a failed robbery in Ludendorff, North Yankton」→ 相符。
+
+## [2026-11-18] ingest | Rockstar 官方：Grand Theft Auto VI（raw/04）
+- 新增／更新的頁：
+  - 新增：sources/04-rockstar-gta-vi
+  - 更新：GTA VI（改寫：補主角、故事前提、官方時間線）、罪惡城（Vice City）、index.md
+- 自我檢查：對照 14 個事實，修正 1 個
+
+| # | 事實 | wiki 頁 | raw 原句 | 是否符合 |
+|---|---|---|---|---|
+| 1 | 截至 2026-11-18 預定 2026-11-19 發售 | GTA VI、sources/04 | Coming November 19, 2026 | ✅ |
+| 2 | 平台 PS5、Xbox Series X\|S | GTA VI | PlayStation 5Xbox Series X\|S | ✅ |
+| 3 | 官方宣傳「Plays Best On PlayStation 5」| GTA VI | Plays Best On ／ PlayStation 5 | ✅ |
+| 4 | 主角 Jason 與 Lucia | GTA VI | Jason and Lucia have always known the deck is stacked against them | ✅ |
+| 5 | 輕鬆的行動出錯 | GTA VI | But when an easy score goes wrong | ✅ |
+| 6 | 橫跨 Leonida 州的犯罪陰謀 | GTA VI | a criminal conspiracy stretching across the state of Leonida | ✅ |
+| 7 | 只能更依賴彼此才能活下來 | GTA VI | forced to rely on each other more than ever if they want to make it out alive | ✅ |
+| 8 | 官方稱「Vice City, USA」| GTA VI、罪惡城 | Vice City, USA. | ✅ |
+| 9 | 標語「The darkest side of the sunniest place in America」| GTA VI、罪惡城 | Vice City, USA. The darkest side of the sunniest place in America. | ✅ |
+| 10 | 截至 2026-11-18 已開放預載 | GTA VI、sources/04 | Pre-Load Now | ✅ |
+| 11 | 2026-11-03 新聞：預載 11-10 開始 | GTA VI | Grand Theft Auto VI Pre-Load Begins on November 10 ／ November 3, 2026 | ✅ |
+| 12 | 2026-11-05 上市圖集 | GTA VI | Explore the Grand Theft Auto VI Launch Gallery ／ November 5, 2026 | ✅ |
+| 13 | 2026-11-10 開放預載 | GTA VI | Pre-Load Grand Theft Auto VI Now ／ November 10, 2026 | ✅ |
+| 14 | 一句話介紹：Leonida 州以佛羅里達為原型、Jason 與 Lucia 捲入陰謀 | GTA VI | （佛羅里達原型見 raw/01：the fictional state of Leonida, based on Florida；陰謀見上方 #6）| ❌→已修正：一句話介紹含具體地點與人物卻沒標來源，補上 [raw/01][raw/04] |
+
+- 本次發現的來源問題：
+  - ⚠ GTA VI 發售狀態：官方 raw/04（2026-11-18）「Coming November 19, 2026」，與 raw/03「was released in November 2026」矛盾；官方與 raw/01 一致。GTA VI 頁首改以官方來源為主要依據，raw/03 的說法仍並陳。
+  - raw/04 是官方宣傳頁，「Plays Best On PlayStation 5」屬宣傳用語，wiki 中標明「官方宣傳寫」，不當作客觀比較。
+  - raw/04 沒有開發商、分級、故事年代、時代歸屬資訊，相關欄位維持原狀或待查。
+- 人工檢查（使用者請 Claude 代為抽查，以 shuf 隨機抽出 #10、#5）：
+  - #10 截至 2026-11-18 已開放預載：wiki sources/04 第 23 行「截至 2026-11-18 已開放預載（Pre-Load）」、GTA VI 時間線「2026-11-10 官方新聞：開放預載」；raw/04 第 6 行與第 28 行「Pre-Load Now」，第 80–82 行「Pre-Load Grand Theft Auto VI Now / November 10, 2026」→ 相符。
+  - #5 輕鬆的行動出錯：wiki GTA VI 第 28 行「一次原本輕鬆的行動（easy score）出了差錯後」；raw/04 第 32 行「But when an easy score goes wrong」→ 相符。

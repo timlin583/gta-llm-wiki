@@ -1,7 +1,7 @@
 ---
 title: 罪惡城（Vice City）
 type: entity
-sources: [raw/01-wikipedia-gta-series.md]
+sources: [raw/01-wikipedia-gta-series.md, raw/04-rockstar-gta-vi.md]
 updated: 2026-11-18
 ---
 
@@ -21,6 +21,10 @@ GTA 系列以邁阿密為原型的熱帶城市，以海灘和棕櫚樹為招牌�
 | 待查 | [[GTA VI]] | 現代 [raw/01] | 位於虛構的 Leonida 州（原型佛羅里達），是 Vice-Dale County（原型邁阿密-戴德郡）的郡治；Vice Beach 獨立成另一座有自己警力的城市 [raw/01] |
 
 GTA VI 版的時代歸屬，raw/01 標為「TBA」，見 [[HD 時代]] 的說明。
+
+## GTA VI 官方怎麼介紹這座城
+- Rockstar 官方頁面稱它為「Vice City, USA」，標語是「The darkest side of the sunniest place in America」[raw/04]。
+- 官方頁面有「Only in Leonida」的人物與地點介紹區塊 [raw/04]，內頁內容尚未收錄（待查）。
 
 ## 簡報素材
 用 1986 年版（Vice City）和現代版（GTA VI）的同一座城對照，說明「同一座城市在系列中被重做」。
