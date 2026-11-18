@@ -18,7 +18,7 @@ a{color:inherit}
 
 /* ---------- 投影片框架 ---------- */
 .deck{position:fixed;inset:0}
-.slide{position:absolute;inset:0;display:none;flex-direction:column;padding:clamp(14px,3vw,44px) clamp(14px,4vw,64px) 56px;overflow:auto;isolation:isolate}
+.slide{position:absolute;inset:0;display:none;flex-direction:column;padding:clamp(14px,3vw,44px) clamp(14px,4vw,64px) 84px;overflow:auto;isolation:isolate}
 .slide.on{display:flex;animation:pop .35s ease-out}
 @keyframes pop{from{opacity:0;transform:scale(.97)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion:reduce){.slide.on{animation:none}}
@@ -31,9 +31,9 @@ a{color:inherit}
 .bg-pink::before{background:linear-gradient(160deg,#ff7ab8,#ff2e93)}
 .bg-night::before{background:linear-gradient(180deg,#140a24,#3a0f6b 70%,#7b1a8f)}
 
-.foot{position:fixed;left:0;right:0;bottom:0;height:44px;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:0 clamp(12px,3vw,32px);
+.foot{position:fixed;left:0;right:0;bottom:0;min-height:44px;padding-top:4px;padding-bottom:4px;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:0 clamp(12px,3vw,32px);
   background:var(--ink);color:#fff;font-size:clamp(10px,1.4vw,13px);border-top:4px solid var(--pink);z-index:5}
-.foot .src{opacity:.9;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.foot .src{opacity:.9;line-height:1.25;overflow-wrap:anywhere}
 .foot .ctrl{display:flex;align-items:center;gap:10px;flex:none}
 .foot button{font:inherit;background:var(--yellow);color:var(--ink);border:3px solid #fff;border-radius:6px;padding:2px 10px;cursor:pointer;font-family:"Bangers",var(--cjk);font-size:16px}
 .foot button:focus-visible{outline:3px solid var(--cyan);outline-offset:2px}
@@ -92,7 +92,7 @@ a{color:inherit}
 
 /* 流程格 */
 .flow{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(10px,1.6vw,22px)}
-.flow .panel{box-shadow:6px 6px 0 var(--ink)}
+.flow .panel{box-shadow:6px 6px 0 var(--ink);padding-top:clamp(26px,3vw,34px)}
 .flow .n{position:absolute;top:-18px;left:-14px;width:42px;height:42px;border-radius:50%;background:var(--pink);color:#fff;border:4px solid var(--ink);display:grid;place-items:center;font-family:"Bangers",sans-serif;font-size:24px;font-weight:400}
 @media (max-width:900px){.flow{grid-template-columns:1fr 1fr}}
 @media (max-width:560px){.flow{grid-template-columns:1fr}}
@@ -272,7 +272,7 @@ a{color:inherit}
 
 <!-- 12 爭議與分級 -->
 <section class="slide bg-pink" data-src="wiki/games/GTA San Andreas.md">
-  <h2 class="title">Hot Coffee：分級為什麼重要</h2>
+  <h2 class="title">Hot Coffee 事件</h2>
   <div class="flow">
     <div class="panel tilt-l"><span class="n">1</span><p>為了拿到 M 級（ESRB 的 17 歲以上分級）刪減內容，但程式碼還留在遊戲裡。</p></div>
     <div class="panel"><span class="n">2</span><p>玩家找出並公開，下載超過 100 萬次。</p></div>
@@ -325,7 +325,7 @@ a{color:inherit}
       <li>raw/11 Wikipedia：GTA IV</li>
       <li>raw/12 Wikipedia：GTA Online</li>
     </ul>
-    <p style="font-size:clamp(12px,1.6vw,17px)">內容整理自本專案 wiki；來源之間有出入處已在 wiki 標「來源矛盾」。圖像皆為 CC0 / OFL 素材，列於 asset/CREDITS.md。資料截至 2026-11-18。</p>
+    <p style="font-size:clamp(12px,1.6vw,17px)">內容整理自本專案 wiki；來源之間有出入處已在 wiki 標「來源矛盾」。圖像為 CC0 素材、字型為開源授權，列於 asset/CREDITS.md。資料截至 2026-11-18。</p>
   </div>
 </section>
 
