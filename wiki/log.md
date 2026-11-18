@@ -896,3 +896,120 @@
   - #10 三種主要活動、對抗模式、生存：wiki GTA Online 第 46、47 行；raw/12 第 38 行「there are three main types of set activities: racing (by car, bike, aircraft, or boat), Deathmatches (team or free-for-all), and Contact Missions (linear jobs with set objectives, usually cooperative)」「'Adversary Mode' adds several asymmetric variations on these activities, including 'Siege Mentality' where one team is besieged by another…」「'Survival' pits a team of up to four players against ten waves of enemies」→ 三種活動與生存模式相符。**小問題已修正**：wiki 原寫對抗模式是「不對稱的對戰變化版」，但原文是「這些活動（競速、死鬥、聯絡人任務）」的不對稱變化，不只是對戰；已改為「在上述活動上加入的多種不對稱變化玩法（例如一隊被另一隊圍攻）」。
   - #43 Still Playing 提名年份的差異：wiki GTA Online 第 95 行；raw/12 第 238 行「At the 2019 Golden Joystick Awards, the game was nominated for Still Playing and won Best Game Expansion for The Diamond Casino & Resort」；raw/03 得獎表第 215 行只列 2019-11-15 的「Best Game Expansion … Won」，Still Playing 提名從 2020-11-24 起才列（第 216 行起）→ 相符，wiki 對兩篇來源的描述都正確。
   - 這次抽查的結論：2 個抽樣中 1 個有措辭上的小偏差（把「活動的變化」窄化成「對戰」）。偏差不屬於標註範圍問題，而是用字太窄，與 raw/08（GTA 2 的語氣改寫）屬同一類。
+
+## [2026-11-18] lint | 第二次健檢（raw/01–12 全部 ingest 後）
+- 範圍：wiki/ 下 32 個內容頁（games 9、concepts 5、entities 4、sources 12），另有 index、log。
+- 方法：腳本掃描連結、frontmatter、並排標註、未標來源的數字、⚠ 標記、「截至」日期、game 頁欄位與待查、術語；腳本結果再人工判讀並用 grep 回 raw 驗證。**專項檢查**：把全部 65 個「同時標 2 篇以上來源」的句子逐一檢查，確認每篇來源是不是真的都有寫（起因：raw/11 抽查抓到過這類錯誤）。
+- 本次只列問題與建議修法，未修改任何 wiki 頁。
+
+### 1. 專項：並排標註的範圍（65 個片段，15 個有問題）
+腳本用關鍵詞比對只抓到 5 個，其中 3 個是誤判（「pack」是中文註解、「GTA$500,000」格式不同），只有 2 個是真的；人工逐句檢查找到 15 個。**關鍵詞比對不足以檢查標註範圍**，只能靠逐句判讀。
+
+已用 grep 確認（某個關鍵詞在其中一篇 raw 完全不存在）的 9 處：
+| 頁 | 句子 | 只出現在 | 另一篇標註不實 |
+|---|---|---|---|
+| GTA IV | 一句話介紹：「系列的重啟」「從東歐來到美國」 | raw/11 | raw/01（沒有 reboot、沒有 Eastern Europe）|
+| GTA IV | 拿掉的東西：健身房不符合 Niko 的動機 | raw/11 | raw/01（沒有 gym）|
+| GTA San Andreas | 一句話介紹：「從自由城回鄉的 CJ」 | raw/10 | raw/01（沒有 CJ、沒有 Carl）|
+| GTA V | 實地考察：「用 Google Maps」「人口普查資料」 | raw/03 | raw/01（沒有 Google Maps、census）|
+| GTA V | 刑求任務：「政治評論」「品味不佳」「政治人物」批評 | raw/03 | raw/01（只有 By the Book 與反酷刑團體）|
+| GTA VI | 一句話介紹：「系列第 8 部主線」「雌雄大盜」 | raw/06 | raw/04（沒有 eighth、Bonnie、Florida）|
+| GTA Vice City | 一句話介紹：Tommy Vercetti | raw/09 | raw/01（沒有 Vercetti）|
+| GTA Vice City | 主角欄：Tommy Vercetti | raw/09 | raw/01 |
+| GTA Vice City | 「GTA III 的主角 Claude 是不說話的」「團隊曾花時間解決這個難題」| raw/09 | raw/01（沒有 silent）|
+
+另有 6 處人工判斷（細節只在其中一篇，未逐一 grep）：GTA 2 一句話（幫派尊重度只在 raw/08）、GTA VI「雙主角可分開行動」（只在 raw/06）、GTA V 角色切換細節（只在 raw/03）、GTA Online 一句話（角色創建只在 raw/12）、Rockstar Games「GTA Online 由 Rockstar North 開發」（只在 raw/12）、GTA 一句話「接任務賺分數」（只在 raw/07）。
+輕微：GTA Online「第 10 屆 BAFTA」只在 raw/12；GTA VI 延期日期「2025-11-06」只在 raw/05。
+共同模式：**15 處裡有 8 處是「一句話介紹」或資料表的欄位**，也就是最常被當成摘要、最少被逐字核對的地方。
+- 建議修法：拆成「共同部分標兩篇、細節只標出處那一篇」；或把細節改標單一來源。
+
+### 2. 沒標來源的事實：11 處
+- 兩頁 game 的「一句話介紹」沒有任何來源：GTA III（「改變遊戲業的里程碑」）、GTA V（**「是系列商業上最成功的一款」，raw 沒有這句話，是我自己的推論，第一次 Lint 就列過，至今未修**）。
+- 九頁 concept／entity 的「一句話」沒有來源：2D 時代、3D 時代、HD 時代、通緝等級、開放世界、Rockstar Games、罪惡城、聖安地列斯、自由城。其中通緝等級、開放世界是概念解釋，可以不標；其餘含有事實（年代、原型、前身）。
+- 第一次 Lint 的 8 處「一句話介紹漏標」：5 處在改寫時修好了，剩 3 處（GTA III、GTA V、3D 時代，其中 3D 時代已算在上面九頁 concept／entity 裡），另外新增其餘八頁 concept／entity 的一句話。
+- 建議修法：一句話介紹也要標來源（寫進 CLAUDE.md）；GTA V 那句改成有 raw 支持的說法，例如 raw/01 銷量表 GTA V 是單款銷量最高，並標「截至」。
+
+### 3. 孤兒頁：12 頁
+- sources/01～12 全部只有 index 連入，其他頁只寫 [raw/0X]，沒有連到來源摘要頁（第一次 Lint 是 5 頁，沒有處理，隨 ingest 增加到 12 頁）。
+- 另：本檔第一次 Lint 的建議文字裡有一個寫成雙方括號加「0X-...」的範例，被連結檢查（以及 Obsidian）當成斷鏈（誤判，但連結圖會出現一個空節點）。
+- 建議修法：每頁「相關頁」加一行「來源摘要」連結（連到對應的 0X 來源摘要頁）；把上述範例改成不含雙方括號的寫法。
+
+### 4. frontmatter 與內文引用不一致
+- 內文引用了、frontmatter 沒列：GTA IV（raw/03）、GTA San Andreas（raw/09）、Rockstar Games（raw/08）。
+- 9 個來源摘要頁在矛盾對照表裡引用了別篇 raw，frontmatter 只列自己（設計問題：CLAUDE.md 規定 frontmatter 的 sources「引用的 raw 檔名」，但來源摘要頁的本意是摘要單一 raw）。
+- 建議修法：補上 3 頁的 frontmatter；來源摘要頁在 CLAUDE.md 註明「frontmatter 只列本篇，比較用的引用不算」。
+
+### 5. 來源矛盾：27 筆（第一次 Lint 是 12 筆）
+| 狀態 | 筆數 | 項目 |
+|---|---|---|
+| 同一篇 raw 內部矛盾 | 4 | GTA V 首日營收 $800M vs $815M；GTA V 跨性別內容刪除月份；GTA 2 的 Anywhere City vs USA；GTA IV 照片數量 100,000 vs 約 250,000 |
+| 隨時間會自行解決 | 1 | GTA VI 是否已發售（raw/03、raw/06 寫已發售，raw/04、raw/01 寫尚未）→ 2026-11-19 之後以新來源確認 |
+| 需要第三方來源才能判斷 | 18 | 系列總出貨量三種寫法；GTA III 銷量 17.5M vs 14.5M；GTA III 的 Metacritic 排名；Vice City 的 Metacritic 排名（5 vs 6）；自由城混入的城市；GTA V 金氏紀錄年份；GTA V 地圖限制說法；Vice City 銷量 20M vs 17.5M；海地抗議的團體與處理；Devin Moore 案兇手年齡；Devin Moore 案 2006 年 3 月的結果；Cody Posey 案地點；Cody Posey 案用藥；Vice City 開發時間 18 個月 vs 約 1 年；SA 與 Vice City 的地圖面積倍數；初代 GTA 的 PS 版年份；GTA 2 的 PS 版發售時間；GTA 2 銷量 1M vs 2M |
+| 低風險、已並陳 | 4 | Leonida 是州還是罪惡城別稱；SA 的 Windows Phone 版年份；GTA VI 的 Metacritic 史上排名；Still Playing 提名年份 |
+- 未計入的兩項：Zelnick 的職稱（chairman vs CEO，不一定矛盾）、Posey 案駁回原因（raw/01 沒寫，只是單方面缺漏）。
+- **最嚴重**：Devin Moore 案 2006 年 3 月的結果——raw/09「最高法院駁回被告撤案上訴（案件繼續）」vs raw/01「案件被駁回、不准上訴」，意思相反。
+- 標記不一致：Rockstar Games 頁有 2 行寫「並陳」但沒有 ⚠；sources/01、sources/07 各 1 行（可接受）。
+- 建議修法：矛盾不修（規則是並陳）；但簡報只能用「各來源共識」的部分；Moore 案、銷量類矛盾建議補一篇第三方來源（法院文件或 Take-Two 財報）後再處理。
+
+### 6. 「截至」日期
+- **明天過期（最優先）**：GTA VI 頁有 7 處「截至 2026-11-18 尚未發售」，2026-11-19 就是預定發售日。raw/03、raw/06 已經在發售前一天就寫「已發售」。
+- 規則與實作不一致：CLAUDE.md 規定「日期採用來源的日期，格式 YYYY-MM-DD」，但實際有兩個問題：(a) 維基百科沒有發布日，全部用抓取日 2026-11-18（21 處）；(b) 來源只給年月時用了「截至 2008 年 3 月」這類月份精度（約 23 處），另有 3 處只給年份。
+- 排名／紀錄類說法沒標「截至」：GTA「曾被多家媒體列為史上最佳」（raw/07）；GTA V「3 天破 10 億美元，史上銷售最快的娛樂產品」（2013 年的紀錄，沒有標年份）；GTA IV「開發預算超過 US$100 million，史上最貴之一」；Take-Two「內購是數位營收最大來源」。
+- 資料很舊但屬歷史統計：初代 2001 年 3 月 6M、GTA III 與 Vice City 2008 年 3 月、SA 2011 年 9 月、GTA IV 2013 年 7 月，簡報引用時必須帶日期。
+- GTA Online 的營運狀態以 raw/12 為準，最後一筆更新 2026-07-14；之後有沒有更新，待查。
+- 建議修法：CLAUDE.md 補「來源沒有日期時用抓取日，並在 sources 頁註明」與「來源只給年月時用 YYYY-MM」；排名類說法補「截至」；GTA VI 在 11-19 之後抓新來源（官方 Newswire 與一份評分彙整）ingest 後更新。
+
+### 7. 缺少的代數與資料厚度
+- 8 代主線＋GTA Online 都有頁面，沒有缺代；每頁都有 8 個欄位；每頁都連到所屬時代頁（GTA VI 時代歸屬待查）。
+- 每頁來源數：GTA 與 GTA 2 各 2 篇、GTA III 4 篇、GTA IV 3 篇、GTA Online 2 篇、GTA San Andreas 3 篇、GTA V 3 篇、GTA VI 5 篇、GTA Vice City 3 篇（第一次 Lint：6 頁只有 1 到 2 篇）。
+- 「待查」共 18 處（第一次 Lint：每頁 2～7 處）。**所有 9 頁的「分級」欄都有 ESRB 待查**，因為 raw/ 沒有任何一篇分級來源；其餘待查：GTA 故事年代、GTA 2 主角與爭議、GTA VI 時代歸屬、SA 地圖面積。
+- 建議修法：ESRB 是系統性缺口，若要填，需要為每代抓 ESRB 的評級頁（約 8 篇）；否則在簡報裡不要放「分級」資訊。
+
+### 8. 術語第一次出現沒解釋
+- 整個 wiki 都沒解釋的：Metacritic、GameRankings（第一次 Lint 就列過，沒處理）。
+- 只在一頁解釋、其他頁沒解釋：ESRB（只有 GTA San Andreas 頁解釋；GTA、GTA Online、GTA VI、GTA Vice City 頁出現 ESRB 沒解釋）。
+- 腳本標出 17 頁在首次出現時沒有緊接的括號說明（主線、移植、引擎、宇宙、限時獨占、外傳、開放世界、支線、NPC、mod、搶案等）；這個判斷較粗，但主線／移植／限時獨占／外傳確實沒有任何一頁解釋過。
+- 建議修法：新增一頁「術語表」（concept），一行一詞，各頁首次出現時加連結；Metacritic、ESRB 優先。
+
+### 9. 紀錄與規則的完整性
+- 12 篇 ingest 各有自我檢查表；raw/02 到 raw/12 共 11 篇的「人工檢查」是「請 Claude 代為抽查」，**使用者本人親自隨機抽查的 0 篇**；raw/01 的總體人工檢查那一行至今還是空的（使用者貼了針對 4 筆來源問題的外部查證筆記，但不是從自我檢查表隨機抽 2 個事實的抽查）。
+- 交作業前檢查清單：raw/ ≥5 篇且每篇都有來源摘要頁 ✅（12 篇）；log.md 有 ≥5 筆 ingest ✅（12 筆）、≥1 筆 lint ✅（本筆是第 2 筆）；簡報檢查 ❌（尚未做）。
+- 建議修法：請使用者本人從任一篇 ingest 的表格抽 2 個事實回 raw 核對，補在 raw/01 的空行或該篇最後一行。
+
+### 對照第一次 Lint（2026-11-18，raw/01–05 後）
+| 第一次 Lint 的問題 | 現在 |
+|---|---|
+| 孤兒頁 5 頁 | ❌ 未處理，增為 12 頁 |
+| 沒標來源的事實 8 處 | ⚠ 部分：5 處在改寫時修好，剩 GTA III、GTA V、3D 時代，並新增其餘 8 頁 concept／entity 的一句話 |
+| 來源矛盾 12 筆 | ⚠ 增為 27 筆；有 5 筆被新來源解決（第一次延期日期、公布時間、Zelnick 拼字、27.5M 與 25M 的日期、Dundee／愛丁堡改為時間線）|
+| 「截至」過期 | ❌ 未處理，GTA VI 7 處明天過期；CLAUDE.md 規則仍未更新 |
+| 缺資料的代（6 頁只有 1 到 2 篇）| ✅ 已解決，每代都有專屬來源 |
+| 術語未解釋 | ❌ 未處理（Metacritic、ESRB 等仍沒有統一的解釋）|
+| 新發現（本次）| 並排標註範圍問題 15 處；frontmatter 3 頁不一致；使用者本人抽查 0 篇 |
+
+### 建議的修正順序
+1. **正確性**：修正 15 處並排標註與 GTA V 那句沒有來源的「最成功」；為 11 個一句話補來源。
+2. **結構**：補 3 頁 frontmatter；每頁加「來源摘要」連結以消除 12 個孤兒頁。
+3. **規則**：修改 CLAUDE.md（日期規則、並排標註、一句話要標來源、術語表），**單獨 commit** 作為「workflow 修改」的證據，反思題第 3 題可以引用。
+4. **術語**：新增術語表並在各頁連結。
+5. **時效**：2026-11-19 之後抓 GTA VI 新來源 → ingest → 更新 7 處「截至」。
+6. 使用者本人抽查 2 個事實並補寫人工檢查。
+7. 選配：ESRB 分級來源；Moore 案、銷量矛盾的第三方來源。
+
+## [2026-11-18] fix | 第二次 Lint 的修正 1：來源標註的正確性
+- 對應 Lint 項目：第 1 項（並排標註範圍，15 處）與第 2 項（沒標來源的事實，11 處）。
+- 修改的頁（共 18 頁，只動標註與措辭，沒有新增事實）：
+  - games：GTA、GTA 2、GTA III、GTA IV、GTA V、GTA VI、GTA Vice City、GTA San Andreas、GTA Online
+  - concepts：2D 時代、3D 時代、HD 時代、通緝等級、開放世界
+  - entities：Rockstar Games、罪惡城（Vice City）、聖安地列斯（San Andreas）、自由城（Liberty City）
+- 修改方式：
+  - 並排標註 15 處：共同部分標兩篇，只出現在其中一篇的細節改標那一篇。例如 GTA Vice City 的「Tommy Vercetti」只標 [raw/09]；GTA V 的「Google Maps」「人口普查」只標 [raw/03]；GTA VI 的「第 8 部主線」「Bonnie and Clyde」只標 [raw/06]；GTA IV 的「重啟」「東歐」「健身房」只標 [raw/11]；GTA San Andreas 的「CJ」只標 [raw/10]；GTA V 刑求任務的「政治評論」「品味不佳」只標 [raw/03]。另外 2 處輕微的（BAFTA「第 10 屆」、GTA VI 延期的確切日期）也一併改標單一來源。
+  - 沒有來源的「一句話」：GTA III、GTA V 與 9 頁 concept／entity 全部補上來源標註。
+  - **GTA V 一句話原寫「是系列商業上最成功的一款」，raw 沒有這句話（我自己的推論）**，改為 raw 有的說法：「截至 2026 年 9 月出貨將近 235 million 套，在 raw/01 的銷量表中是數字最高的一款」[raw/01][raw/03]。
+  - 3D 時代一句話原寫「奠定了今天大家熟悉的 GTA 玩法」，改為 raw/01 的說法「之後的作品都建立在 GTA III 奠定的形式之上」。
+- 驗證：
+  - 重新掃描一句話：9 頁 game、14 頁 concept／entity，全部都有來源標註。
+  - 用 recheck 腳本把 18 個易出錯的詞（Vercetti、Eastern Europe、reboot、CJ、Google Maps、census、Bonnie、silent、gym、Freedom from Torture、political commentary、poor taste 等）逐一對照每個標註的 raw：42 次檢查，1 次沒中是比對字串本身的問題（「雙主角」我用 duo 去比對 raw/04，raw/04 沒有這個字，但原文「Jason and Lucia」本來就是兩位主角），不是標註錯誤。
+- 修改過程中又犯的一個錯：修 GTA V 刑求任務時，我第一版把「Freedom from Torture」連同其他說法一起標給 [raw/01][raw/03]；改完後用 grep 發現 raw/03 沒有這個名字（只寫 anti-torture charity groups），當場改成只標 [raw/01]。這是同一類「合併標註」錯誤，被剛做好的檢查在修正當下抓到，沒有留到下一次 Lint。
+- 修改後並排標註片段由 65 個增為 75 個（因為把合併標註拆成更多單獨標註）。
+- 尚未處理的 Lint 項目：第 3 項孤兒頁（12 頁）、第 4 項 frontmatter 不一致（3 頁）、第 5 項來源矛盾（不修，只並陳）、第 6 項「截至」日期與 CLAUDE.md 規則、第 7 項 ESRB 缺口、第 8 項術語、第 9 項使用者本人的抽查。

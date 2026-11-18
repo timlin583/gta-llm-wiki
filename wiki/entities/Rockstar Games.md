@@ -8,7 +8,7 @@ updated: 2026-11-18
 # Rockstar Games
 
 ## 一句話
-GTA 系列的發行商，旗下工作室 Rockstar North（前身 DMA Design）是系列的主要開發者。
+GTA 系列的發行商，旗下工作室 Rockstar North（前身 DMA Design）是系列的主要開發者 [raw/01]。
 
 ## 基本資料
 - GTA 系列由 David Jones 與 Mike Dailly 在 DMA Design 創立；DMA Design 現在叫 Rockstar North [raw/01]。
@@ -44,7 +44,7 @@ GTA 系列的發行商，旗下工作室 Rockstar North（前身 DMA Design）�
 - 總部：Rockstar Games 的主要總部位於紐約 [raw/11]。
 
 ## GTA Online 營運（raw/12）
-- GTA Online 由 Rockstar North 開發，Rockstar Games 發行；Rockstar Games Social Club 把 Max Payne 3 多人模式裡組成的 crews 延伸到 GTA Online [raw/03][raw/12]。
+- GTA Online 由 Rockstar North 開發，Rockstar Games 發行 [raw/12]；Rockstar Games Social Club 把 Max Payne 3 多人模式裡組成的 crews 延伸到 GTA Online [raw/03][raw/12]。
 - 2022 年 3 月，Rockstar 推出付費月租服務 GTA+（見 [[GTA Online]]）[raw/12]。
 - Rockstar 有 Bug Bounty（漏洞獎金）計畫：2021 年因玩家 t0st 找到縮短 GTA Online 載入時間的方法，頒給他 US$10,000 [raw/12]。
 - Take-Two（Rockstar 的母公司）表示，內購系統自 GTA Online 上線以來，是公司數位營收的最大來源 [raw/12]。

@@ -10,7 +10,7 @@ updated: 2026-11-18
 > 本頁的營運狀態與更新內容都會變動，一律標「截至」。raw/12 的內容寫到 2026-07-14 的更新，抓取日是 2026-11-18；之後有沒有新更新，待查。
 
 ## 1. 一句話介紹
-GTA V 的線上多人部分：玩家扮演自己創造的角色，在同一張地圖上一邊完成任務、一邊慢慢建立自己的犯罪事業；內容靠持續的免費更新不斷增加 [raw/03][raw/12]。
+GTA V 的線上多人部分，內容靠持續的免費更新不斷增加 [raw/03][raw/12]；玩家扮演自己創造的角色，在同一張地圖上一邊完成任務、一邊慢慢建立自己的犯罪事業 [raw/12]。
 
 ## 2. 基本資料
 | 項目 | 內容 |
@@ -90,7 +90,7 @@ GTA V 的線上多人部分：玩家扮演自己創造的角色，在同一張�
 - 其他批評：角色創建系統不直覺、任務重複、玩家對戰缺乏方向、經濟平衡與任務報酬偏低；稱讚的是遊戲的規模與開放式的內容 [raw/12]。
 - **評價隨時間改善**：隨著更新，評價有所提升；2014 年的 San Andreas Flight School 更新與 2015 年的 Heists 更新都被評論者稱讚，Heists 特別受好評 [raw/12]。
 - 評分變動的實例：GameSpot 的評論者 Carolyn Petit 在 2013-10-11 給 7/10，後來在 2014-05-06 的更新版評論把分數改成 6/10 [raw/12]。
-- 得獎：第 10 屆 British Academy Games Awards 與 GameTrailers 的最佳多人遊戲；2019 年 Golden Joystick Awards 的最佳遊戲擴充（The Diamond Casino & Resort）[raw/03][raw/12]。
+- 得獎：British Academy Games Awards 與 GameTrailers 的最佳多人遊戲；2019 年 Golden Joystick Awards 的最佳遊戲擴充（The Diamond Casino & Resort）[raw/03][raw/12]。raw/12 註明 BAFTA 是第 10 屆 [raw/12]。
 - 也曾被 Game Revolution、Hardcore Gamer 提名為「最令人失望」[raw/03][raw/12]。
 - ⚠ 來源差異（Still Playing 提名年份）：raw/12 寫 2019 年同時獲得 Still Playing 提名與最佳遊戲擴充 [raw/12]；raw/03 的得獎表只列 2019 年的最佳遊戲擴充，Still Playing 提名從 2020 年起才列 [raw/03]。並陳。
 - Take-Two 表示，截至 2014 年 2 月，70% 有網路的 GTA V 玩家玩過 GTA Online；內購系統自 GTA Online 上線以來，是公司數位營收的最大來源 [raw/12]。

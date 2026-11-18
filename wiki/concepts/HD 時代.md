@@ -8,7 +8,7 @@ updated: 2026-11-18
 # HD 時代
 
 ## 一句話
-從 GTA IV 開始，GTA 進入高畫質（HD）主機世代，畫面與城市細節更寫實。
+從 GTA IV 開始 [raw/01][raw/11]，GTA 進入高畫質（HD）主機世代，畫面與城市細節更寫實 [raw/11]。
 
 ## 定義
 [[GTA IV]]、它的資料片與 [[GTA V]] 被稱為「HD universe」（HD 宇宙）[raw/01]。
