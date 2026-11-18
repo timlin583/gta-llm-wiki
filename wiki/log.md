@@ -1097,3 +1097,25 @@
   - 修正 3 處（寫完後逐條重讀發現）：①Metacritic 的例子「根據 50 篇評論」只在 raw/03、卻標了 [raw/03][raw/06]，改為 GTA V 的 97/100 標 raw/03、GTA VI 的 99/100 標 raw/06；②HUD 的「固定顯示資訊的介面」是我加的通用解釋，補標「（通用說明）」；③mod 原寫「Take-Two 也表示不會對單人遊戲的 mod 採取行動」，漏了 raw/01 同段的限制（2019 年更新聲明加上限制），已補。
 - 驗證：重跑 lint2.py 結構檢查：孤兒頁 0、內容頁都在 index；術語表有 18 頁連入。
 - 尚未做：各頁內文裡「第一次出現就用括號解釋」尚未逐頁補；目前靠頁尾的「術語」連結。Lint 的「術語首次出現」檢查仍會標出多頁，需決定是否要求內文逐一加括號。
+
+## [2026-11-19] slides | 從零重做漫畫風格簡報（取代 Codex 版）
+- 動作：依使用者要求，`slides/index.html` 整份重寫為漫畫罪惡都市風格（15 頁）；新增 `asset/`（`asset/svg/` 18 個 CC0 圖、`asset/fonts/` 2 套字型、`asset/CREDITS.md` 記錄來源頁、作者、授權）。圖片都是下載的現成素材，頁面沒有用程式畫圖（CSS 只負責版面、網點與對話框外框）。
+- 資料範圍：截至 2026-11-18；GTA VI 只用 wiki 現有內容（預定 2026-11-19、實際是否發售待查），沒有重新 ingest。
+- 每頁事實對照（簡報句子 → wiki 頁）：
+  | 頁 | 簡報內容 | 對照頁 | 符合 |
+  |---|---|---|---|
+  | 2 | 開放世界的定義；David Jones、Mike Dailly 創立 DMA Design（現 Rockstar North）；Rockstar Games 發行；第一代 1997 | 開放世界、Rockstar Games、GTA | ✅ |
+  | 3 | 2D 俯視；3D 從 GTA III；HD 從 GTA IV | 2D／3D／HD 時代 | ✅ |
+  | 4 | 各代年份；GTA VI 截至 2026-11-18 預定 11-19、實際狀態待查 | 各 game 頁、GTA VI | ✅ |
+  | 5 | GTA 俯視計分過關、原名 Race'n'Chase；GTA 2 幫派尊重度 | GTA、GTA 2 | ✅ |
+  | 6 | III 第一款 3D 與第三人稱；Vice City 主角開口、買事業；San Andreas 一個州、飲食運動影響外型能力 | GTA III、Vice City、San Andreas | ✅ |
+  | 7 | 自由城（紐約）、罪惡城（邁阿密）、聖安地列斯（加州與內華達州）；三城從初代就有 | 三個 entity 頁、GTA | ✅ |
+  | 8 | IV 重啟、寫實、手機；V 三主角、搶案、截至 2026 年 9 月出貨將近 235 million | GTA IV、GTA V | ✅ |
+  | 9 | 2013-10-01 上線；PS3／Xbox 360 伺服器 2021-12-16 關閉；最新更新 2026-07-14；截至 2026 年 9 月每日營收超過 US$1 million | GTA Online | ✅ |
+  | 10 | Jason 與 Lucia、Leonida 州、預定 2026-11-19、PS5／Xbox Series X\|S | GTA VI | ✅ |
+  | 11 | 開放世界、GTA clone；通緝等級最多五或六顆星 | 開放世界、通緝等級 | ✅ |
+  | 12 | Hot Coffee 四步驟；M→AO、澳洲禁售、FTC 警告、最高罰 US$1 million | GTA San Andreas | ✅（raw/01 另說 Take-Two 重新發行後恢復 M 級，簡報未放）|
+  | 13 | 小測驗答案：GTA III＝3D；Vice City 主角第一次開口；星星越多警方越猛 | GTA III、Vice City、通緝等級 | ✅ |
+  | 14、15 | 回顧與參考資料（12 篇 raw 標題） | 各 sources 頁 | ✅ |
+- 驗證：用本機伺服器在瀏覽器開啟，檢查封面、時間軸、小測驗互動（點選會顯示對錯）與手機寬度（375px）沒有橫向捲動；其餘頁只看過部分截圖，尚未逐頁在手機上檢查。
+- 人工檢查：待使用者補寫。
