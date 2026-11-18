@@ -1,7 +1,7 @@
 ---
 title: HD 時代
 type: concept
-sources: [raw/01-wikipedia-gta-series.md, raw/03-wikipedia-gta-v.md]
+sources: [raw/01-wikipedia-gta-series.md, raw/03-wikipedia-gta-v.md, raw/10-wikipedia-gta-san-andreas.md]
 updated: 2026-11-18
 ---
 
@@ -30,6 +30,7 @@ updated: 2026-11-18
 - GTA V 有三位可操作的主角 [raw/01]。
 - GTA V 使用 Rockstar 自家的 RAGE 引擎，並為了更遠的可視距離大幅改良 [raw/03]。
 - GTA V 的 PS4／Xbox One／PC 重製版加入第一人稱視角 [raw/03]。
+- raw/10 說，Rockstar 在第七世代主機（PS3、Xbox 360 世代）為系列建立了新的敘事連貫性，更重視寫實與細節；GTA IV 增加了建築的數量與細節，並移除無用的空間，換來比 San Andreas「更集中的體驗」[raw/10]。
 
 ## 和其他時代的關係
 前一個是 [[3D 時代]]。三個宇宙只共用品牌、地名與背景人物 [raw/01]。

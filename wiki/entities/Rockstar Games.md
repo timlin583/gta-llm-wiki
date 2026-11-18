@@ -1,7 +1,7 @@
 ---
 title: Rockstar Games
 type: entity
-sources: [raw/01-wikipedia-gta-series.md, raw/02-wikipedia-gta-iii.md, raw/03-wikipedia-gta-v.md, raw/05-news-gta-vi-delay.md, raw/06-wikipedia-gta-vi.md, raw/07-wikipedia-gta-1997.md, raw/09-wikipedia-gta-vice-city.md]
+sources: [raw/01-wikipedia-gta-series.md, raw/02-wikipedia-gta-iii.md, raw/03-wikipedia-gta-v.md, raw/05-news-gta-vi-delay.md, raw/06-wikipedia-gta-vi.md, raw/07-wikipedia-gta-1997.md, raw/09-wikipedia-gta-vice-city.md, raw/10-wikipedia-gta-san-andreas.md]
 updated: 2026-11-18
 ---
 
@@ -25,6 +25,14 @@ GTA 系列的發行商，旗下工作室 Rockstar North（前身 DMA Design）�
 - 約 50 人的核心團隊，開發約 18 個月；Sam Houser 擔任執行製作人，Leslie Benzies 擔任製作人，Dan Houser 參與編劇 [raw/09]。
 - 開發預算 US$5 million、行銷預算 US$13.2 million，是 Rockstar North 當時最貴的遊戲 [raw/09]。
 - 日本版由 Capcom 發行 [raw/09]。
+
+## San Andreas（2004）時期（raw/10）
+- Rockstar North 的團隊從 50 人增加到 75 人；Rockstar Games 的紐約團隊約 15 人；測試部門從 60 人增加到 100 人 [raw/10]。
+- 開發預算低於 US$10 million；為了提供額外資源，另一款遊戲《The Warriors》從 2004 年延到 2005 年 [raw/10]。
+- raw/10 提到，Rockstar North 自初代 GTA（1997）開發以來員工流動極低，讓團隊能累積經驗 [raw/10]。
+- 工作環境：部分開發者在 Vice City 之後沒能充分休息，擔心公司進入「持續趕工」，有人一天工作 17 小時；有人因和總裁 Sam Houser 對工作條件意見不合而離開 [raw/10]。
+- 1 位資深員工因不認同公司對非裔美國人的描寫，以及遊戲更灰暗、更剝削的調性而辭職 [raw/10]。
+- Rockstar 與 Take-Two 在 Hot Coffee 事件中收到美國聯邦貿易委員會（FTC）的警告 [raw/10]，見 [[GTA San Andreas]]。
 
 ## GTA VI 時期（raw/06）
 - Rockstar 總裁是 Sam Houser，參與 GTA VI 的開發回饋 [raw/06]。

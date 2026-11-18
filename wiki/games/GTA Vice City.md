@@ -1,7 +1,7 @@
 ---
 title: GTA Vice City
 type: game
-sources: [raw/01-wikipedia-gta-series.md, raw/09-wikipedia-gta-vice-city.md]
+sources: [raw/01-wikipedia-gta-series.md, raw/09-wikipedia-gta-vice-city.md, raw/10-wikipedia-gta-san-andreas.md]
 updated: 2026-11-18
 ---
 
@@ -45,6 +45,7 @@ updated: 2026-11-18
 
 ### 開發
 - Rockstar North 約 50 人的核心團隊負責，開發約 18 個月；2001 年底、GTA III 接近完成時開始全面製作 [raw/09]。
+- ⚠ 來源矛盾（開發時間）：raw/10 寫 San Andreas 的兩年開發「compared to one year for Vice City」，即 Vice City 約 1 年 [raw/10]，與 raw/09 的 18 個月不同。並陳。
 - GTA III 的 Windows 版發售後，團隊討論替它做任務包（新增武器、載具與任務），後來決定改做成獨立遊戲，也就是 Vice City [raw/09]。
 - 2002-05-22 在 E3（美國電子娛樂展）發表；開發預算 US$5 million、行銷預算 US$13.2 million，是 Rockstar North 當時最貴的遊戲 [raw/09]。
 - 靈感來源：電影《Scarface》（1983）與影集《Miami Vice》（1984–1990）；團隊在 GTA III 完成後不久就到邁阿密實地考察 [raw/09]。

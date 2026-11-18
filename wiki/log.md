@@ -610,3 +610,104 @@
 - 人工檢查（使用者請 Claude 代為抽查，以 shuf 隨機抽出 #50、#53）：
   - #50 批評的項目：wiki GTA Vice City 第 59 行「批評：操作、技術問題、讀取時間長、人工智慧與鏡頭角度」；raw/09 第 113 行「The game's artificial intelligence and long load times were frequently criticised in reviews, and many reviewers noted the awkward camera angles and environment during gameplay」→ 相符（「讀取時間長」「人工智慧」「鏡頭角度」都有原句；「操作」「技術問題」另見第 101 行「some criticism was directed at the controls and technical issues」，不在抽到的這一句內，但同一頁同一節有原文支持）。
   - #53 Rockstar 道歉聲明：wiki GTA Vice City 第 71 行「Rockstar 發表聲明道歉並表示重視，但強調暴力應放在遊戲脈絡中看，遊戲裡對其他族群也有暴力」；raw/09 第 176 行「Rockstar issued a press release apologising and acknowledging the concern, but insisted that the violence should be taken within the context of the game, which also contains violence towards other ethnic groups」→ 相符。
+
+## [2026-11-18] ingest | Wikipedia：Grand Theft Auto: San Andreas（raw/10）
+- 背景：外層 loop 第 2 圈第 5 篇，補第一次 Lint 指出「San Andreas 的來源只有 raw/01、待查 3 項」的缺口。
+- 新增／更新的頁：
+  - 新增：sources/10-wikipedia-gta-san-andreas
+  - 更新：GTA San Andreas（大幅改寫）、聖安地列斯（San Andreas）、3D 時代、HD 時代、Rockstar Games、GTA Vice City、通緝等級、index.md
+- 自我檢查：對照 78 個事實，修正 3 個。比對前先把 raw 的不換行空格換成一般空格；第一輪 grep 全部命中（共 109 個比對字串），3 個修正是靠第二輪逐句比對語意才找到。
+
+| # | 事實 | wiki 頁 | raw 原句 | 是否符合 |
+|---|---|---|---|---|
+| 1 | 系列第 5 部主線、整體第 7 部 | GTA San Andreas | fifth main game in the Grand Theft Auto series and the seventh overall entry | ✅ |
+| 2 | 開發商 Rockstar North、發行商 Rockstar Games、引擎 RenderWare | GTA San Andreas | \| Developer \| Rockstar North \| ／ \| Publisher \| Rockstar Games \| ／ \| Engine \| RenderWare \| | ✅ |
+| 3 | 製作人 Benzies、編劇 Dan Houser、James Worrall、DJ Pooh | GTA San Andreas | \| Producer \| Leslie Benzies \| ／ \| Writers \| Dan HouserJames WorrallDJ Pooh \| | ✅ |
+| 4 | PS2 北美 2004-10-26、PAL 2004-10-29 | GTA San Andreas | 26 October 2004 PlayStation 2 NA: 26 October 2004PAL: 29 October 2004 | ✅ |
+| 5 | 原訂 10-19／10-22，9 月宣布延到 10-26／10-29 | GTA San Andreas | release date of 19 and 22 October… the game's delay to 26 and 29 October | ✅ |
+| 6 | Windows、Xbox 2005-06-07／06-10 | GTA San Andreas | Windows, Xbox NA: 7 June 2005EU: 10 June 2005 | ✅ |
+| 7 | Mac 2010-11-12；iOS 2013-12-12；Android 2013-12-19；Windows Phone 2014-01-27；Fire OS 2014-05-15 | GTA San Andreas | Mac OS X WW: 12 November 2010 … Windows Phone WW: 27 January 2014 Fire OS WW: 15 May 2014 | ✅（Windows Phone 年份與 raw/01 矛盾，已並陳）|
+| 8 | Xbox 360 2014-10-26、PS3 2015-12-01 | GTA San Andreas | Xbox 360 WW: 26 October 2014 PlayStation 3 WW: 1 December 2015 | ✅ |
+| 9 | 日本 Capcom 2007-01-25 | GTA San Andreas | Capcom published the game in Japan on 25 January 2007 | ✅ |
+| 10 | 單人、兩人多人模式 | GTA San Andreas | Single-player, multiplayer ／ A multiplayer mode allows two players to roam the world | ✅ |
+| 11 | 1992 年、CJ 在自由城五年後回鄉 | GTA San Andreas | in 1992, after five years in Liberty City | ✅ |
+| 12 | Young Maylay 配音、第一次演戲 | GTA San Andreas | Young Maylay… marking his first acting performance | ✅ |
+| 13 | Frank Tenpenny（Samuel L. Jackson）| GTA San Andreas | Frank Tenpenny (Samuel L. Jackson) | ✅ |
+| 14 | 逐步查出母親遇害真相 | GTA San Andreas | gradually uncovers the truth behind his mother's death | ✅ |
+| 15 | 老幫派勢力衰退 | GTA San Andreas | Discovering the Grove Street Families (GSF) have lost much of their territory | ✅ |
+| 16 | 為取得 ESRB Mature 級刪減內容，但沒移除只是讓玩家無法使用 | GTA San Andreas | to meet the requirements for a "Mature" rating from the Entertainment Software Rating Board (ESRB)… rather than removing the content, they made it inaccessible to players | ✅ |
+| 17 | ESRB 調查後改評 AO | GTA San Andreas | The ESRB re-rated the game "Adults Only" after an investigation | ✅ |
+| 18 | 澳洲禁售直到內容移除 | GTA San Andreas | the game was banned in Australia until the explicit content was removed | ✅ |
+| 19 | FTC 警告 | GTA San Andreas、Rockstar Games | Rockstar and Take-Two received a warning from the Federal Trade Commission | ✅ |
+| 20 | 集體訴訟 | GTA San Andreas | a class action lawsuit alleged that the company had misled customers | ✅ |
+| 21 | ESRB 罰款最高 US$1 million | GTA San Andreas | fines of up to US$1 million for game developers who failed to disclose the extent of their graphic content | ✅ |
+| 22 | Rockstar 與 Take-Two 大多沉默 | GTA San Andreas | both remained mostly silent on the matter | ✅ |
+| 23 | Wildenborg 在 Windows 版後找到方法、四週下載逾百萬 | GTA San Andreas | modder Patrick Wildenborg found how to enable the code after the Windows release ／ downloaded over one million times within four weeks | ✅ |
+| 24 | 機場快速移動、安全屋存檔存車 | GTA San Andreas | airports allow teleportation between each city using fast travel ／ safehouses can be purchased to save the game and store vehicles | ✅ |
+| 25 | 山、森林、沙漠是系列第一次 | GTA San Andreas、聖安地列斯 | mountains, forests, and a desert—firsts for the series | ✅ |
+| 26 | 花錢買配件、衣服、髮型、刺青 | GTA San Andreas、3D 時代 | cash, which can be spent on CJ's accessories, clothing, hairstyles, and tattoos | ✅ |
+| 27 | 飲食與運動影響外型與能力 | GTA San Andreas、3D 時代 | Balancing food and physical activity impacts CJ's appearance and physical attributes | ❌→已修正：3D 時代頁原寫「服裝、髮型、刺青、飲食與運動會影響主角的外型與能力」，把「花錢購買的外觀」和「會影響能力的飲食運動」混成一句，已拆開 |
+| 28 | 三種徒手格鬥、技能追蹤、約會六位女孩 | GTA San Andreas | Three styles of hand-to-hand combat ／ driving, firearms handling, lung capacity, muscles, and stamina ／ Players can date six different girls | ✅ |
+| 29 | 搶地盤撐過三波反擊、之後要防守 | GTA San Andreas | survive three waves of responding enemy attacks ／ Won territories are subject to periodic enemy gang attacks | ✅ |
+| 30 | 超過 180 種載具、雙手持槍、車上射擊 | GTA San Andreas | more than 180 vehicles ／ dual wield firearms and commit drive-by shootings | ✅ |
+| 31 | 支線任務（入室竊盜、消防、救護、計程車、義警）| GTA San Andreas | burglary, firefighting, paramedic, pimping, taxi, and vigilante missions | ✅（原文另有一項，教學版省略）|
+| 32 | 通緝最高 6 星、直升機與軍隊 | GTA San Andreas、通緝等級 | at the maximum six-star level, police helicopters and military are sent after players | ✅ |
+| 33 | 11 電台、20 DJ（Axl Rose、Chuck D、George Clinton）| GTA San Andreas | eleven radio stations with twenty disc jockeys—including Axl Rose, Chuck D, and George Clinton | ✅ |
+| 34 | 授權歌曲與廣告超過 GTA III 的三倍 | GTA San Andreas | more than three times as many licensed songs and original in-universe advertisements as Grand Theft Auto III | ✅ |
+| 35 | 電台改為動態（隨機排歌、天氣、劇情新聞）| GTA San Andreas | randomised song orders, accurate weather predictions, and story-relevant news announcements | ✅ |
+| 36 | 自訂音樂電台（Windows、Xbox、手機）| GTA San Andreas | additional radio station supporting a custom, user-imported soundtrack | ✅ |
+| 37 | 400+ 演員、60,000+ 句、CJ 7,700+ 句 | GTA San Andreas | over 400 speaking actors and over 60,000 lines of dialogue, including over 7,700 for CJ | ✅ |
+| 38 | 金氏紀錄 861 位登記演員 | GTA San Andreas | 861 credited actors | ✅ |
+| 39 | 每個 NPC 約一小時對白（Vice City 約十分鐘）| GTA San Andreas | around an hour of dialogue, in contrast to Vice City's ten minutes | ✅ |
+| 40 | 主角由不知名演員擔任、CJ 顯得「非常人性化」| GTA San Andreas | Sam Houser sought an unknown actor for CJ… Young Maylay's obscurity in the industry made CJ feel "very, very human" | ❌→已修正：原寫「Sam Houser 希望藉此讓 CJ 顯得非常人性化」，原文是他「認為」默默無名「讓」CJ 顯得人性化，不是事先的目的，已改 |
+| 41 | Vice City 發售後（2002-10）開始開發 | GTA San Andreas | Rockstar North began developing San Andreas after releasing Grand Theft Auto: Vice City in October 2002 | ✅ |
+| 42 | 團隊 50 → 75 人（Manhunt 後）| GTA San Andreas、Rockstar Games | 50-person team grew to 75 after Manhunt's 2003 release | ✅ |
+| 43 | 紐約團隊約 15 人、測試部門 60 → 100 人 | Rockstar Games | around 15 members ／ the testing department grew from 60 to 100 people | ✅ |
+| 44 | 兩年開發（Vice City 約一年）| GTA San Andreas、GTA Vice City | San Andreas's two-year development, compared to one year for Vice City | ✅（與 raw/09 的 18 個月矛盾，已並陳）|
+| 45 | 預算低於 US$10 million | GTA San Andreas、Rockstar Games | budget was under US$10 million | ✅ |
+| 46 | 《The Warriors》2004 延到 2005 | Rockstar Games | The Warriors was delayed from 2004 to 2005 | ✅ |
+| 47 | 地圖原構想三張獨立地圖用大眾運輸連接 | 聖安地列斯 | originally envisioned as three separate maps connected by public transport | ✅ |
+| 48 | 36 平方公里、約 4–6 倍、每座城市約 Vice City 大 | GTA San Andreas、聖安地列斯 | 36 square kilometres (14 mi2), about four to six times larger than those from Grand Theft Auto III and Vice City ／ each city in San Andreas is approximately as large as Vice City | ✅（與 raw/09 面積數字對不上，已並陳）|
+| 49 | 紐約研究團隊拍數千張照片、部分當貼圖 | 聖安地列斯 | thousands of photographs and video, some of which were used as textures | ✅ |
+| 50 | 洛杉磯幫派地盤難憑空捕捉（Garbut）| 聖安地列斯 | Los Angeles's gang territory in particular was difficult to capture without first-hand experience | ✅ |
+| 51 | Compton、Golden Gate Bridge 靈感 | 聖安地列斯 | Compton for Los Santos's urban areas, and the Golden Gate Bridge for the Gant Bridge | ✅ |
+| 52 | 三城氣候區天空顏色 | 聖安地列斯 | Los Santos's red-orange, San Fierro's blue, and Las Venturas's red | ✅ |
+| 53 | 約 16,000 個獨特物件與建築 | GTA San Andreas | about 16,000 unique objects and buildings | ✅ |
+| 54 | 共用低細節模型、不需讀取畫面 | GTA San Andreas | without the interruption of loading screens like in Vice City | ✅ |
+| 55 | 多邊形多 35–50%、即時反射與體積光 | GTA San Andreas | allowing 35–50% more polygons on screen, real-time reflections and volumetric lighting | ✅ |
+| 56 | 劇情取材四件真實事件 | GTA San Andreas、聖安地列斯 | the Bloods and Crips street gang rivalry, the 1990s crack epidemic, the 1992 Los Angeles riots, Rampart scandal | ✅ |
+| 57 | 寫出幫派暴力真實面但不美化 | GTA San Andreas | accurately portray gang violence without glorifying it | ✅ |
+| 58 | 鬆散相連三部曲、年代 1980／1990／2000 初 | GTA San Andreas、3D 時代 | concluded a loosely connected trilogy… set in the 1980s (Vice City), 1990s (San Andreas), and early 2000s (III) | ✅ |
+| 59 | 避免「終極大反派」| 3D 時代 | avoidance of an "ultimate bad guy" | ✅ |
+| 60 | 工作條件擔憂、一天 17 小時、資深員工因種族描寫離職 | GTA San Andreas、Rockstar Games | Some developers were concerned about the working conditions ／ worked for 17 hours per day ／ one long-time employee quit in objection to Rockstar's portrayal of African Americans | ✅ |
+| 61 | 2004-10 早期版本外洩 | GTA San Andreas | In October 2004, an early version of the game was leaked by hackers | ✅ |
+| 62 | Metacritic PS2 95、第 5 高 | GTA San Andreas | Metacritic \| 95/100 ／ It is the site's fifth-highest-rated PlayStation 2 game | ✅（與 raw/01 一致）|
+| 63 | Windows、Xbox 93；Windows 2005 年第 2 高、Xbox 第 3 高 | GTA San Andreas | Metacritic \| 93/100 \| 93/100 ／ second-highest-rated Windows game of 2005, behind Civilization IV ／ third-highest-rated Xbox game | ✅ |
+| 64 | 手機版 84 | GTA San Andreas | Metacritic \| 84/100 | ✅ |
+| 65 | 任務設計、技術問題、種族描寫評價兩極 | GTA San Andreas | mixed responses towards its mission design, technical issues, and portrayal of race | ✅ |
+| 66 | 種族刻板印象批評、也有學者認為是批判性反思 | GTA San Andreas | Some critics and scholars criticised the game for perpetuating racial stereotypes ／ a critical reflection on racial conflict in America ／ found several criticisms were based on limited viewings | ❌→已修正：原寫「許多批評只看了一部分內容」，原文是「several criticisms」，並且是 Rachael Hutchinson 一人的看法；改為「數項批評」並標出姓名 |
+| 67 | Spike VGA 五項提名贏四項 | GTA San Andreas | won four of its five nominations at the Spike Video Game Awards, including Game of the Year | ✅ |
+| 68 | Golden Joystick 贏五項 | GTA San Andreas | It won five awards at the Golden Joystick Awards, including Ultimate Game of the Year | ✅ |
+| 69 | Interactive Achievement 六提名贏兩項 | GTA San Andreas | six nominations at the Interactive Achievement Awards, of which it won Outstanding Achievement in Soundtrack and Console Action/Adventure Game of the Year | ✅ |
+| 70 | 第一週 4.5 million、比 Vice City 多 45% | GTA San Andreas | sold 4.5 million copies in its first week, outselling Vice City by 45% | ✅ |
+| 71 | 2004 年最暢銷 | GTA San Andreas | San Andreas was 2004's best-selling game | ✅ |
+| 72 | PS2 截至 2009 年 17.33 million | GTA San Andreas | best-selling PlayStation 2 game with 17.33 million units sold by 2009 | ✅ |
+| 73 | 全平台 12 million（2005-03，約 US$600 million）／21.5 million（2008-04）／27.5 million（2011-09）| GTA San Andreas、sources/10 | 12 million units by March 2005 (generating approximately US$600 million in revenue), 21.5 million by April 2008, and 27.5 million by September 2011 | ✅（補上 raw/01 缺的統計日期）|
+| 74 | 日本首週 227,000 | GTA San Andreas | selling over 227,000 units in its first week | ✅ |
+| 75 | GTA V 捨棄聖菲耶羅與拉斯文圖拉斯、三城限制重現洛杉磯 | 聖安地列斯 | excluding San Fierro and Las Venturas ／ limited in how effectively they could emulate Los Angeles | ✅ |
+| 76 | Garbut：San Andreas 像「背景」、成為 GTA V 起點 | 聖安地列斯 | "backdrop or a game level with pedestrians randomly milling about" | ✅ |
+| 77 | 第七世代主機建立新敘事連貫性；GTA IV 更集中的體驗 | HD 時代 | Rockstar established a new narrative continuity for the series with seventh-generation consoles ／ more focused experience | ✅ |
+| 78 | Rockstar North 自 1997 年員工流動極低 | Rockstar Games | minimal employee turnover since the development of the series's first game | ✅ |
+
+- 第一次 Lint 問題的處理結果：
+  - 解決：San Andreas 的開發商、主角、各平台發售日、ESRB 分級經過，全部補齊；「待查」只剩 ESRB 以外地區的分級。
+  - 解決：raw/01「27.5 million」沒有統計日期的問題，現在是「截至 2011 年 9 月」。
+  - 補強：Metacritic PS2 排名第 5，raw/10 與 raw/01 一致。
+- 本次新發現的來源問題：
+  - ⚠ Windows Phone 版年份：raw/10 2014-01-27 vs raw/01「2013 年」。
+  - ⚠ Vice City 開發時間：raw/10「約 1 年」vs raw/09「18 個月」。
+  - ⚠ 地圖面積：raw/10 36 平方公里、4–6 倍 vs raw/09 Vice City 超過 4.25 平方公里（換算約 8.5 倍），數字對不上，待查。
+- 本次的錯誤類型：3 個修正都是「把兩件事寫成一件」或「把被動的觀察寫成主動的意圖」（#27 把花錢購買的外觀和影響能力的飲食運動混在一起；#40 把「他認為默默無名讓 CJ 顯得人性化」寫成「他希望藉此…」；#66 把一位學者的看法擴大成「許多批評」）。這類錯誤用 grep 抓不到，因為每個關鍵詞原文都有。
+- 人工檢查（使用者請 Claude 代為抽查，以 shuf 隨機抽出 #56、#53）：
+  - #56 劇情取材的四件真實事件：wiki GTA San Andreas 第 58 行、聖安地列斯 第 36 行「Bloods 與 Crips 的幫派對立、1990 年代的快克古柯鹼氾濫、1992 年洛杉磯暴動、洛杉磯警局的 Rampart 醜聞」；raw/10 第 82 行「Several historical events influenced the narrative, including the Rampart scandal of the Los Angeles Police Department, the 1990s crack epidemic, the 1992 Los Angeles riots, and the rivalry between the Bloods and Crips street gangs」→ 相符（四件事都在，只是排列順序不同）。
+  - #53 約 16,000 個獨特物件與建築、共用低細節模型：wiki GTA San Andreas 第 56 行；raw/10 第 76 行「According to Garbut, the world is built with about 16,000 unique objects and buildings. Several buildings share a single low-detail model, allowing them to be loaded as players traverse the map without the interruption of loading screens like in Vice City」→ 相符。補充：raw/10 這個數字是 Garbut 的說法（「according to Garbut」），wiki 該行沒有標出說話者，但意思沒有因此改變。
