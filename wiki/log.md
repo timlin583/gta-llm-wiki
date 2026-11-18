@@ -826,3 +826,73 @@
   - #57 Metacritic 第 2 高分、評分最高的 PS3 與 Xbox 360 遊戲：raw/11 第 159 行「It is the second-highest-rated game on the site, and the highest-rated PlayStation 3 and Xbox 360 game」。**抽查發現自我檢查表 #57 標 ✅ 並不準確**：wiki GTA IV 第 79 行原寫「raw/11 與 raw/01 都寫它是第二高…僅次於《時之笛》…」，但「僅次於《時之笛》」只出現在 raw/01，raw/11 這句沒有提到《時之笛》。已修正為：兩篇都寫「第二高」[raw/01][raw/11]，「僅次於《時之笛》」只標 [raw/01]，「評分最高的 PS3 與 Xbox 360 遊戲」只標 [raw/11]。上方表格不改（log 只往下加），以這一筆為準。
   - #53 首支預告片 2007-03-29、Rickrolling 起點：wiki GTA IV 第 73 行「2007-03-29 的首支預告片被認為是『Rickrolling』網路迷因的起點，因為觀看人數太多讓 Rockstar 的網站當機，有人重新上傳預告片並惡搞」；raw/11 第 130 行「The debut trailer was released on 29 March 2007」「The trailer is credited for starting the Rickrolling meme; after the high viewership crashed Rockstar's website, several users re-posted the trailer, but some misleadingly played the music video for Rick Astley's…」→ 相符。
   - 這次抽查的結論：2 個抽樣中 1 個發現錯誤，錯誤類型是「把兩篇來源各自的說法合併成『都寫』」。這是 Ingest 自我檢查沒有抓到、靠人工（代）抽查才抓到的，可作為反思題「人工抽查」節點的實例。
+
+## [2026-11-18] ingest | Wikipedia：Grand Theft Auto Online（raw/12）
+- 背景：外層 loop 第 2 圈最後一篇（第 7 篇），補第一次 Lint 指出「GTA Online 頁只依據 raw/03、待查 4 項」的缺口。
+- 新增／更新的頁：
+  - 新增：sources/12-wikipedia-gta-online
+  - 更新：GTA Online（大幅改寫，拿掉「只依據 raw/03」的聲明）、HD 時代、Rockstar Games、聖安地列斯（San Andreas）、index.md
+- 自我檢查：對照 122 個事實，修正 4 個。比對前先把 raw 的不換行空格與零寬連字符移除；比對字串存成檔案再讀入，122 個全部命中。
+- 本次自我檢查多做了一道「並排來源標註」檢查：因為 raw/11 的抽查發現過「把兩篇來源各自的說法合併成『都寫』」的錯誤（見 raw/11 的人工檢查），這次寫完後，逐一檢查每個同時標 [raw/03][raw/12] 的句子，確認兩篇是不是真的都有寫。
+
+| # | 事實 | wiki 頁 | raw 原句 | 是否符合 |
+|---|---|---|---|---|
+| 1 | 開發商 Rockstar North、發行商 Rockstar Games、導演 Benzies、製作人 Andy Duthie、美術 Garbut、RAGE | GTA Online | \| Developer \| Rockstar North \| ／ \| Director \| Leslie Benzies \| ／ \| Producer \| Andy Duthie \| ／ \| Artist \| Aaron Garbut \| ／ \| Engine \| RAGE \| | ✅ |
+| 2 | 各平台發售日 | GTA Online | 1 October 2013 PS3, Xbox 360… 18 November 2014… 14 April 2015… 15 March 2022 | ✅（與 raw/03 的 GTA V 日期一致）|
+| 3 | 聖安地列斯州（原型南加州）、最多 30 人 | GTA Online | Set within the fictional state of San Andreas (based on Southern California) ／ allows up to 30 players | ✅ |
+| 4 | 玩家是可自訂外觀的沉默主角 | GTA Online | customisable silent protagonist | ✅ |
+| 5 | 故事從 2013 年開始；2017 Gunrunning 起各更新設定在發行年份 | GTA Online | The game's narrative begins in 2013, several months before Grand Theft Auto V ／ the narrative of later updates, starting with 2017's Gunrunning, takes place in their respective years of release | ✅ |
+| 6 | Crews 最多加入五個、有階層 | GTA Online | Players can create their own crews and join up to five total ／ Crews also have a hierarchy | ✅（階層只標 [raw/12]）|
+| 7 | Lamar 接機、約一小時教學、遺傳式外觀 | GTA Online | picked up by Lamar Davis ／ An hour-long tutorial ／ designed by a genetics-related process | ✅ |
+| 8 | 升級解鎖、遊戲幣可賺或用真錢買 | GTA Online | Accumulating enough experience to level up unlocks weapons, clothing, car customisations… ／ which can be earned or purchased with real money | ✅ |
+| 9 | 被動模式 | GTA Online | "Passive Mode", which makes the player immune to other players' attacks | ✅ |
+| 10 | 三種主要活動、對抗模式、生存（4 人對 10 波）| GTA Online | racing…, Deathmatches…, and Contact Missions ／ "Adversary Mode" ／ a team of up to four players against ten waves of enemies | ✅ |
+| 11 | Heists：2015-03、5 個多段任務、4 人一組；後續可單人或 2–4 人；領隊付前期成本 | GTA Online | The Heists update released in March 2015 added five elaborate multi-part missions, where teams of four players ／ Subsequent heists… removed the four-player requirement ／ The player who is the Heist Leader must pay the upfront costs | ✅ |
+| 12 | 內容創作工具：要先和電腦玩家測試、Rockstar Verified | GTA Online | Creations have to be tested against computer-controlled players before the mode is available online ／ Rockstar tags what they deem to be the best as "Rockstar Verified" | ✅（只標 [raw/12]）|
+| 13 | 2025-12 Rockstar Mission Creator | GTA Online | In December 2025, the content creation tool was expanded with the addition of the Rockstar Mission Creator | ✅ |
+| 14 | 更新帶來限時挑戰、對抗模式、折扣；GTA+ 專屬福利；節慶下雪 | GTA Online | special challenges and events, Adversary Modes, and discounts on select vehicles, weapons, and properties ／ Certain benefits are exclusive to members of GTA+… ／ the map being covered in snow during the holiday season | ❌→已修正：原本整句標 [raw/03][raw/12]，但這些細節只出現在 raw/12，已拆成「持續更新的世界 [raw/03][raw/12]」與「更新細節 [raw/12]」兩段 |
+| 15 | 劇情：Lamar、Gerald、Simeon Yetarian；Trevor、Lester、Madrazo | GTA Online | they meet with Lamar Davis ／ drug dealer Gerald… and corrupt car salesman Simeon Yetarian ／ Trevor Philips…, Lester Crest…, and drug lord Martin Madrazo | ✅ |
+| 16 | 2018 與 Gay Tony 經營夜總會 | GTA Online | the player opens a new nightclub alongside former Liberty City nightclub entrepreneur "Gay" Tony Prince | ✅ |
+| 17 | 2021 Franklin、Dr. Dre；2023 Yusuf Amir；2025 Michael De Santa | GTA Online | introduces the player to his friend Franklin Clinton ／ Dr. Dre, enlists their help… ／ Yusuf Amir…, returning from Grand Theft Auto: The Ballad of Gay Tony ／ meets former bank robber-turned-movie producer Michael De Santa | ✅ |
+| 18 | Malc 最早出現在 GTA IV 資料片 The Lost and Damned | GTA Online | Malc (Walter Mudu), a character first introduced in Grand Theft Auto IV: The Lost and Damned | ✅ |
+| 19 | Albert Crisp 最早出現在 London 1969 | GTA Online | Albert Crisp was originally introduced as a major character and antagonist in Grand Theft Auto: London 1969 | ✅ |
+| 20 | 四個戲仿（IAA、FIB、Epsilon、KnoWay）| GTA Online | IAA… parody of the Central Intelligence Agency (CIA) ／ FIB… FBI ／ Epsilon Program… Church of Scientology ／ KnoWay… Waymo | ✅ |
+| 21 | 上線問題：Social Club 網路服務、2013-10-05 修正、第二週進度消失、2013-10-10 修正、GTA$500,000 | GTA Online | Many players reported that they had difficulties connecting to the game's servers and the Social Club web service ／ a technical patch on 5 October ／ Another technical patch was released on 10 October ／ GTA $500,000 | ❌→已修正：原本整段標 [raw/03][raw/12]，但「Social Club 網路服務」「暫停內購系統」「不要重建角色」只出現在 raw/12，已拆開標註 |
+| 22 | 暫停內購系統作為保險；告訴玩家不要重建角色 | GTA Online | The microtransaction system… was also suspended as a fail-safe ／ players experiencing issues were told not to recreate their multiplayer avatars | ✅（改標 [raw/12]）|
+| 23 | 2015-09 宣布 PS3／Xbox 360 不再獲新內容（主機容量限制）| GTA Online | Rockstar announced in September 2015 that the PlayStation 3 and Xbox 360 versions of the online mode would no longer receive any additional content, due to limitations in the console capacity | ✅ |
+| 24 | Forbes 批評「失去潛在客戶」 | GTA Online | cutting out a lot of potential customers | ✅ |
+| 25 | 2021-12-16 PS3／Xbox 360 伺服器關閉；內購 09-15 停止；Social Club 追蹤 09-16 關閉 | GTA Online、HD 時代、Rockstar Games | servers… would shut down on 16 December ／ microtransactions became unavailable… on 15 September, and Social Club tracking closed on 16 September ／ The game was discontinued on PlayStation 3 and Xbox 360 on 16 December 2021 | ✅ |
+| 26 | t0st：載入時間最多縮短 70%、Bug Bounty US$10,000 | GTA Online、Rockstar Games | a user known as "t0st" ／ reduce the loading times… by up to 70% ／ awarding them $10,000 from their Bug Bounty program | ✅ |
+| 27 | 獨立版 2022-03-15、PS5 前三個月免費 | GTA Online | A standalone version… on 15 March 2022; it was free on the former for the first three months | ✅ |
+| 28 | Hao's Special Works、Career Builder（四種事業之一）| GTA Online | Hao's Special Works ／ the Career Builder, which provides players with enough in-game currency to set up one of four businesses | ✅ |
+| 29 | 限時轉移進度、遊戲幣只能同主機家族轉移 | GTA Online | players could permanently transfer their progress… ／ earned in-game money could only be transferred across the same console family | ✅ |
+| 30 | 2025-03-04 PC 免費升級 | GTA Online | On 4 March 2025, all the content from this version of the game was made available for PC through a free upgrade | ✅（與 raw/03 一致）|
+| 31 | GTA+：2022 年 3 月、付費月租、2023-09 可玩經典遊戲、2025 年 3 月 PC 版 | GTA Online、Rockstar Games | In March 2022, Rockstar introduced GTA+, a paid monthly subscription service ／ by September 2023, classic Rockstar titles including… ／ GTA+ has since been made available on PC… | ✅ |
+| 32 | 更新里程碑日期共 23 筆（2013-11-19 Beach Bum 至 2026-07-14 Kortz Center）| GTA Online | 各更新原句（例如 The Beach Bum update, released on 19 November 2013 ／ The Kortz Center Heist was released on 14 July）| ✅（逐筆比對日期與內容）|
+| 33 | Ill-Gotten Gains Part 2（2015-07-08）是 PS3／Xbox 360 最後一次更新 | GTA Online | Ill-Gotten Gains Part 2, released on 8 July ／ This was the final update released for both the Xbox 360 and the PlayStation 3 | ✅ |
+| 34 | Cayo Perico：新增一座島、最大更新、可單人完成、2020-12-15 | GTA Online、聖安地列斯 | the biggest Grand Theft Auto Online content update to date ／ including the possibility of being completed solo from start to finish ／ The update was released on 15 December | ✅ |
+| 35 | 賭場賭博活動在部分地區無法使用 | GTA Online | The in-game gambling activities are not available in certain regions, including a few US states | ✅ |
+| 36 | Oppressor Mk II 助長騷擾 | GTA Online | has since gained notoriety within the game's community for facilitating griefing | ✅ |
+| 37 | 2022-01 新對抗模式未公告、#SaveRedDeadOnline | GTA Online | On 13 January 2022, a new Adversary Mode featuring Franklin and Lamar was added ／ #SaveRedDeadOnline | ✅ |
+| 38 | Metacritic PS3 83、Xbox 360 80 | GTA Online | Metacritic \| (PS3) 83/100 (X360) 80/100 | ✅ |
+| 39 | Destructoid、Digital Spy 的評論 | GTA Online | messy launch ／ lost his character data | ✅ |
+| 40 | 評價隨時間改善；Heists 特別受好評 | GTA Online | Reception has improved over time ／ especially well received by critics | ✅ |
+| 41 | Carolyn Petit：2013-10-11 7/10 → 2014-05-06 6/10 | GTA Online | originally gave the game a score of 7/10 in her review from 11 October 2013, but changed the score to 6/10 in her updated review from 6 May 2014 | ✅ |
+| 42 | BAFTA 最佳多人遊戲（第 10 屆）、GameTrailers；「最令人失望」提名 | GTA Online | won Best Multiplayer at the 10th British Academy Games Awards and from GameTrailers ／ Game Revolution and Hardcore Gamer nominated it for Biggest Disappointment | ✅ |
+| 43 | 2019 年 Still Playing 提名 + 最佳遊戲擴充 | GTA Online、sources/12 | At the 2019 Golden Joystick Awards, the game was nominated for Still Playing and won Best Game Expansion | ✅（與 raw/03 的得獎表有差異，已並陳）|
+| 44 | 截至 2014-02 70% 的 GTA V 網路玩家玩過 GTA Online；內購是數位營收最大來源 | GTA Online、Rockstar Games | by February 2014, 70 percent of Grand Theft Auto V players with Internet access had played Grand Theft Auto Online ／ the largest contributor to the company's digital revenue | ✅ |
+| 45 | PS3／Xbox 360 16 人、其餘 30 人 | GTA Online | allowed up to 16 concurrent players, while the PlayStation 4, Xbox One, and PC versions allow up to 30 concurrent players | ✅ |
+| 46 | 內容創作工具、Crews、搶案時間的 [raw/03][raw/12] 並排標註 | GTA Online | （逐句比對兩篇）| ❌→已修正（2 處）：「內容創作工具」的細節（路線與人數、電腦玩家測試、Rockstar Verified）只在 raw/12；「Crews 階層」只在 raw/12，兩處都已拆開標註 |
+
+- 這次的 46 列是把 122 個事實依主題合併後的結果（每列對應數個原句）；修正 4 個是 #14、#21、#46（2 處），共 4 處標註範圍問題，都是「把只出現在 raw/12 的細節，連同 raw/03 一起標註」。
+- 第一次 Lint 問題的處理結果：
+  - 解決：GTA Online 頁的開發商、各平台營運狀態、主角與故事年代、更新歷史全部補齊；「待查」只剩 ESRB 等地區分級。
+  - 解決：GTA Online 頁頂端「本頁目前只依據 raw/03」的聲明已移除。
+  - 補強：「截至」資料（營運狀態、GTA+、最新更新）都有明確的日期與來源。
+- 本次新發現的來源問題：
+  - ⚠ Still Playing 提名年份：raw/12 寫 2019 年 vs raw/03 的得獎表從 2020 年起才列。
+- 本次的錯誤類型：4 個修正全部是「來源標註的範圍太寬」，不是事實錯誤。這正是 raw/11 抽查發現的同一類錯誤（把只出現在一篇來源的說法，掛在兩篇來源下）；寫完 raw/12 後專門檢查並排標註，在 4 處抓到；但 raw/01–raw/11 的並排標註還沒有逐一檢查，留給第二次 Lint。
+- 人工檢查（使用者請 Claude 代為抽查，以 shuf 隨機抽出 #10、#43）：
+  - #10 三種主要活動、對抗模式、生存：wiki GTA Online 第 46、47 行；raw/12 第 38 行「there are three main types of set activities: racing (by car, bike, aircraft, or boat), Deathmatches (team or free-for-all), and Contact Missions (linear jobs with set objectives, usually cooperative)」「'Adversary Mode' adds several asymmetric variations on these activities, including 'Siege Mentality' where one team is besieged by another…」「'Survival' pits a team of up to four players against ten waves of enemies」→ 三種活動與生存模式相符。**小問題已修正**：wiki 原寫對抗模式是「不對稱的對戰變化版」，但原文是「這些活動（競速、死鬥、聯絡人任務）」的不對稱變化，不只是對戰；已改為「在上述活動上加入的多種不對稱變化玩法（例如一隊被另一隊圍攻）」。
+  - #43 Still Playing 提名年份的差異：wiki GTA Online 第 95 行；raw/12 第 238 行「At the 2019 Golden Joystick Awards, the game was nominated for Still Playing and won Best Game Expansion for The Diamond Casino & Resort」；raw/03 得獎表第 215 行只列 2019-11-15 的「Best Game Expansion … Won」，Still Playing 提名從 2020-11-24 起才列（第 216 行起）→ 相符，wiki 對兩篇來源的描述都正確。
+  - 這次抽查的結論：2 個抽樣中 1 個有措辭上的小偏差（把「活動的變化」窄化成「對戰」）。偏差不屬於標註範圍問題，而是用字太窄，與 raw/08（GTA 2 的語氣改寫）屬同一類。

@@ -1,7 +1,7 @@
 ---
 title: Rockstar Games
 type: entity
-sources: [raw/01-wikipedia-gta-series.md, raw/02-wikipedia-gta-iii.md, raw/03-wikipedia-gta-v.md, raw/05-news-gta-vi-delay.md, raw/06-wikipedia-gta-vi.md, raw/07-wikipedia-gta-1997.md, raw/09-wikipedia-gta-vice-city.md, raw/10-wikipedia-gta-san-andreas.md, raw/11-wikipedia-gta-iv.md]
+sources: [raw/01-wikipedia-gta-series.md, raw/02-wikipedia-gta-iii.md, raw/03-wikipedia-gta-v.md, raw/05-news-gta-vi-delay.md, raw/06-wikipedia-gta-vi.md, raw/07-wikipedia-gta-1997.md, raw/09-wikipedia-gta-vice-city.md, raw/10-wikipedia-gta-san-andreas.md, raw/11-wikipedia-gta-iv.md, raw/12-wikipedia-gta-online.md]
 updated: 2026-11-18
 ---
 
@@ -42,6 +42,13 @@ GTA 系列的發行商，旗下工作室 Rockstar North（前身 DMA Design）�
 - Rockstar North 的圖說稱愛丁堡是它的「前工作室」[raw/11]；raw/02、raw/06 也提到愛丁堡 [raw/02][raw/06]，raw/01、raw/07、raw/08 提到 Dundee [raw/01][raw/07][raw/08]。依來源時間排列，Dundee 對應 1990 年代、愛丁堡對應 2001 年之後（本 wiki 的整理），搬遷時間待查，不再視為矛盾。
 - Take-Two 當時的 chairman 是 Strauss Zelnick [raw/11]；raw/05 拼作「Strass Zelnick」，與 raw/01、raw/06、raw/11 都不同，疑似拼字錯誤（raw/05 稱他為 CEO，raw/11 稱 chairman，兩種職稱是否同時成立待查）。
 - 總部：Rockstar Games 的主要總部位於紐約 [raw/11]。
+
+## GTA Online 營運（raw/12）
+- GTA Online 由 Rockstar North 開發，Rockstar Games 發行；Rockstar Games Social Club 把 Max Payne 3 多人模式裡組成的 crews 延伸到 GTA Online [raw/03][raw/12]。
+- 2022 年 3 月，Rockstar 推出付費月租服務 GTA+（見 [[GTA Online]]）[raw/12]。
+- Rockstar 有 Bug Bounty（漏洞獎金）計畫：2021 年因玩家 t0st 找到縮短 GTA Online 載入時間的方法，頒給他 US$10,000 [raw/12]。
+- Take-Two（Rockstar 的母公司）表示，內購系統自 GTA Online 上線以來，是公司數位營收的最大來源 [raw/12]。
+- Rockstar 對 PS3、Xbox 360 版在 2015 年停止更新，並在 2021-12-16 關閉伺服器 [raw/12]。
 
 ## GTA VI 時期（raw/06）
 - Rockstar 總裁是 Sam Houser，參與 GTA VI 的開發回饋 [raw/06]。

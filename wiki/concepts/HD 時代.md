@@ -1,7 +1,7 @@
 ---
 title: HD 時代
 type: concept
-sources: [raw/01-wikipedia-gta-series.md, raw/03-wikipedia-gta-v.md, raw/10-wikipedia-gta-san-andreas.md, raw/11-wikipedia-gta-iv.md]
+sources: [raw/01-wikipedia-gta-series.md, raw/03-wikipedia-gta-v.md, raw/10-wikipedia-gta-san-andreas.md, raw/11-wikipedia-gta-iv.md, raw/12-wikipedia-gta-online.md]
 updated: 2026-11-18
 ---
 
@@ -19,7 +19,7 @@ updated: 2026-11-18
 | [[GTA IV]] | 2008 [raw/01] | 自由城 [raw/01] | 2008 [raw/01] |
 | [[GTA V]] | 2013 [raw/01] | 聖安地列斯州（洛聖都）[raw/01] | 2013 [raw/01] |
 
-另有線上模式 [[GTA Online]]，2013-10-01 上線 [raw/03]。
+另有線上模式 [[GTA Online]]，2013-10-01 上線 [raw/03]；截至 2026-11-18，raw/12 記錄到 2026-07-14 的更新（The Kortz Center Heist）[raw/12]。PS3、Xbox 360 版的伺服器已在 2021-12-16 關閉 [raw/12]。
 
 ## raw/11 對「HD Universe」的說明
 - GTA IV 設定在虛構的「HD Universe」，它對真實世界做鏡像與戲仿；前作各自形成不同的虛構宇宙，雖與 HD 宇宙有許多相似之處，仍被視為不同的延續 [raw/11]。

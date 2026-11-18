@@ -1,7 +1,7 @@
 ---
 title: 聖安地列斯（San Andreas）
 type: entity
-sources: [raw/01-wikipedia-gta-series.md, raw/03-wikipedia-gta-v.md, raw/10-wikipedia-gta-san-andreas.md]
+sources: [raw/01-wikipedia-gta-series.md, raw/03-wikipedia-gta-v.md, raw/10-wikipedia-gta-san-andreas.md, raw/12-wikipedia-gta-online.md]
 updated: 2026-11-18
 ---
 
@@ -38,6 +38,11 @@ GTA V 團隊為了重現洛杉磯，組織實地考察，拍了約 250,000 張�
 ## 為什麼 GTA V 只保留了洛聖都
 - Dan Houser 認為，San Andreas 把三座城市放在同一張地圖裡，限制了團隊重現洛杉磯的程度；GTA V 因此重新設計洛聖都，並捨棄聖菲耶羅與拉斯文圖拉斯 [raw/10]。
 - Garbut 認為受限於技術，San Andreas 沒能真正捕捉洛杉磯，更像是行人隨意走動的「背景」或遊戲關卡，因此成為開發 GTA V 的起點 [raw/10]。
+
+## GTA Online 對地圖的擴充
+- GTA Online 與 GTA V 共用聖安地列斯州的地圖（原型南加州）[raw/12]。
+- 2020-12-15 的 The Cayo Perico Heist 更新替地圖新增一座島（Cayo Perico），在公布時被稱為當時最大的 GTA Online 內容更新 [raw/12]。
+- 這座島是虛構的「熱帶天堂」，位於哥倫比亞外海的加勒比海，屬於毒梟 Juan "El Rubio" Strickler [raw/01]；raw/12 的劇情摘要稱它是 El Rubio 的私人加勒比島 [raw/12]。
 
 ## GTA V 版的補充
 - GTA V 的聖安地列斯州以南加州為原型 [raw/03]。
