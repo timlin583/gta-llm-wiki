@@ -46,3 +46,5 @@ GTA 系列以紐約為原型的虛構城市，三個時代各重做過一次 [ra
 
 ## 相關頁
 [[罪惡城（Vice City）]]、[[聖安地列斯（San Andreas）]]、[[GTA]]、[[GTA III]]、[[GTA IV]]
+
+來源摘要：[[01-wikipedia-gta-series]]、[[02-wikipedia-gta-iii]]、[[11-wikipedia-gta-iv]]

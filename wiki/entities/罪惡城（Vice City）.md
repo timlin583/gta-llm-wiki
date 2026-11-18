@@ -47,3 +47,5 @@ GTA VI 版的時代歸屬，raw/01 標為「TBA」，見 [[HD 時代]] 的說明
 
 ## 相關頁
 [[自由城（Liberty City）]]、[[聖安地列斯（San Andreas）]]、[[GTA]]、[[GTA Vice City]]、[[GTA VI]]
+
+來源摘要：[[01-wikipedia-gta-series]]、[[04-rockstar-gta-vi]]、[[06-wikipedia-gta-vi]]、[[09-wikipedia-gta-vice-city]]

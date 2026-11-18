@@ -1,7 +1,7 @@
 ---
 title: Rockstar Games
 type: entity
-sources: [raw/01-wikipedia-gta-series.md, raw/02-wikipedia-gta-iii.md, raw/03-wikipedia-gta-v.md, raw/05-news-gta-vi-delay.md, raw/06-wikipedia-gta-vi.md, raw/07-wikipedia-gta-1997.md, raw/09-wikipedia-gta-vice-city.md, raw/10-wikipedia-gta-san-andreas.md, raw/11-wikipedia-gta-iv.md, raw/12-wikipedia-gta-online.md]
+sources: [raw/01-wikipedia-gta-series.md, raw/02-wikipedia-gta-iii.md, raw/03-wikipedia-gta-v.md, raw/05-news-gta-vi-delay.md, raw/06-wikipedia-gta-vi.md, raw/07-wikipedia-gta-1997.md, raw/08-wikipedia-gta-2.md, raw/09-wikipedia-gta-vice-city.md, raw/10-wikipedia-gta-san-andreas.md, raw/11-wikipedia-gta-iv.md, raw/12-wikipedia-gta-online.md]
 updated: 2026-11-18
 ---
 
@@ -71,3 +71,5 @@ GTA 被視為蘇格蘭與英國最大的文化輸出之一；遊戲雖以美國�
 
 ## 相關頁
 [[GTA]]、[[2D 時代]]、[[3D 時代]]、[[HD 時代]]
+
+來源摘要：[[01-wikipedia-gta-series]]、[[02-wikipedia-gta-iii]]、[[03-wikipedia-gta-v]]、[[05-news-gta-vi-delay]]、[[06-wikipedia-gta-vi]]、[[07-wikipedia-gta-1997]]、[[08-wikipedia-gta-2]]、[[09-wikipedia-gta-vice-city]]、[[10-wikipedia-gta-san-andreas]]、[[11-wikipedia-gta-iv]]、[[12-wikipedia-gta-online]]

@@ -1,7 +1,7 @@
 ---
 title: GTA San Andreas
 type: game
-sources: [raw/01-wikipedia-gta-series.md, raw/02-wikipedia-gta-iii.md, raw/10-wikipedia-gta-san-andreas.md]
+sources: [raw/01-wikipedia-gta-series.md, raw/02-wikipedia-gta-iii.md, raw/09-wikipedia-gta-vice-city.md, raw/10-wikipedia-gta-san-andreas.md]
 updated: 2026-11-18
 ---
 
@@ -89,3 +89,4 @@ updated: 2026-11-18
 - 玩法：[[通緝等級]]、[[開放世界]]
 - 開發：[[Rockstar Games]]
 - 前一代：[[GTA Vice City]]；下一代：[[GTA IV]]
+- 來源摘要：[[01-wikipedia-gta-series]]、[[02-wikipedia-gta-iii]]、[[09-wikipedia-gta-vice-city]]、[[10-wikipedia-gta-san-andreas]]

@@ -75,3 +75,4 @@ updated: 2026-11-18
 - 線上模式：[[GTA Online]]
 - 玩法：[[開放世界]]、[[通緝等級]]
 - 前一代：[[GTA IV]]；下一代：[[GTA VI]]
+- 來源摘要：[[01-wikipedia-gta-series]]、[[03-wikipedia-gta-v]]、[[11-wikipedia-gta-iv]]

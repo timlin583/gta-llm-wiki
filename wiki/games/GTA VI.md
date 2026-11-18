@@ -108,3 +108,4 @@ updated: 2026-11-18
 - 城市：[[罪惡城（Vice City）]]
 - 開發：[[Rockstar Games]]
 - 前一代：[[GTA V]]
+- 來源摘要：[[01-wikipedia-gta-series]]、[[03-wikipedia-gta-v]]、[[04-rockstar-gta-vi]]、[[05-news-gta-vi-delay]]、[[06-wikipedia-gta-vi]]

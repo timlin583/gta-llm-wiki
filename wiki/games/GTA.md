@@ -77,3 +77,4 @@ updated: 2026-11-18
 - 玩法：[[開放世界]]、[[通緝等級]]
 - 開發：[[Rockstar Games]]
 - 下一代：[[GTA 2]]
+- 來源摘要：[[01-wikipedia-gta-series]]、[[07-wikipedia-gta-1997]]

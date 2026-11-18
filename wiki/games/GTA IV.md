@@ -1,7 +1,7 @@
 ---
 title: GTA IV
 type: game
-sources: [raw/01-wikipedia-gta-series.md, raw/06-wikipedia-gta-vi.md, raw/11-wikipedia-gta-iv.md]
+sources: [raw/01-wikipedia-gta-series.md, raw/03-wikipedia-gta-v.md, raw/06-wikipedia-gta-vi.md, raw/11-wikipedia-gta-iv.md]
 updated: 2026-11-18
 ---
 
@@ -104,3 +104,4 @@ Niko 為了擺脫過去的罪行、追求美國夢，並尋找十年前出賣他
 - 玩法：[[通緝等級]]、[[開放世界]]
 - 開發：[[Rockstar Games]]
 - 前一代：[[GTA San Andreas]]；下一代：[[GTA V]]
+- 來源摘要：[[01-wikipedia-gta-series]]、[[03-wikipedia-gta-v]]、[[06-wikipedia-gta-vi]]、[[11-wikipedia-gta-iv]]
