@@ -1,7 +1,7 @@
 ---
 title: HD 時代
 type: concept
-sources: [raw/01-wikipedia-gta-series.md]
+sources: [raw/01-wikipedia-gta-series.md, raw/03-wikipedia-gta-v.md]
 updated: 2026-11-18
 ---
 
@@ -19,7 +19,7 @@ updated: 2026-11-18
 | [[GTA IV]] | 2008 [raw/01] | 自由城 [raw/01] | 2008 [raw/01] |
 | [[GTA V]] | 2013 [raw/01] | 聖安地列斯州（洛聖都）[raw/01] | 2013 [raw/01] |
 
-另有 [[GTA Online]]（2013）[raw/01]，待其來源 ingest 後補充。
+另有線上模式 [[GTA Online]]，2013-10-01 上線 [raw/03]。
 
 ## GTA VI 屬於哪個時代？
 截至 2026-11-18，raw/01 的作品列表把 [[GTA VI]] 的宇宙欄標為「TBA」（尚未公布）[raw/01]。因此本 wiki 暫不把 GTA VI 列入 HD 時代，歸屬「待查」。
@@ -28,6 +28,8 @@ updated: 2026-11-18
 - 兩款主線都在 PlayStation 3 與 Xbox 360 上推出 [raw/01]。
 - GTA IV 著重寫實與細節，拿掉部分自訂功能，並加入線上多人模式 [raw/01]。
 - GTA V 有三位可操作的主角 [raw/01]。
+- GTA V 使用 Rockstar 自家的 RAGE 引擎，並為了更遠的可視距離大幅改良 [raw/03]。
+- GTA V 的 PS4／Xbox One／PC 重製版加入第一人稱視角 [raw/03]。
 
 ## 和其他時代的關係
 前一個是 [[3D 時代]]。三個宇宙只共用品牌、地名與背景人物 [raw/01]。

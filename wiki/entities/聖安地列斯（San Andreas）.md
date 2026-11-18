@@ -1,7 +1,7 @@
 ---
 title: 聖安地列斯（San Andreas）
 type: entity
-sources: [raw/01-wikipedia-gta-series.md]
+sources: [raw/01-wikipedia-gta-series.md, raw/03-wikipedia-gta-v.md]
 updated: 2026-11-18
 ---
 
@@ -23,6 +23,13 @@ updated: 2026-11-18
 
 ## 小故事
 GTA V 團隊為了重現洛杉磯，組織實地考察，拍了約 250,000 張照片與數小時影片 [raw/01]。
+
+## GTA V 版的補充
+- GTA V 的聖安地列斯州以南加州為原型 [raw/03]。
+- 團隊用 Google Maps 的洛杉磯投影圖設計洛聖都的道路網，並研究人口普查資料、觀看紀錄片來重現洛杉磯的人口分佈 [raw/03]。
+- 團隊認為打造開放世界是整個開發中技術上最困難的部分 [raw/03]。
+- 美術總監 Aaron Garbut 估計，這張地圖大到可以放進 Red Dead Redemption、GTA San Andreas、GTA IV 三款遊戲的地圖 [raw/03]。
+- 序章發生在 North Yankton 的 Ludendorff，原型主要是北達科他州的 Fargo [raw/03]。
 
 ## 簡報素材
 用 GTA V 遊戲畫面與洛杉磯實景地標並排，展示「實地考察」的成果。

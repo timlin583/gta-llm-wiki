@@ -129,3 +129,68 @@
 - 人工檢查（使用者請 Claude 代為抽查，以 shuf 隨機抽出 #7、#31）：
   - #7 iOS／Android 2011-12-15：wiki GTA III 第 17 行「iOS／Android（2011-12-15）」；raw/02 第 21 行「Android, iOS WW: 15 December 2011」、第 217 行「On 15 December 2011, for the game's tenth anniversary, War Drum Studios ported it to iOS and Android」→ 相符。
   - #31 2001 年最暢銷遊戲：wiki GTA III 第 50 行「2001 年最暢銷的遊戲」；raw/02 第 29 行「It was the best-selling video game of 2001」→ 相符。補充：raw/02 第 191 行另有「In the United States… highest-selling game of 2001」，是美國範圍的說法，兩者不衝突。
+
+## [2026-11-18] ingest | Wikipedia：Grand Theft Auto V（raw/03）
+- 新增／更新的頁：
+  - 新增：sources/03-wikipedia-gta-v、games/GTA Online
+  - 更新：GTA V（大幅改寫）、GTA VI、HD 時代、聖安地列斯（San Andreas）、通緝等級、Rockstar Games、index.md
+- 自我檢查：對照 45 個事實，修正 3 個（比對前先把 raw 的不換行空格換成一般空格）
+
+| # | 事實 | wiki 頁 | raw 原句 | 是否符合 |
+|---|---|---|---|---|
+| 1 | 開發商 Rockstar North、引擎 RAGE | GTA V | \| Developer \| Rockstar North \| ／ \| Engine \| RAGE \| | ✅ |
+| 2 | 各平台發售日 2013-09-17／2014-11-18／2015-04-14／2022-03-15 | GTA V | PS3, Xbox 360 17 September 2013 PS4, Xbox One 18 November 2014 Windows 14 April 2015 PS5, Xbox Series X/S 15 March 2022 | ✅ |
+| 3 | 系列第 7 部主線 | GTA V | It is the seventh main entry in the Grand Theft Auto series | ✅ |
+| 4 | 三位主角與身分 | GTA V | retired bank robber Michael De Santa… street gangster Franklin Clinton… drug dealer and gunrunner Trevor Philips | ✅ |
+| 5 | 聖安地列斯州原型南加州 | GTA V、聖安地列斯 | the fictional state of San Andreas, based on Southern California | ✅ |
+| 6 | 協助開發的 5 個工作室 | GTA V、Rockstar Games | Additional work by Rockstar San Diego, Rockstar Leeds, Rockstar Toronto, Rockstar New England and Rockstar London | ✅ |
+| 7 | 主線 2013、序章 9 年前 | GTA V | The game's prologue is set nine years before the main storyline, which takes place in 2013 | ✅ |
+| 8 | Franklin 三選一結局 | GTA V | Franklin is left with three options | ✅ |
+| 9 | 三主角構想始於 San Andreas | GTA V | The idea was first raised during Grand Theft Auto: San Andreas' development | ✅ |
+| 10 | 搶案需駭客、駕駛等專長同夥 | GTA V | aid from AI-controlled accomplices with unique skill sets like computer hacking and driving | ✅ |
+| 11 | 三人特殊能力 | GTA V | Michael enters bullet time in combat, Franklin slows down time while driving, and Trevor deals twice as much damage… | ✅ |
+| 12 | 新增定翼飛機 | GTA V | vehicle types absent in its predecessor Grand Theft Auto IV, such as fixed-wing aircraft | ✅ |
+| 13 | 重製版加入第一人稱 | GTA V、HD 時代 | It includes a new on-foot first-person view option | ✅ |
+| 14 | Game Informer：另一次重大突破 | GTA V | Game Informer considered the addition of first-person "another significant breakthrough for the series" | ✅ |
+| 15 | 序章後可完全探索 | GTA V | It may be fully explored after the opening prologue without restriction | ✅（與 raw/01「開局即可探索」說法有差異，已並陳）|
+| 16 | 2008 年開始開發、超過 1,000 人 | GTA V、Rockstar Games | Rockstar North began to develop Grand Theft Auto V in 2008… The development team totalled more than 1,000 people | ✅ |
+| 17 | 預算估計超過 £170 million（US$265 million）、當時最貴 | GTA V | more than £170 million (US$265 million), which would make it the most expensive game ever made at that time | ✅ |
+| 18 | Google Maps、人口普查 | GTA V、聖安地列斯 | Google Maps projections of Los Angeles were used… the developers studied census data | ✅ |
+| 19 | 241 首歌、15 個音樂電台、2 個談話電台 | GTA V | more than 241 tracks shared between fifteen radio stations, with an additional two stations providing talk radio | ✅ |
+| 20 | Metacritic 初版 97 | GTA V | \| Metacritic \| 97/100 \| | ✅ |
+| 21 | 重製版 PS4 97／XONE 97／PC 96／PS5 81／XSX 79 | GTA V | (PS4) 97/100 (XONE) 97/100 (PC) 96/100 (PS5) 81/100 (XSXS) 79/100 | ✅ |
+| 22 | Famitsu 滿分，第二款西方遊戲 | GTA V | the second-ever western-developed game to be awarded a perfect score from… Famitsu, after The Elder Scrolls V: Skyrim | ✅ |
+| 23 | Golden Joystick、Spike VGX 年度遊戲；BAFTA 英國遊戲、遊戲設計 | GTA V | Golden Joystick Awards \| Game of the Year \| Won ／ Spike VGX \| Game of the Year \| Won ／ British Game \| Won ／ Game Design \| Won | ✅ |
+| 24 | 截至 2026-09 將近 235 million、超過 US$10 billion | GTA V | By September 2026, the game had shipped almost 235 million copies… and generated over $10 billion in revenue | ✅ |
+| 25 | 史上第二暢銷 | GTA V | It is the second-best-selling video game of all time | ✅ |
+| 26 | 首日營收 $800 million vs US$815 million | GTA V、sources/03 | earning $800 million in its first day ／ more than US$815 million in worldwide revenue | ✅（raw/03 內部矛盾，已並陳）|
+| 27 | 3 天破 10 億、史上銷售最快的娛樂產品 | GTA V | Three days after its release, the game had surpassed one billion dollars in sales, making it the fastest-selling entertainment product in history | ❌→已修正：原寫「最快達到此數字的娛樂產品」，改為原文的「銷售最快的娛樂產品」 |
+| 28 | 2013-10-08 創 7 項金氏紀錄 | GTA V、sources/03 | It broke seven Guinness World Records on 8 October: best-selling video game in 24 hours… | ✅（與 raw/01 矛盾，已並陳）|
+| 29 | 日本版刪除刑求玩法 | GTA V | The torture gameplay was cut from the Japanese release | ✅ |
+| 30 | 刑求任務受政治人物與反酷刑團體批評 | GTA V | The mission received criticism from politicians and anti-torture charity groups | ✅ |
+| 31 | Petit 收到 20,000 則留言與開除連署 | GTA V | users responded with 20,000 largely negative comments… and a Change.org petition for her firing | ❌→已修正：原寫「約 20,000 則負面留言」，原文沒有「約」且是「大多為負面」，並補上 Change.org |
+| 32 | 2014-12 澳洲 Target、Kmart 下架，40,000 人連署 | GTA V | pulled the game from their stores in December 2014 after a Change.org petition… amassed over 40,000 signatures | ✅ |
+| 33 | 澳洲分級委員會禁止性暴力內容 | GTA V | Sexual violence in games is forbidden by the Australian Classification Board | ✅ |
+| 34 | 跨性別內容除 Director Mode 外皆刪除 | GTA V | removed the content from all portions of the game except Director Mode | ❌→已修正：原寫「刪除了相關內容」，漏掉 Director Mode 例外 |
+| 35 | Gravano、Lohan 兩案 2016 年駁回 | GTA V | In 2016, both lawsuits were dismissed | ✅ |
+| 36 | GTA Online 2013-10-01 上線，晚兩週 | GTA Online、HD 時代 | Grand Theft Auto Online launched on 1 October 2013, two weeks after Grand Theft Auto V's release | ✅ |
+| 37 | 最多 30 人；PS3／X360 16 人 | GTA Online | allowed up to 16 concurrent players, while all other versions allow up to 30 | ✅ |
+| 38 | 2013-10-05、10-10 修正，補償 GTA$500,000 | GTA Online | technical patch on 5 October… released on 10 October… GTA$500,000 | ✅ |
+| 39 | Heists 更新 2015-03-10 | GTA Online | The widely anticipated Online Heists update launched on 10 March 2015 | ✅ |
+| 40 | BAFTA 多人、2019 Golden Joystick 最佳擴充 | GTA Online | Multiplayer \| Grand Theft Auto Online \| Won ／ Best Game Expansion \| Grand Theft Auto Online – The Diamond Casino & Resort \| Won | ✅ |
+| 41 | 截至 2026-09 線上模式每日營收超過 US$1 million | GTA Online | with its online multiplayer mode making over $1 million daily | ✅ |
+| 42 | raw/03 稱 GTA VI 2026 年 11 月已發售 | GTA VI、sources/03 | Its successor, Grand Theft Auto VI, was released in November 2026 | ✅（照錄；與 raw/01、raw/04 矛盾，已並陳）|
+| 43 | GTA V 通緝最高 5 星、直升機與 SWAT | 通緝等級 | at the maximum five-star level, police helicopters and SWAT teams swarm | ✅ |
+| 44 | 改裝店烤漆立即消除通緝 | 通緝等級 | respraying their vehicle at chop shops, which instantly erases the wanted level | ✅ |
+| 45 | Ludendorff 原型 Fargo | 聖安地列斯 | Ludendorff is largely inspired by Fargo, North Dakota | ✅ |
+
+- 本次發現的來源問題：
+  - ⚠ GTA VI 發售狀態：raw/03（抓取日 2026-11-18）寫「was released in November 2026」，但預定發售日是 2026-11-19，raw/01 同日寫「upcoming」。這正是「時效性資料」被來源提前寫成已發生的例子；GTA VI 頁維持「截至 2026-11-18 尚未發售」並並陳。
+  - ⚠ GTA V 首日營收：raw/03 內部 $800 million vs US$815 million。
+  - ⚠ 金氏紀錄：raw/01「Gamer's Edition 2008」vs raw/03「2013-10-08 創 7 項紀錄」。raw/01 ingest 時使用者用外部知識查到的結論（2013-10 認證 7 項），現在有 raw/03 可作正式依據。
+  - ⚠ 跨性別內容刪除：raw/03 內部「April 2022 re-release」vs PS5 版 2022-03-15 發售。
+  - raw/01 的「<235 million」可由 raw/03「almost 235 million」解釋，已在 GTA V 頁註明。
+  - GTA V 與 GTA Online 的 ESRB 分級，raw/03 未明寫，維持待查。
+- 人工檢查（使用者請 Claude 代為抽查，以 shuf 隨機抽出 #11、#45）：
+  - #11 三位主角的特殊能力：wiki GTA V 第 37 行「Michael 的子彈時間、Franklin 開車時讓時間變慢、Trevor 傷害加倍並減半受到的傷害」；raw/03 第 43 行「Michael enters bullet time in combat, Franklin slows down time while driving, and Trevor deals twice as much damage to enemies while taking half as much in combat」→ 相符（wiki 省略了 Michael 與 Trevor 的「in combat」，不影響意思）。
+  - #45 Ludendorff 原型 Fargo：wiki 聖安地列斯 第 32 行「序章發生在 North Yankton 的 Ludendorff，原型主要是北達科他州的 Fargo」；raw/03 第 271 行「Ludendorff is largely inspired by Fargo, North Dakota」，第 49 行「a failed robbery in Ludendorff, North Yankton」→ 相符。

@@ -9,7 +9,8 @@
 - [[GTA Vice City]]：2002 年，1986 年的邁阿密風格城市，主角首次開口說話
 - [[GTA San Andreas]]：2004 年，整個州三座城市，Hot Coffee 分級爭議
 - [[GTA IV]]：2008 年，HD 時代第一款，寫實的紐約風格自由城
-- [[GTA V]]：2013 年，三位主角、洛聖都，系列銷量最高
+- [[GTA V]]：2013 年，三位主角、洛聖都；截至 2026 年 9 月出貨將近 235 million，史上第二暢銷
+- [[GTA Online]]：2013-10-01 上線的 GTA V 線上多人模式，持續免費更新
 - [[GTA VI]]：截至 2026-11-18 尚未發售，預定 2026-11-19，舞台 Leonida 州的罪惡城
 
 ## 概念（concepts）
@@ -28,6 +29,4 @@
 ## 來源摘要（sources）
 - [[01-wikipedia-gta-series]]：英文維基百科 GTA 系列總覽頁
 - [[02-wikipedia-gta-iii]]：英文維基百科 GTA III 條目（開發、911 修改、分級、影響）
-
-## 尚未建立
-- [[GTA Online]]：已被其他頁連結，待其來源 ingest 後建頁
+- [[03-wikipedia-gta-v]]：英文維基百科 GTA V 條目（三主角、銷量紀錄、GTA Online、爭議）

@@ -1,13 +1,15 @@
 ---
 title: GTA VI
 type: game
-sources: [raw/01-wikipedia-gta-series.md]
+sources: [raw/01-wikipedia-gta-series.md, raw/03-wikipedia-gta-v.md]
 updated: 2026-11-18
 ---
 
 # GTA VI（Grand Theft Auto VI）
 
 > 本頁所有內容都會變動。截至 2026-11-18，GTA VI **尚未發售** [raw/01]。
+>
+> ⚠ 來源矛盾（發售狀態）：raw/03 寫 GTA VI「was released in November 2026」[raw/03]，但 raw/03 的抓取日是 2026-11-18，早於預定發售日 2026-11-19；raw/01 同日寫「upcoming」[raw/01]。兩說並陳，待發售後以新來源確認。
 
 ## 1. 一句話介紹
 系列最新作，回到以邁阿密為原型的罪惡城，舞台是虛構的佛羅里達風格州「Leonida」。
@@ -38,10 +40,11 @@ updated: 2026-11-18
 ## 發售時間線（截至 2026-11-18）
 | 時間 | 事件 |
 |---|---|
-| 2022-02-04 | Rockstar 確認新作「well underway」[raw/01] |
+| 2022-02-04 | Rockstar 確認新作「well underway」[raw/01]；raw/03 也寫 2022 年 2 月確認開發 [raw/03] |
 | 2022-09 | 開發中影片外流 [raw/01] |
 | 2023-12 | 正式公布為 GTA VI，預計 2025 年推出 [raw/01] |
 | 之後 | 延期至 2026-11-19 [raw/01] |
+| 2026-11 | raw/03 稱已發售 [raw/03]（⚠ 見頁首矛盾說明）|
 
 ## 所屬時代
 截至 2026-11-18，raw/01 的作品列表把本作的宇宙欄標為「TBA」[raw/01]，時代歸屬待查。參見 [[HD 時代]] 的說明。
