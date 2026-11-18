@@ -1,7 +1,7 @@
 ---
 title: Rockstar Games
 type: entity
-sources: [raw/01-wikipedia-gta-series.md, raw/02-wikipedia-gta-iii.md, raw/03-wikipedia-gta-v.md, raw/05-news-gta-vi-delay.md, raw/06-wikipedia-gta-vi.md, raw/07-wikipedia-gta-1997.md, raw/09-wikipedia-gta-vice-city.md, raw/10-wikipedia-gta-san-andreas.md]
+sources: [raw/01-wikipedia-gta-series.md, raw/02-wikipedia-gta-iii.md, raw/03-wikipedia-gta-v.md, raw/05-news-gta-vi-delay.md, raw/06-wikipedia-gta-vi.md, raw/07-wikipedia-gta-1997.md, raw/09-wikipedia-gta-vice-city.md, raw/10-wikipedia-gta-san-andreas.md, raw/11-wikipedia-gta-iv.md]
 updated: 2026-11-18
 ---
 
@@ -33,6 +33,15 @@ GTA 系列的發行商，旗下工作室 Rockstar North（前身 DMA Design）�
 - 工作環境：部分開發者在 Vice City 之後沒能充分休息，擔心公司進入「持續趕工」，有人一天工作 17 小時；有人因和總裁 Sam Houser 對工作條件意見不合而離開 [raw/10]。
 - 1 位資深員工因不認同公司對非裔美國人的描寫，以及遊戲更灰暗、更剝削的調性而辭職 [raw/10]。
 - Rockstar 與 Take-Two 在 Hot Coffee 事件中收到美國聯邦貿易委員會（FTC）的警告 [raw/10]，見 [[GTA San Andreas]]。
+
+## GTA IV（2008）時期（raw/11）
+- Rockstar North 約 220 人的核心團隊，整個團隊超過 1,000 人：Rockstar NYC 50 人、Rockstar Lincoln 40 人、Rockstar San Diego 10 人，另有約 600 到 700 名兼職的內外部人員 [raw/11]。
+- Windows 版由 Rockstar Toronto 協助開發 [raw/11]。
+- 開發預算超過 US$100 million（Benzies 的估計）[raw/11]。
+- 部分核心成員一天工作 12 小時，常常沒有假日 [raw/11]。
+- Rockstar North 的圖說稱愛丁堡是它的「前工作室」[raw/11]；raw/02、raw/06 也提到愛丁堡 [raw/02][raw/06]，raw/01、raw/07、raw/08 提到 Dundee [raw/01][raw/07][raw/08]。依來源時間排列，Dundee 對應 1990 年代、愛丁堡對應 2001 年之後（本 wiki 的整理），搬遷時間待查，不再視為矛盾。
+- Take-Two 當時的 chairman 是 Strauss Zelnick [raw/11]；raw/05 拼作「Strass Zelnick」，與 raw/01、raw/06、raw/11 都不同，疑似拼字錯誤（raw/05 稱他為 CEO，raw/11 稱 chairman，兩種職稱是否同時成立待查）。
+- 總部：Rockstar Games 的主要總部位於紐約 [raw/11]。
 
 ## GTA VI 時期（raw/06）
 - Rockstar 總裁是 Sam Houser，參與 GTA VI 的開發回饋 [raw/06]。

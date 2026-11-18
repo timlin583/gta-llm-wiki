@@ -1,7 +1,7 @@
 ---
 title: HD 時代
 type: concept
-sources: [raw/01-wikipedia-gta-series.md, raw/03-wikipedia-gta-v.md, raw/10-wikipedia-gta-san-andreas.md]
+sources: [raw/01-wikipedia-gta-series.md, raw/03-wikipedia-gta-v.md, raw/10-wikipedia-gta-san-andreas.md, raw/11-wikipedia-gta-iv.md]
 updated: 2026-11-18
 ---
 
@@ -20,6 +20,14 @@ updated: 2026-11-18
 | [[GTA V]] | 2013 [raw/01] | 聖安地列斯州（洛聖都）[raw/01] | 2013 [raw/01] |
 
 另有線上模式 [[GTA Online]]，2013-10-01 上線 [raw/03]。
+
+## raw/11 對「HD Universe」的說明
+- GTA IV 設定在虛構的「HD Universe」，它對真實世界做鏡像與戲仿；前作各自形成不同的虛構宇宙，雖與 HD 宇宙有許多相似之處，仍被視為不同的延續 [raw/11]。
+- 因此 GTA IV 裡的自由城與前作不同，這款遊戲本身就是系列的重啟（reboot）[raw/11]。
+- GTA IV 建立的新時間線，延續到兩部資料片 The Lost and Damned、The Ballad of Gay Tony、續作 GTA V，以及線上模式 GTA Online [raw/11]。
+- 掌機遊戲 Chinatown Wars 也被視為 HD 宇宙的一部分，因為它使用和 GTA IV 相同的地圖（沒有 Alderney）[raw/11]。
+- raw/11 的註腳把 2D 宇宙定義為初代 GTA、資料片與 GTA 2；3D 宇宙定義為 GTA III、Vice City、Advance、San Andreas、Liberty City Stories、Vice City Stories [raw/11]，與 raw/01 的分類一致。
+- GTA IV 是系列自 2001 年 GTA III 以來第一款以當代為背景的作品；團隊認為相隔夠久，不會顯得重複 [raw/11]。
 
 ## GTA VI 屬於哪個時代？
 截至 2026-11-18，raw/01 的作品列表把 [[GTA VI]] 的宇宙欄標為「TBA」（尚未公布）[raw/01]。因此本 wiki 暫不把 GTA VI 列入 HD 時代，歸屬「待查」。

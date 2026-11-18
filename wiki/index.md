@@ -8,7 +8,7 @@
 - [[GTA III]]：2001 年，系列首度 3D，沉默主角 Claude，911 後延期修改，被視為業界里程碑
 - [[GTA Vice City]]：2002 年，1986 年的邁阿密風格城市，主角 Tommy Vercetti 首次開口說話，可經營事業
 - [[GTA San Andreas]]：2004 年，整個州三座城市，主角 CJ，角色養成；Hot Coffee 事件使分級被改評 AO
-- [[GTA IV]]：2008 年，HD 時代第一款，寫實的紐約風格自由城
+- [[GTA IV]]：2008 年，HD 時代第一款與系列重啟，主角 Niko Bellic，寫實的紐約風格自由城，開發預算超過 US$100 million
 - [[GTA V]]：2013 年，三位主角、洛聖都；截至 2026 年 9 月出貨將近 235 million，史上第二暢銷
 - [[GTA Online]]：2013-10-01 上線的 GTA V 線上多人模式，持續免費更新
 - [[GTA VI]]：截至 2026-11-18 尚未發售（官方：預定 2026-11-19），系列第 8 部主線，主角 Jason Duval 與 Lucia Caminos，舞台 Leonida 州；史上預購最多（Sensor Tower 估計）
@@ -37,3 +37,4 @@
 - [[08-wikipedia-gta-2]]：英文維基百科 GTA 2 條目（幫派尊重度、開場短片、配樂、銷量矛盾）
 - [[09-wikipedia-gta-vice-city]]：英文維基百科 Vice City 條目（開發、經營事業玩法、銷量與爭議；含 8 筆與 raw/01 的矛盾）
 - [[10-wikipedia-gta-san-andreas]]：英文維基百科 San Andreas 條目（開發、角色養成、Hot Coffee 經過、27.5 million 銷量補上統計日期）
+- [[11-wikipedia-gta-iv]]：英文維基百科 GTA IV 條目（重啟、HD 宇宙、開發、銷量補上統計日期、發售前後爭議）

@@ -711,3 +711,118 @@
 - 人工檢查（使用者請 Claude 代為抽查，以 shuf 隨機抽出 #56、#53）：
   - #56 劇情取材的四件真實事件：wiki GTA San Andreas 第 58 行、聖安地列斯 第 36 行「Bloods 與 Crips 的幫派對立、1990 年代的快克古柯鹼氾濫、1992 年洛杉磯暴動、洛杉磯警局的 Rampart 醜聞」；raw/10 第 82 行「Several historical events influenced the narrative, including the Rampart scandal of the Los Angeles Police Department, the 1990s crack epidemic, the 1992 Los Angeles riots, and the rivalry between the Bloods and Crips street gangs」→ 相符（四件事都在，只是排列順序不同）。
   - #53 約 16,000 個獨特物件與建築、共用低細節模型：wiki GTA San Andreas 第 56 行；raw/10 第 76 行「According to Garbut, the world is built with about 16,000 unique objects and buildings. Several buildings share a single low-detail model, allowing them to be loaded as players traverse the map without the interruption of loading screens like in Vice City」→ 相符。補充：raw/10 這個數字是 Garbut 的說法（「according to Garbut」），wiki 該行沒有標出說話者，但意思沒有因此改變。
+
+## [2026-11-18] ingest | Wikipedia：Grand Theft Auto IV（raw/11）
+- 背景：外層 loop 第 2 圈第 6 篇，補第一次 Lint 指出「GTA IV 只有 raw/01 一篇來源」的缺口。
+- 新增／更新的頁：
+  - 新增：sources/11-wikipedia-gta-iv
+  - 更新：GTA IV（大幅改寫）、自由城（Liberty City）、HD 時代、Rockstar Games、通緝等級、GTA V、index.md
+- 自我檢查：對照 90 個事實，修正 3 個。比對前先把 raw 的不換行空格與零寬連字符移除；第一輪 grep 共 133 個比對字串，132 個命中，1 個沒中是我的比對字串漏了「an actor's」，原文為「an actor's voice could be composited over a different actor's physical performance」，wiki 內容相符。另外有一次 heredoc 因引號報錯（unexpected EOF），改成把比對字串存成檔案再讀入，結果沒受影響。
+
+| # | 事實 | wiki 頁 | raw 原句 | 是否符合 |
+|---|---|---|---|---|
+| 1 | 系列第 6 部主線、整體第 11 部 | GTA IV | sixth main entry… and the eleventh entry overall | ✅ |
+| 2 | 開發商 Rockstar North、發行商 Rockstar Games、引擎 RAGE | GTA IV | \| Developer \| Rockstar North \| ／ \| Publisher \| Rockstar Games \| ／ \| Engine \| RAGE \| | ✅ |
+| 3 | 製作人 Benzies、編劇 Dan Houser 與 Rupert Humphries | GTA IV | \| Producer \| Leslie Benzies \| ／ \| Writers \| Dan HouserRupert Humphries \| | ✅ |
+| 4 | PS3、Xbox 360 2008-04-29；Windows 2008-12-02／12-03 | GTA IV | PlayStation 3, Xbox 360WW: 29 April 2008WindowsNA: 2 December 2008EU: 3 December 2008 | ✅ |
+| 5 | 主角 Niko Bellic（Michael Hollick）、東歐退伍軍人 | GTA IV | Eastern European war veteran Niko Bellic ／ Niko Bellic (Michael Hollick) | ✅ |
+| 6 | 四個行政區跨三座島、Alderney（原型新澤西）| GTA IV、自由城 | four boroughs across three islands, and the neighbouring state of Alderney, which is based on New Jersey | ✅ |
+| 7 | Broker／Dukes／Bohan／Algonquin 的原型 | GTA IV | Broker (based on Brooklyn), Dukes (Queens), Bohan (The Bronx), and Algonquin (Manhattan) | ✅ |
+| 8 | 橋樑因恐怖威脅封鎖、開局只能探索三區 | GTA IV、自由城 | bridges are locked down due to a terrorist threat ／ players can only explore a limited area—Bohan, Broker, and Dukes | ✅ |
+| 9 | 2006-05 Peter Moore 在 E3 宣布 | GTA IV | Microsoft's Peter Moore announced Grand Theft Auto IV at E3 in May 2006 | ✅ |
+| 10 | 原訂 2007-10-16，2007-08 宣布延期（PS3 技術困難）| GTA IV | 16 October 2007 release date ／ In August 2007, Take-Two announced the game would miss its date… citing technical difficulties with the PlayStation 3 version | ✅ |
+| 11 | 2008-01-24 公布 4 月 29 日 | GTA IV | On 24 January 2008, Rockstar announced the 29 April release date | ✅ |
+| 12 | Windows 原訂 11-18／11-21，延到 12-02／12-03 | GTA IV | 18 November 2008 in North America and 21 November in Europe; it was later delayed to 2 and 3 December | ✅ |
+| 13 | 日本 Capcom 2008-10-30 | GTA IV | Capcom published the game in Japan on 30 October 2008 | ✅ |
+| 14 | Windows 版 Rockstar Toronto 協助 | GTA IV、Rockstar Games | additional development work by Rockstar Toronto | ✅ |
+| 15 | 微軟 US$50 million 合作 | GTA IV | US$50 million deal | ✅ |
+| 16 | 資料片 2009-02-17／2009-10-29 | GTA IV | The Lost and Damned on 17 February 2009, and The Ballad of Gay Tony on 29 October 2009 | ✅ |
+| 17 | Episodes 2010-04-13、Complete Edition 2010-10-26（北美）| GTA IV | Episodes from Liberty City, released for PlayStation 3 and Windows on 13 April 2010 in North America ／ The Complete Edition, released on 26 October 2010 in North America | ✅ |
+| 18 | San Andreas 的角色扮演元素被拿掉、健身房不符合 Niko 動機 | GTA IV | role-playing elements from San Andreas were removed fairly early in development ／ consistently needing to visit the gym felt antithetical to Niko's motivations | ✅ |
+| 19 | 系列的重啟 | GTA IV、HD 時代 | serves as a reboot for the series | ✅ |
+| 20 | 更寫實細節的風格、不再卡通般 | GTA IV | more realistic and detailed style and tone ／ cartoon-like style | ✅ |
+| 21 | 自 GTA III 以來第一款當代背景 | GTA IV、HD 時代 | first contemporary game in the series since 2001's Grand Theft Auto III | ✅ |
+| 22 | 掩體系統、近戰新招、可瞄準身體部位 | GTA IV | cover system ／ dodging, blocking, disarming an opponent and counter-attacking ／ Individual body parts can also be targeted | ✅ |
+| 23 | 回血方式：吃喝、醫療包、叫救護 | GTA IV | consuming food or drinks, using medical kits, or calling for paramedics | ✅ |
+| 24 | 通緝上限 6 星、通緝範圍擴大 | GTA IV、通緝等級 | capped at six stars ／ extends the wanted vicinity area | ✅ |
+| 25 | 離開通緝範圍後冷卻、警察搜捕直到躲出視線 | 通緝等級 | the wanted meter enters a cool-down mode, law enforcement hunt for the player, and eventually recedes when they are hidden from the officers' line of sight | ✅ |
+| 26 | 手機（聯絡朋友、進線上模式、密技）、網咖 | GTA IV | Niko has a cell phone for contacting friends and hanging out with them through activities ／ Internet cafés located around the city | ✅ |
+| 27 | 朋友尊重、解鎖恩惠、Roman 計程車 | GTA IV | Hanging out, answering calls, or completing missions of friends will increase that friend's respect ／ Niko's cousin Roman owns a taxi service | ✅ |
+| 28 | 道德抉擇改變劇情 | GTA IV | morality choices, which alter the storyline appropriately | ✅ |
+| 29 | 保齡球、飛鏢、義警、電視、地鐵 | GTA IV | bowling or darts ／ vigilante mini-game, and in-game television programming ／ The game also features a subway system | ✅ |
+| 30 | 載具中才有第一人稱 | GTA IV | first-person perspective option when using vehicles | ✅ |
+| 31 | 線上模式 32 人、自由模式、主持人調整條件 | GTA IV | allowing up to 32 players ／ Free Mode ／ Hosts of the game can control many variables, such as police presence, traffic, and weapons | ✅ |
+| 32 | Windows 32 人（至 2020 停止）、主機 16 人 | GTA IV | up to 32 players until its discontinuation in 2020, while the console versions allow up to 16 players | ✅ |
+| 33 | 2004-11 開始初步開發 | GTA IV | Preliminary work on Grand Theft Auto IV began in November 2004, a month after the release of Grand Theft Auto: San Andreas | ✅ |
+| 34 | 核心團隊 220 人、全團隊超過 1,000 人（NYC 50、Lincoln 40、San Diego 10、兼職 600–700）| GTA IV、Rockstar Games | core 220-person team behind the game ／ over 1,000, including 50 employees at Rockstar NYC, 40 at Rockstar Lincoln, 10 at Rockstar San Diego, and around 600–700 working part-time | ✅ |
+| 35 | 一天 12 小時、常沒有假日 | GTA IV、Rockstar Games | worked 12-hour days during production, often without holidays | ✅ |
+| 36 | 恢復編號、代表躍進 | GTA IV | continue the numbering scheme absent from the previous two main games | ✅ |
+| 37 | 2008-04-17 前結束開發 | GTA IV | ceased by 17 April 2008 | ✅ |
+| 38 | 開發預算超過 US$100 million | GTA IV、Rockstar Games | budget of the development efforts exceeded US$100 million | ✅ |
+| 39 | 地圖約 GTA III 三倍 | GTA IV、自由城 | roughly three times the size of Grand Theft Auto III's | ✅ |
+| 40 | 考慮整個紐約州 → 曼哈頓 → 再擴大、常投票 | 自由城 | entire state of New York, before restricting it to Manhattan, and then expanding it out again ／ would regularly vote on which areas to include | ✅ |
+| 41 | Garbut 選擇紐約的理由、Dan Houser 的「立足點」| 自由城 | an amazing, diverse, vibrant, cinematic city ／ wanted to be somewhere where we had a foothold ／ Rockstar Games's main headquarters are located in New York | ❌→已修正：原寫「團隊在那裡有立足點，研究起來比較方便」，「研究起來比較方便」是我自己的解釋；原文是因為這個世界需要大量研究，才想待在有立足點的地方，已改回原文的因果 |
+| 42 | 漫畫式描寫紐約 | 自由城 | caricature of the city | ✅ |
+| 43 | 60–70 人去紐約、2005 年 3／4 月一週半、2007 年小規模再去 | 自由城 | 60–70 employees from Rockstar North travelled to New York ／ March or April 2005 for a week and a half, and a smaller trip in 2007 | ✅ |
+| 44 | 曾在該區巡邏的警察開車帶隊逛華盛頓高地 | 自由城 | Police officers who previously worked the beat drove the team around Washington Heights | ❌→已修正：原寫「曾離開警察局的警察」，原文是「previously worked the beat」（以前在這一區巡邏），意思不同，已改 |
+| 45 | 常駐紐約的研究團隊 | 自由城 | A full-time research team based in New York | ✅ |
+| 46 | 照片數量 100,000 vs 約 250,000 | 自由城、sources/11 | over 100,000 photographs ／ Garbut estimates that they took around 250,000 | ✅（raw/11 內部差異，已並陳）|
+| 47 | Hove Beach 原型 Brighton Beach、當地有東歐人 | 自由城 | Hove Beach is based on Brighton Beach ／ home to several Eastern Europeans | ✅ |
+| 48 | 自由城是「最大的角色」、減少死角、更集中的體驗 | GTA IV、自由城 | the biggest character ／ less dead spots and irrelevant spaces ／ a more focused experience | ✅ |
+| 49 | 劇本約 1,000 頁、約 660 位演員、超過 80,000 句 | GTA IV | about 1,000 pages ／ Approximately 660 actors ／ over 80,000 lines of dialogue | ✅ |
+| 50 | 避開電影影響、想寫全新的故事 | GTA IV | does not have cinematic influences ／ fresh and new and not something that was obviously derived from | ✅ |
+| 51 | 聲音可疊在另一位演員的肢體演出上 | GTA IV | an actor's voice could be composited over a different actor's physical performance | ✅ |
+| 52 | 聯絡超過 2,000 人取得音樂權利、每項最高 $5,000 | GTA IV | contacted over 2,000 people ／ as much as $5,000 per composition and another $5,000 per master recording per track | ✅ |
+| 53 | 首支預告 2007-03-29、Rickrolling 起點 | GTA IV | debut trailer was released on 29 March 2007 ／ Rickrolling meme | ✅ |
+| 54 | GameStop 在超過 3,500 間門市午夜開賣 | GTA IV | midnight launch events at over 3,500 of its American stores | ✅ |
+| 55 | 2026 年 £5 買到 Xbox 360 開發機測試版 | GTA IV | beta build from 2007 was acquired from an Xbox 360 development kit for £5 at a car boot sale in Edinburgh | ✅ |
+| 56 | Metacritic 主機版 98、Windows 90 | GTA IV | Metacritic \| 98/100 ／ Metacritic \| 90/100 | ✅ |
+| 57 | 該站第 2 高分、評分最高的 PS3 與 Xbox 360 遊戲 | GTA IV、sources/11 | second-highest-rated game on the site, and the highest-rated PlayStation 3 and Xbox 360 game | ✅（與 raw/06 矛盾，已並陳）|
+| 58 | 評論意見：缺少開放世界常見功能、線上連線問題 | GTA IV | Jesse Costantino of GameRevolution felt that the game lacked important features ／ connectivity problems resulted in a "broken" experience | ✅ |
+| 59 | Windows 版：影片編輯器、自訂電台、不如主機版、系統需求 | GTA IV | Video Editor ／ customisable radio station ／ inferiority over the console versions ／ system requirements | ✅ |
+| 60 | 年度遊戲獎的媒體名單 | GTA IV | Digital Spy, the Entertainment Merchants Association, GameTrailers, Giant Bomb, IGN Australia, Kotaku, Los Angeles Times, The New York Times, and Time | ✅ |
+| 61 | Spike 八項提名、贏三項、與 MGS4 並列 | GTA IV | eight nominations ／ tying with Metal Gear Solid 4 ／ Game of the Year, Best Action Adventure Game, and Best Performance by a Human Male for Michael Hollick | ✅ |
+| 62 | IGN 2008 年度贏十一項 | GTA IV | At IGN's Best of 2008, it won eleven awards | ✅ |
+| 63 | 24 小時 3.6 million（約 US$310 million）| GTA IV | sold over 3.6 million copies, equating to approximately $310 million in revenue | ✅ |
+| 64 | 一週營收超過 US$500 million（約 6 million 套）、一個月 8.5 million | GTA IV | more than $500 million in worldwide revenue, equating to approximately 6 million copies ／ over 8.5 million copies | ✅ |
+| 65 | 3 項金氏紀錄（2008-05-13）| GTA IV、GTA V | highest grossing video game in 24 hours, highest revenue generated by an entertainment product in 24 hours, and fastest-selling video game in 24 hours | ✅ |
+| 66 | 2011-03-11 超過 20 million | GTA IV | On 11 March 2011, Take-Two announced that the game had sold over 20 million copies | ✅ |
+| 67 | 截至 2013-07 超過 25 million | GTA IV、sources/11 | As of July 2013, the game has sold over 25 million copies | ✅（補上 raw/01 缺的統計日期）|
+| 68 | 銷售紀錄被 GTA V 打破 | GTA IV、GTA V | All sales records broken by Grand Theft Auto IV were beaten by its successor, Grand Theft Auto V | ✅ |
+| 69 | 英國 24 小時 631,000、打破 San Andreas 的 501,000 | GTA IV | selling over 631,000 copies in twenty-four hours ／ 501,000 copies | ✅ |
+| 70 | 美國前 5 天 2.85 million、2008 年底 5.18 million | GTA IV | 2.85 million units in its first five days ／ over 5.18 million copies in the US | ✅ |
+| 71 | Take-Two 2007-03-14 先提告、Thompson 反告 | GTA IV | On 14 March, Take-Two filed a lawsuit against Thompson ／ Thompson responded by filing a countersuit | ✅ |
+| 72 | 2007-04-20 和解內容 | GTA IV | On 20 April, both parties reached a settlement ／ barred from suing to ban the sale or distribution of Take-Two's games but able to act as counsel ／ Take-Two agreed to drop the contempt of court lawsuit | ✅ |
+| 73 | 紐約官員批評、市長發言人說法 | GTA IV | Peter Vallone Jr. ／ the mayor does not support any video game where you earn points for injuring or killing police officers | ✅ |
+| 74 | IGDA 的 Della Rocca 指出雙重標準 | GTA IV | Jason Della Rocca ／ double standards | ✅ |
+| 75 | MADD 要求 ESRB 改評 AO、請求停止發行 | GTA IV | MADD requested the Entertainment Software Rating Board change the rating of the game to "Adults Only" ／ They asked Take-Two and Rockstar to consider halting distribution | ✅ |
+| 76 | Rockstar 回應：玩家夠成熟 | GTA IV | is more than sophisticated enough to understand the game's content | ✅ |
+| 77 | Glenn Beck 批評、錯說電鋸 | GTA IV | Glenn Beck ／ erroneously stating the player can attack police officers with a chainsaw | ✅ |
+| 78 | CTA 撤下廣告、Take-Two 控告 | GTA IV | Chicago Transit Authority (CTA) removed advertisements promoting the game from their property in April 2008; Take-Two filed a lawsuit in response, claiming that the CTA had violated a contract | ✅ |
+| 79 | New Hyde Park 六名青少年、曼谷 18 歲學生、泰國禁售、2013 年路易斯安那 | GTA IV | six teenagers who were arrested for robbery in New Hyde Park, New York ／ 18-year-old student was arrested in Bangkok for the murder of a taxi driver ／ The game was subsequently banned in Thailand ／ In August 2013 | ✅ |
+| 80 | 澳洲、紐西蘭版審查後來移除 | GTA IV | Some gameplay features were censored for the Australian and New Zealand versions but the restrictions were subsequently removed | ✅ |
+| 81 | Take-Two chairman Strauss Zelnick | Rockstar Games、sources/11 | Strauss Zelnick | ✅（支持 raw/05 的「Strass」是拼字錯誤）|
+| 82 | 酒駕自動產生通緝 | GTA IV、通緝等級 | （raw/01）it is a crime that automatically generates a wanted rating | ❌→已修正：通緝等級頁原寫「自動提高通緝等級」，原文是「generates a wanted rating」（產生通緝），已改 |
+| 83 | 兩部資料片先在 Xbox 360、劇情與本篇同時發生 | GTA IV | （raw/01）a "strategic alliance"… timed exclusivity ／ stories take place simultaneously | ✅（標 [raw/01][raw/11]）|
+| 84 | HD 宇宙延續到資料片、GTA V、Online；Chinatown Wars 也算 | HD 時代 | The new timeline established by Grand Theft Auto IV continues with two expansion packs… a sequel, Grand Theft Auto V, as well as its online component, Grand Theft Auto Online ／ Chinatown Wars is also considered part of the HD Universe | ✅ |
+| 85 | HD 宇宙與前作宇宙被視為不同延續 | HD 時代、自由城 | considered to be different continuities | ✅ |
+| 86 | 2D／3D 宇宙的分類（註腳）| HD 時代 | The original Grand Theft Auto (1997), its expansion packs, and Grand Theft Auto 2 (1999) are set in the "2D Universe", while Grand Theft Auto III (2001), Vice City (2002), Advance (2004), San Andreas (2004), Liberty City Stories (2005), and Vice City Stories (2006) form the "3D Universe" | ✅（與 raw/01 一致）|
+| 87 | 自由城 GTA IV 版與前作不同 | 自由城 | the Liberty City depicted in Grand Theft Auto IV is different from its previous renditions | ✅ |
+| 88 | 團隊不參考前作自由城、只保留「大致的感覺」| 自由城 | did not look at the previous renditions of Liberty City as inspiration, wanting it to retain the "general feel" | ✅ |
+| 89 | 重製或預算比較的數字來源（IV 超過 US$100M、V 超過 £170M、VI 傳聞 US$1–2B）| GTA IV | （raw/11）exceeded US$100 million ／（raw/03）more than £170 million (US$265 million) ／（raw/06）US$1–2 billion | ✅（簡報素材欄已註明三者定義與可信度不同）|
+| 90 | Zelnick 職稱 chairman vs CEO | Rockstar Games | Take-Two chairman Strauss Zelnick ／（raw/05）CEO Strass Zelnick | ✅（已並陳，職稱是否同時成立待查）|
+
+- 第一次 Lint 問題的處理結果：
+  - 解決：GTA IV 的開發商、發售日、開發、玩法、評價、銷量日期、爭議全部補齊；「待查」只剩 ESRB 以外地區的分級。
+  - 解決：raw/01「25 million+」沒有統計日期，現在是「截至 2013 年 7 月」。
+  - 解決：Zelnick 的拼字，raw/11 支持 raw/01、raw/06，raw/05 的「Strass」疑似錯字。
+  - 改寫：Lint 的「DMA Design 在 Dundee 還是愛丁堡」從「矛盾」改成「隨時間變化的地點」，依來源時間排列 Dundee（1990 年代）→ 愛丁堡（2001 年之後），搬遷時間待查。
+  - 補強：HD 宇宙的定義（重啟、延續到 GTA V 與 Online，Chinatown Wars 也算）有了官方層級的說明。
+- 本次新發現的來源問題：
+  - raw/11 內部：實地考察拍攝的照片數量 100,000 vs 250,000。
+  - ⚠ Metacritic 排名：raw/11、raw/01 的「第 2」與 raw/06 的「GTA VI 99 分是最高」並陳，三篇都是 2026-11-18 抓取。
+- 本次的錯誤類型：3 個修正都是「用我自己對原文的詮釋取代原文」（#41 加了「研究起來比較方便」、#44 把「巡邏」讀成「離開警察局」、#82 把「產生通緝」寫成「提高通緝等級」）。#44 是這次唯一一個意思完全改變的錯誤，而且 grep 抓不到，因為「previously worked the beat」是慣用語，我一開始就誤解了。
+- 人工檢查（使用者請 Claude 代為抽查，以 shuf 隨機抽出 #57、#53）：
+  - #57 Metacritic 第 2 高分、評分最高的 PS3 與 Xbox 360 遊戲：raw/11 第 159 行「It is the second-highest-rated game on the site, and the highest-rated PlayStation 3 and Xbox 360 game」。**抽查發現自我檢查表 #57 標 ✅ 並不準確**：wiki GTA IV 第 79 行原寫「raw/11 與 raw/01 都寫它是第二高…僅次於《時之笛》…」，但「僅次於《時之笛》」只出現在 raw/01，raw/11 這句沒有提到《時之笛》。已修正為：兩篇都寫「第二高」[raw/01][raw/11]，「僅次於《時之笛》」只標 [raw/01]，「評分最高的 PS3 與 Xbox 360 遊戲」只標 [raw/11]。上方表格不改（log 只往下加），以這一筆為準。
+  - #53 首支預告片 2007-03-29、Rickrolling 起點：wiki GTA IV 第 73 行「2007-03-29 的首支預告片被認為是『Rickrolling』網路迷因的起點，因為觀看人數太多讓 Rockstar 的網站當機，有人重新上傳預告片並惡搞」；raw/11 第 130 行「The debut trailer was released on 29 March 2007」「The trailer is credited for starting the Rickrolling meme; after the high viewership crashed Rockstar's website, several users re-posted the trailer, but some misleadingly played the music video for Rick Astley's…」→ 相符。
+  - 這次抽查的結論：2 個抽樣中 1 個發現錯誤，錯誤類型是「把兩篇來源各自的說法合併成『都寫』」。這是 Ingest 自我檢查沒有抓到、靠人工（代）抽查才抓到的，可作為反思題「人工抽查」節點的實例。

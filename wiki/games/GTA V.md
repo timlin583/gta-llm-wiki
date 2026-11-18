@@ -1,7 +1,7 @@
 ---
 title: GTA V
 type: game
-sources: [raw/01-wikipedia-gta-series.md, raw/03-wikipedia-gta-v.md]
+sources: [raw/01-wikipedia-gta-series.md, raw/03-wikipedia-gta-v.md, raw/11-wikipedia-gta-iv.md]
 updated: 2026-11-18
 ---
 
@@ -54,6 +54,7 @@ updated: 2026-11-18
 - 截至 2026 年 9 月，出貨將近 235 million 套、營收超過 US$10 billion，是史上第二暢銷的遊戲 [raw/03]。raw/01 銷量表寫作「<235 million」[raw/01]，與此一致。
 - 3 天內營收破 10 億美元，成為史上銷售最快的娛樂產品 [raw/03]。
 - ⚠ 來源矛盾（首日營收，raw/03 內部）：開頭寫 $800 million，銷量段寫 more than US$815 million [raw/03]。
+- [[GTA IV]] 創下的銷售紀錄與 3 項金氏世界紀錄（2008-05-13），後來都被 GTA V 打破 [raw/11]。
 - 2013-10-08 創下 7 項金氏世界紀錄，包括 24 小時內最暢銷遊戲、最快營收破 10 億美元的娛樂產品等 [raw/03]。
 - ⚠ 來源矛盾（金氏紀錄）：raw/01 把「Most Successful Entertainment Launch of All Time」列在「Gamer's Edition 2008」之下 [raw/01]，與 raw/03 的 2013-10-08 不符 [raw/03]。
 
