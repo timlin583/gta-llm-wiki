@@ -523,3 +523,90 @@
 - 人工檢查（使用者請 Claude 代為抽查，以 shuf 隨機抽出 #12、#27）：
   - #12 各區是一座島：wiki GTA 2 第 44 行「城市分為三個區，各自是一座島 [raw/01]」；raw/01 第 192 行「Each district is depicted as its own individual island」→ 相符。補充：這一條來源是 raw/01，不是 raw/08；raw/08 只寫「divided into three districts」，沒有提到島，所以 wiki 正確地標了 [raw/01]。
   - #27 Dundee 開發、主程式 Keith Hamilton：wiki GTA 2 第 47 行「DMA Design 在 Dundee 開發，主程式 Keith Hamilton」；raw/08 第 40 行「Grand Theft Auto 2 was developed by DMA Design in Dundee under the lead programmer Keith Hamilton」→ 相符。
+
+## [2026-11-18] ingest | Wikipedia：Grand Theft Auto: Vice City（raw/09）
+- 背景：外層 loop 第 2 圈第 4 篇，補第一次 Lint 指出「Vice City 只有 raw/01 一篇來源」的缺口。
+- 新增／更新的頁：
+  - 新增：sources/09-wikipedia-gta-vice-city
+  - 更新：GTA Vice City（大幅改寫）、罪惡城（Vice City）、3D 時代、Rockstar Games、GTA III、index.md
+- 自我檢查：對照 62 個事實，修正 3 個。比對前先把 raw 的不換行空格換成一般空格；另外有 3 句一開始比對不到（「overseeing an important drug deal」「The AI and long load times」「want to satirise a location that was not contemporary」），查證後是我寫比對關鍵字時的拼字與時態和原文不同（原文為 oversee、「The game's artificial intelligence and long load times」、「They wanted to satirise…」），wiki 內容與原文相符。
+
+| # | 事實 | wiki 頁 | raw 原句 | 是否符合 |
+|---|---|---|---|---|
+| 1 | 系列第 4 部主線、整體第 6 部 | GTA Vice City | fourth main game in the Grand Theft Auto series… and the sixth entry overall | ✅ |
+| 2 | 開發商 Rockstar North、發行商 Rockstar Games、引擎 RenderWare | GTA Vice City | \| Developer \| Rockstar North \| ／ \| Publisher \| Rockstar Games \| ／ \| Engine \| RenderWare \| | ✅ |
+| 3 | 製作人 Benzies、編劇 Dan Houser 與 James Worrall、單人 | GTA Vice City | \| Producer \| Leslie Benzies \| ／ \| Writers \| Dan HouserJames Worrall \| ／ \| Mode \| Single-player \| | ✅ |
+| 4 | PS2 北美 2002-10-29、歐洲 2002-11-08 | GTA Vice City | 29 October 2002 PlayStation 2 NA: 29 October 2002EU: 8 November 2002 | ✅ |
+| 5 | Windows 2003-05-13／05-16 | GTA Vice City | Windows NA: 13 May 2003EU: 16 May 2003 | ✅ |
+| 6 | Xbox 2003-11-04／2004-01-02 | GTA Vice City | Xbox NA: 4 November 2003EU: 2 January 2004 | ✅ |
+| 7 | Mac 2010-11-12、iOS 2012-12-06、Android 2012-12-12、Fire OS 2014-05-15 | GTA Vice City | Mac OS X WW: 12 November 2010 iOS WW: 6 December 2012 Android WW: 12 December 2012 Fire OS WW: 15 May 2014 | ✅ |
+| 8 | 2002-09-05 宣布原訂 10-22 延到 10-29 | GTA Vice City | On 5 September 2002, Rockstar announced the release date of 22 October had been postponed until 29 October to meet product demand | ✅ |
+| 9 | 日本 Capcom 2004-05-20（PS2、Windows）| GTA Vice City、Rockstar Games | Capcom published the game in Japan on 20 May 2004 for PlayStation 2 and Windows | ✅ |
+| 10 | 1986 年、罪惡城原型邁阿密 | GTA Vice City | Set in 1986 within the fictional Vice City (based on Miami) | ✅ |
+| 11 | Tommy 服 15 年刑期出獄 | GTA Vice City | released from prison after serving a fifteen-year sentence for murder | ✅ |
+| 12 | Sonny Forelli 派他處理毒品交易、遭伏擊 | GTA Vice City | Sonny Forelli… to oversee an important drug deal… the deal is ambushed | ✅ |
+| 13 | 從其他犯罪組織手中奪取勢力建立帝國 | GTA Vice City | criminal empire by seizing power from other criminal organisations | ✅ |
+| 14 | 結局：無人擋路、成為主宰 | GTA Vice City | no one remains to stand in Tommy's way | ✅ |
+| 15 | 兩座主要島嶼 | GTA Vice City、罪惡城 | consisting of two main islands | ✅ |
+| 16 | 澳洲發售前刪改取得 MA15+、2010 年未刪改版維持 MA15+ | GTA Vice City | the game was pre-edited to receive an MA15+ classification; an uncensored version was released in the region in 2010, retaining its classification | ✅ |
+| 17 | 會說話的主角 vs GTA III 沉默的 Claude | GTA Vice City | a notable departure from Grand Theft Auto III's silent protagonist Claude | ✅ |
+| 18 | 新增機車 | GTA Vice City、3D 時代 | The player can ride motorcycles in Vice City, unlike in its predecessor | ✅ |
+| 19 | 可購買事業（計程車公司、娛樂場所）、附任務、持續收入 | GTA Vice City、3D 時代 | a variety of businesses which can be purchased, including… a taxi company, and several entertainment clubs ／ Each commercial property has a number of missions attached to it ／ the property begins to generate an ongoing income | ✅（原文另有一項成人影片工作室，教學版省略）|
+| 20 | 通緝 6 星、直升機與軍隊 | GTA Vice City | at the maximum six-star level, police helicopters and the military swarm | ✅ |
+| 21 | 面積幾乎是自由城兩倍、超過 4.25 平方公里 | GTA Vice City、罪惡城 | almost twice as large as Grand Theft Auto III's Liberty City, estimating it at over 4.25 square kilometres | ✅ |
+| 22 | 110 種路人模型、約 50 位劇情角色、多邊形與貼圖兩倍 | GTA Vice City | 110 unique pedestrian models… roughly 50 story characters… twice the amount of polygons and textures | ✅ |
+| 23 | 約 8,000 句對白、是 GTA III 的 4 倍 | GTA Vice City | 8,000 lines of recorded dialogue, four times the amount in Grand Theft Auto III | ✅ |
+| 24 | 90 分鐘過場、9 小時音樂、113+ 首歌曲與廣告 | GTA Vice City | over 90 minutes of cutscenes and nine hours of music, with more than 113 songs and commercials | ✅ |
+| 25 | 談話電台約為 GTA III 的 3 倍 | GTA Vice City | about three times as much talk radio as Grand Theft Auto III | ✅ |
+| 26 | Epic Records 七張專輯套裝 | GTA Vice City | published by Epic Records on seven albums | ✅ |
+| 27 | 50 人核心團隊、18 個月 | GTA Vice City、3D 時代、Rockstar Games | core 50-person team led the eighteen-month development | ✅ |
+| 28 | 2001 年底全面製作 | GTA Vice City | Full production began in late 2001, as Grand Theft Auto III was nearing completion | ✅ |
+| 29 | 由 GTA III 任務包構想改成獨立遊戲 | GTA Vice City、3D 時代 | After the release of the Windows version of Grand Theft Auto III, the development team discussed creating a mission pack… decided to adapt this concept into a stand-alone game | ✅ |
+| 30 | 2002-05-22 E3 發表 | GTA Vice City | announced at the Electronic Entertainment Expo on 22 May 2002 | ✅ |
+| 31 | 開發預算 US$5 million、行銷 US$13.2 million、當時最貴 | GTA Vice City、Rockstar Games | development budget of US$5 million and marketing budget of US$13.2 million ／ Rockstar North's most expensive game at the time | ✅ |
+| 32 | 靈感 Scarface、Miami Vice | GTA Vice City、罪惡城 | Scarface (1983) and Miami Vice (1984–1990) | ✅ |
+| 33 | GTA III 完成後不久到邁阿密考察 | GTA Vice City、罪惡城 | shortly after completing the development of Grand Theft Auto III | ✅ |
+| 34 | Liotta 配音時同步拍肢體表演（藍幕）| GTA Vice City | the team captured his physical performance against a blue screen | ✅ |
+| 35 | PS2 Metacritic 95（62 篇）| GTA Vice City | average score of 95 out of 100… based on 62 reviews | ✅ |
+| 36 | PS2 2002 年最高分、整體並列第 5 | GTA Vice City、sources/09 | highest-rated PlayStation 2 game of 2002, and the fifth-highest rated PlayStation 2 game overall, tied with a number of others | ✅（與 raw/01 第 6 名矛盾，已並陳）|
+| 37 | Windows 94（30 篇）、2003 年最高分 | GTA Vice City | average score of 94 out of 100… based on 30 reviews ／ highest-rated Windows game on Metacritic in 2003 | ✅ |
+| 38 | 手機版 80（19 篇）| GTA Vice City | average score of 80 out of 100, based on 19 reviews | ✅ |
+| 39 | Kotaku、PC Magazine 評為系列最佳 | GTA Vice City | Kotaku's Luke Plunkett and PC Magazine's Jeffrey L. Wilson both named Vice City the best game in the series | ✅ |
+| 40 | 2006 Famitsu 百大、少數西方遊戲 | GTA Vice City | In 2006 Vice City appeared on Japanese magazine Famitsu's readers' list of top 100 games; it was one of the only Western titles on the list | ✅ |
+| 41 | Garbut：帶動開放世界潮流 | GTA Vice City、3D 時代 | led the trend of open world games | ✅ |
+| 42 | 第 6 屆 Interactive Achievement 六項提名、贏 Console Action/Adventure | GTA Vice City | nominated for six awards at the 6th Annual Interactive Achievement Awards, of which it won Console Action/Adventure Game of the Year | ✅ |
+| 43 | 第 1 屆 British Academy Games Awards 八提名六獎 | GTA Vice City | led the 1st British Academy Games Awards with eight nominations and six awards | ✅ |
+| 44 | Golden Joystick Ultimate Game of the Year | GTA Vice City | Ultimate Game of the Year at the Golden Joystick Awards | ✅ |
+| 45 | 24 小時 500,000 套、兩天 1.4 million、當時最快 | GTA Vice City | sold over 500,000 copies… sold 1.4 million copies, making it the fastest-selling game in history at the time | ✅ |
+| 46 | 2002 年美國最暢銷 | GTA Vice City | highest-selling game of 2002 in the United States | ✅ |
+| 47 | PS2 14.2 million、全平台截至 2008-03 17.5 million | GTA Vice City、sources/09 | 14.2 million copies sold, and across all platforms it sold 17.5 million units by March 2008 | ✅（與 raw/01 的 20 million 矛盾，已並陳）|
+| 48 | 日本首週約 223,000、截至 2008-01 超過 410,000 | GTA Vice City | sold about 223,000 copies in its first week and over 410,000 by January 2008 | ✅ |
+| 49 | 英國 Diamond 獎（超過 100 萬）| GTA Vice City | "Diamond" award in the United Kingdom, indicating over one million sales | ✅ |
+| 50 | 批評：AI、讀取時間長 | GTA Vice City | The game's artificial intelligence and long load times were frequently criticised | ✅ |
+| 51 | 被倡議團體批評暴力與露骨 | GTA Vice City | labelled violent and explicit and considered controversial by many advocacy groups | ✅ |
+| 52 | 2003-11 兩個海地裔團體在紐約抗議 | GTA Vice City、sources/09 | In November 2003, the Haitian Centers Council and Haitian Americans for Human Rights staged a protest in New York City | ✅（與 raw/01 的團體說法矛盾，已並陳）|
+| 53 | Rockstar 發聲明道歉並表示重視 | GTA Vice City | Rockstar issued a press release apologising and acknowledging the concern | ✅ |
+| 54 | Bloomberg 威脅後 Take-Two 道歉並刪除冒犯敘述 | GTA Vice City | Michael Bloomberg threatened distributor Take-Two Interactive with legal action, the company apologised and removed offensive statements from future copies | ✅ |
+| 55 | Devin Moore 案：2003-06-07、殺害兩名警察與一名調度員 | GTA Vice City | On 7 June 2003, 18-year-old Devin Moore shot and killed two Alabamian police officers and a dispatcher | ❌→已修正：原寫「一名青少年」與「受害者家屬提告」。raw/09 寫 18 歲（raw/01 寫 17 歲，兩者矛盾），且沒有說原告是受害者家屬；改為「一名年輕人」與「有人提起訴訟」|
+| 56 | US$600 million 訴訟被告與主張 | GTA Vice City | A $600 million lawsuit was filed against Rockstar Games, Take-Two Interactive, Sony Computer Entertainment, GameStop, and Wal-Mart | ✅ |
+| 57 | Thompson 2005-11 退出此案 | GTA Vice City | Thompson removed himself from the case Strickland v. Sony in November 2005 | ✅ |
+| 58 | 2006-03 最高法院駁回被告上訴 | GTA Vice City、sources/09 | In March 2006, the Supreme Court rejected an appeal by the defendants to dismiss the case | ✅（與 raw/01「案件被駁回」矛盾，已並陳）|
+| 59 | Posey 案：2006-09、14 歲、Hondo、Sertraline | GTA Vice City、sources/09 | In September 2006, Thompson brought another $600 million lawsuit… 14-year-old Posey… ranch in Hondo, New Mexico… taking Sertraline | ❌→已修正：原寫「辯方主張他長期遭父親虐待」，原文是「was abused by his father」，沒有「長期」，已刪除（地點與用藥與 raw/01 矛盾，已並陳）|
+| 60 | Posey 案 2007-12 駁回、因無管轄權 | GTA Vice City、sources/09 | dismissed in December 2007, as New Mexico held no jurisdiction over Sony or Take-Two | ✅ |
+| 61 | 2017 PRN 控告 Auntie Poulet、距發售近 15 年 | GTA Vice City | In July 2017, the Psychic Readers Network (PRN) sued Rockstar over the character named Auntie Poulet… almost 15 years after the game's release | ✅ |
+| 62 | 全平台銷量矛盾的敘述 | GTA Vice City | （raw/01）銷量表寫 20 million，沒有標統計日期 | ❌→已修正：原寫「兩邊都沒有清楚的統計日期差異」，這句不精確（raw/09 有日期、raw/01 沒有），改為「raw/01 銷量表寫 20 million，沒有標統計日期」|
+
+- 第一次 Lint 問題的處理結果：
+  - 補強：GTA Vice City 頁來源從 1 篇增加到 2 篇；開發商、各平台發售日、主角、開發、新玩法、評價、銷量、爭議都補齊；「待查」只剩 ESRB 分級。
+  - 新增矛盾 8 筆（見 sources/09），Lint 的「來源矛盾 12 筆」會增加到 20 筆。
+- 本次新發現的來源問題：
+  - ⚠ 銷量：raw/09 17.5 million（截至 2008-03）vs raw/01 20 million。
+  - ⚠ Metacritic PS2 排名：raw/09 第 5 vs raw/01 第 6。
+  - ⚠ 海地人爭議：團體名稱與處理方式（誰道歉、改了什麼）不同。
+  - ⚠ Devin Moore 案：兇手年齡（18 vs 17）、2006-03 結果（案件繼續 vs 駁回）；raw/09 稱原告律師是 Thompson，raw/01 稱他是「Moore 的律師之一」，連原告是誰都對不上。
+  - ⚠ Posey 案：地點（Hondo vs Albuquerque）、用藥（Sertraline vs Zoloft）、駁回原因（raw/01 未寫）。
+  - GTA Vice City 的 ESRB 分級，raw/09 只寫澳洲 MA15+，ESRB 維持待查。
+- 本次的錯誤類型：4 個修正裡，3 個是在爭議段落「替原文補細節或換修飾語」（「青少年／受害者家屬」「長期虐待」）。爭議與訴訟段落的錯誤率比其他段落高，因為兩篇來源對同一事件的描述本來就有出入，下筆時容易不自覺選邊。
+- 人工檢查（使用者請 Claude 代為抽查，以 shuf 隨機抽出 #50、#53）：
+  - #50 批評的項目：wiki GTA Vice City 第 59 行「批評：操作、技術問題、讀取時間長、人工智慧與鏡頭角度」；raw/09 第 113 行「The game's artificial intelligence and long load times were frequently criticised in reviews, and many reviewers noted the awkward camera angles and environment during gameplay」→ 相符（「讀取時間長」「人工智慧」「鏡頭角度」都有原句；「操作」「技術問題」另見第 101 行「some criticism was directed at the controls and technical issues」，不在抽到的這一句內，但同一頁同一節有原文支持）。
+  - #53 Rockstar 道歉聲明：wiki GTA Vice City 第 71 行「Rockstar 發表聲明道歉並表示重視，但強調暴力應放在遊戲脈絡中看，遊戲裡對其他族群也有暴力」；raw/09 第 176 行「Rockstar issued a press release apologising and acknowledging the concern, but insisted that the violence should be taken within the context of the game, which also contains violence towards other ethnic groups」→ 相符。

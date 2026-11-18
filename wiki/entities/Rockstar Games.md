@@ -1,7 +1,7 @@
 ---
 title: Rockstar Games
 type: entity
-sources: [raw/01-wikipedia-gta-series.md, raw/02-wikipedia-gta-iii.md, raw/03-wikipedia-gta-v.md, raw/05-news-gta-vi-delay.md, raw/06-wikipedia-gta-vi.md, raw/07-wikipedia-gta-1997.md]
+sources: [raw/01-wikipedia-gta-series.md, raw/02-wikipedia-gta-iii.md, raw/03-wikipedia-gta-v.md, raw/05-news-gta-vi-delay.md, raw/06-wikipedia-gta-vi.md, raw/07-wikipedia-gta-1997.md, raw/09-wikipedia-gta-vice-city.md]
 updated: 2026-11-18
 ---
 
@@ -19,6 +19,12 @@ GTA 系列的發行商，旗下工作室 Rockstar North（前身 DMA Design）�
 - 母公司是 Take-Two Interactive [raw/01]。
 - Take-Two 執行長是 Strauss Zelnick [raw/01]；raw/05 拼作「Strass Zelnick」[raw/05]，疑似錯字，並陳。
 - 2025-11-06，Rockstar 與 Take-Two 一同宣布 GTA VI 延期至 2026-11-19 [raw/05]，見 [[GTA VI]]。
+
+## Vice City（2002）時期（raw/09）
+- Vice City 的開發商標為 Rockstar North [raw/01][raw/09]；改名年份仍待查。
+- 約 50 人的核心團隊，開發約 18 個月；Sam Houser 擔任執行製作人，Leslie Benzies 擔任製作人，Dan Houser 參與編劇 [raw/09]。
+- 開發預算 US$5 million、行銷預算 US$13.2 million，是 Rockstar North 當時最貴的遊戲 [raw/09]。
+- 日本版由 Capcom 發行 [raw/09]。
 
 ## GTA VI 時期（raw/06）
 - Rockstar 總裁是 Sam Houser，參與 GTA VI 的開發回饋 [raw/06]。

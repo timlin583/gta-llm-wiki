@@ -1,7 +1,7 @@
 ---
 title: 罪惡城（Vice City）
 type: entity
-sources: [raw/01-wikipedia-gta-series.md, raw/04-rockstar-gta-vi.md, raw/06-wikipedia-gta-vi.md]
+sources: [raw/01-wikipedia-gta-series.md, raw/04-rockstar-gta-vi.md, raw/06-wikipedia-gta-vi.md, raw/09-wikipedia-gta-vice-city.md]
 updated: 2026-11-18
 ---
 
@@ -21,6 +21,15 @@ GTA 系列以邁阿密為原型的熱帶城市，以海灘和棕櫚樹為招牌�
 | 待查 | [[GTA VI]] | 現代 [raw/01] | 位於虛構的 Leonida 州（原型佛羅里達），是 Vice-Dale County（原型邁阿密-戴德郡）的郡治；Vice Beach 獨立成另一座有自己警力的城市 [raw/01] |
 
 GTA VI 版的時代歸屬，raw/01 標為「TBA」，見 [[HD 時代]] 的說明。
+
+## Vice City（2002）版的設計理念
+- 罪惡城早在初代 GTA（1997）就出現過；團隊決定重用這個地點，並加入工作室內部與玩家社群的想法 [raw/09]。
+- 團隊想諷刺一個不是當代的地點，和 GTA III 的現代自由城形成對比；他們要找一個和紐約有相似也有差異的城市，最後選了邁阿密 [raw/09]。製作人 Leslie Benzies 把邁阿密形容成一座看似陽光海灘、底下卻有黑暗面的派對城市 [raw/09]。
+- 劇情取材自邁阿密真實的人與事件，例如古巴人、海地人、摩托車幫派、1980 年代的快克古柯鹼氾濫、黑手黨毒梟，以及華麗金屬（glam metal）音樂的盛行 [raw/09]。
+- 外觀與氛圍受電影《Scarface》（1983）、《Carlito's Way》（1993）與影集《Miami Vice》影響；美術總監 Aaron Garbut 以《Miami Vice》作為霓虹燈光的參考 [raw/09]。
+- 團隊在完成 GTA III 後不久就分成小組到邁阿密街頭考察 [raw/09]。
+- 由兩座主要島嶼與數個較小的區域組成，面積幾乎是 GTA III 自由城的兩倍，超過 4.25 平方公里（Garbut 的估計）[raw/09]。
+- GTA VI（2026）再次推出新版本的罪惡城 [raw/09]。
 
 ## GTA VI 官方怎麼介紹這座城
 - Rockstar 官方頁面稱它為「Vice City, USA」，標語是「The darkest side of the sunniest place in America」[raw/04]。

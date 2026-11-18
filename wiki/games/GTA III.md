@@ -1,7 +1,7 @@
 ---
 title: GTA III
 type: game
-sources: [raw/01-wikipedia-gta-series.md, raw/02-wikipedia-gta-iii.md, raw/07-wikipedia-gta-1997.md]
+sources: [raw/01-wikipedia-gta-series.md, raw/02-wikipedia-gta-iii.md, raw/07-wikipedia-gta-1997.md, raw/09-wikipedia-gta-vice-city.md]
 updated: 2026-11-18
 ---
 
@@ -47,6 +47,7 @@ GTA 第一次變成 3D，讓玩家在立體城市裡自由開車、探索，被�
 ## 5. 歷史地位與評價
 - Metacritic：PS2 版 97（56 篇評論）、Windows 版 93、手機版 80 [raw/02]
 - ⚠ 來源矛盾（Metacritic 排名）：raw/01 寫截至 2026-11-18 在 PS2 遊戲中排第 2 [raw/01]；raw/02 寫與 Tony Hawk's Pro Skater 3 並列 PS2 最高分 [raw/02]。
+- raw/09 的註腳把 GTA III 列在 Metacritic 評分高於 Vice City 的 PS2 遊戲之中（另有 Tony Hawk's Pro Skater 3、Resident Evil 4、Metal Gear Solid 2）[raw/09]。
 - 2001 年最暢銷的遊戲 [raw/02]。
 - 得獎：2nd Game Developers Choice Awards 年度遊戲等 [raw/02]；2016 年入選 World Video Game Hall of Fame [raw/02]。
 - ⚠ 來源矛盾（銷量）：raw/01 寫截至 2026-11-18 為 17.5 million [raw/01]；raw/02 寫截至 2008 年 3 月為 14.5 million，其中 PS2 版 11.6 million [raw/02]。
