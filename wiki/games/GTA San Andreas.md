@@ -1,7 +1,7 @@
 ---
 title: GTA San Andreas
 type: game
-sources: [raw/01-wikipedia-gta-series.md]
+sources: [raw/01-wikipedia-gta-series.md, raw/02-wikipedia-gta-iii.md]
 updated: 2026-11-18
 ---
 
@@ -26,6 +26,7 @@ updated: 2026-11-18
 
 ## 4. 這一代的新東西
 - 加入角色自訂（character customisation），地圖涵蓋三座城市與周邊鄉村 [raw/01]。
+- [[GTA III]] 的沉默主角 Claude，名字是在本作中才正式公開 [raw/02]。
 - 配音仍有 Samuel L. Jackson、Peter Fonda、James Woods 等知名演員，但主要角色改由較不知名的演員或饒舌歌手擔任 [raw/01]。
 
 ## 5. 歷史地位與評價

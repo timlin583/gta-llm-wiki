@@ -5,7 +5,7 @@
 ## 作品（games）
 - [[GTA]]：1997 年系列第一代，2D 俯視畫面，三座原創城市
 - [[GTA 2]]：1999 年，舞台是虛構的復古未來都市 Anywhere City
-- [[GTA III]]：2001 年，系列首度 3D，被視為業界里程碑
+- [[GTA III]]：2001 年，系列首度 3D，沉默主角 Claude，911 後延期修改，被視為業界里程碑
 - [[GTA Vice City]]：2002 年，1986 年的邁阿密風格城市，主角首次開口說話
 - [[GTA San Andreas]]：2004 年，整個州三座城市，Hot Coffee 分級爭議
 - [[GTA IV]]：2008 年，HD 時代第一款，寫實的紐約風格自由城
@@ -27,6 +27,7 @@
 
 ## 來源摘要（sources）
 - [[01-wikipedia-gta-series]]：英文維基百科 GTA 系列總覽頁
+- [[02-wikipedia-gta-iii]]：英文維基百科 GTA III 條目（開發、911 修改、分級、影響）
 
 ## 尚未建立
 - [[GTA Online]]：已被其他頁連結，待其來源 ingest 後建頁

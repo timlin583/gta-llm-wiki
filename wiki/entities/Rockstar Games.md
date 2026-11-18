@@ -1,7 +1,7 @@
 ---
 title: Rockstar Games
 type: entity
-sources: [raw/01-wikipedia-gta-series.md]
+sources: [raw/01-wikipedia-gta-series.md, raw/02-wikipedia-gta-iii.md]
 updated: 2026-11-18
 ---
 
@@ -17,6 +17,9 @@ GTA 系列的發行商，旗下工作室 Rockstar North（前身 DMA Design）�
 - 後期作品由 Dan Houser、Sam Houser 兄弟，以及 Leslie Benzies、Aaron Garbut 主導 [raw/01]。
 - 母公司是 Take-Two Interactive [raw/01]。
 - 參與過系列開發的工作室還有 Rockstar Leeds、Rockstar Canada、Digital Eclipse [raw/01]。
+- 1999 年 9 月，Take-Two Interactive 從 Infogrames 手中收購 DMA Design [raw/02]。
+- GTA III 的核心團隊約 23 人，在愛丁堡（Edinburgh）的 DMA Design，與紐約的 Rockstar Games 合作 [raw/02]。raw/01 則寫 DMA Design 位於 Dundee [raw/01]；兩者可能是不同據點，並陳，待查。
+- GTA III 原版 PS2 之後的版本，都以工作室的新名稱 Rockstar North 發行 [raw/02]；改名年份待查。
 
 ## 文化地位
 GTA 被視為蘇格蘭與英國最大的文化輸出之一；遊戲雖以美國為舞台，卻藏有許多開發者蘇格蘭背景的梗 [raw/01]。

@@ -62,3 +62,70 @@
     - **來源查核**：Rockstar Games *Grand Theft Auto Online* 官方專頁（2013 年隨 GTA V 上線，2022 年推出次世代獨立版），待 `raw/12` 匯入後補齊條目。
     - **人工檢查**：GTA Online 為 Rockstar Games 開發的多人線上遊戲，於 2013 年 10 月 1 日隨 GTA V 同步推出，並於 2022 年 3 月在 PS5 與 Xbox Series X|S 平台發行獨立版本，待 raw/12 匯入後建立獨立條目頁。
 - 人工檢查：…（由使用者補寫）
+
+## [2026-11-18] ingest | Wikipedia：Grand Theft Auto III（raw/02）
+- 新增／更新的頁：
+  - 新增：sources/02-wikipedia-gta-iii
+  - 更新：GTA III（大幅改寫）、自由城（Liberty City）、開放世界、通緝等級、Rockstar Games、3D 時代、GTA San Andreas、index.md
+- 自我檢查：對照 48 個事實，修正 1 個（詳見下表；raw 原文中的不換行空格不影響比對結果）
+
+| # | 事實 | wiki 頁 | raw 原句 | 是否符合 |
+|---|---|---|---|---|
+| 1 | 開發商 DMA Design | GTA III | \| Developer \| DMA Design \| | ✅ |
+| 2 | 引擎 RenderWare（Criterion Games）| GTA III、3D 時代 | \| Engine \| RenderWare \| ／ using Criterion Games's game engine, RenderWare | ✅ |
+| 3 | PS2 北美 2001-10-23、PAL 2001-10-26 | GTA III | NA: 23 October 2001PAL: 26 October 2001 | ✅ |
+| 4 | Windows 北美 2002-05-21 | GTA III | Windows NA: 21 May 2002 | ✅ |
+| 5 | Xbox 北美 2003-11-04 | GTA III | Xbox NA: 4 November 2003 | ✅ |
+| 6 | Mac OS X 2010-11-12 | GTA III | Mac OS X WW: 12 November 2010 | ✅ |
+| 7 | iOS／Android 2011-12-15 | GTA III | Android, iOS WW: 15 December 2011 | ✅ |
+| 8 | Fire OS 2014-05-15 | GTA III | Fire OS WW: 15 May 2014 | ✅ |
+| 9 | 原版 PS2 之後以 Rockstar North 名義發行 | GTA III、Rockstar Games | All releases other than the original PlayStation 2 version were released under the studio's new name, Rockstar North | ✅ |
+| 10 | Claude 名字在 San Andreas（2004）公開 | GTA III、GTA San Andreas | his name is not officially revealed until his appearance in Grand Theft Auto: San Andreas (2004) | ✅ |
+| 11 | Claude 被女友 Catalina 背叛射傷 | GTA III | Small-time criminal Claude is betrayed and shot by his girlfriend Catalina | ✅ |
+| 12 | 核心團隊約 23 人在愛丁堡 | GTA III、Rockstar Games | about 23 people at DMA Design in Edinburgh | ✅ |
+| 13 | Dreamcast 4 個月後改 PS2 | GTA III | shifted to the PlayStation 2 after four months | ✅ |
+| 14 | 改平台原因是 Dreamcast 商業上不可行 | GTA III | the shift was not due to hardware constraints, but because it became clear the Dreamcast was not commercially viable | ✅ |
+| 15 | Take-Two 1999-09 從 Infogrames 收購 DMA | Rockstar Games | After Take-Two Interactive acquired DMA from Infogrames in September 1999 | ✅ |
+| 16 | 線上多人模式取消 | GTA III | A planned online multiplayer mode was dropped due to time and resource limitations | ✅ |
+| 17 | 2001-09-19 延期三週 | GTA III | On 19 September 2001, Rockstar delayed the release by three weeks | ✅ |
+| 18 | 警車藍白 → 黑白 | GTA III | Originally blue with white stripes… changed to a black-and-white design | ✅ |
+| 19 | 刪除恐怖份子任務 | GTA III | removing a mission referencing terrorists | ✅ |
+| 20 | 「about 1% different」、最大改變是封面 | GTA III | the game was "about 1% different" after 9/11, and the biggest change was the cover art | ✅ |
+| 21 | 系列第一款第三人稱視角 | GTA III、3D 時代 | the first game in the series to use a third-person perspective view | ✅ |
+| 22 | Garbut：「a place you lived in」| GTA III | he wanted Grand Theft Auto III to be "a place you lived in" | ✅ |
+| 23 | 約 3.5 小時電台、真正的 DJ | GTA III | about three and a half hours of in-game radio material ／ The team cast real DJs | ✅ |
+| 24 | PS2 2000 年推出後才做得出大型 3D 世界；DVD 比 CD 空間大 | 3D 時代 | With the release of the PlayStation 2 in 2000, the team believed a large 3D world was finally possible ／ support for DVDs, an upgrade from the PlayStation's compact disc format | ✅ |
+| 25 | 通緝最高 6 顆星 | 通緝等級 | at the maximum six-star level | ✅ |
+| 26 | 躲開視線後通緝冷卻消退 | 通緝等級 | The wanted meter enters a cooldown mode and eventually recedes | ✅ |
+| 27 | vigilante 後可賄賂，每次降一星 | 通緝等級 | completing the vigilante mission allows them to bribe police… reducing the wanted level by one star per bribe | ✅ |
+| 28 | PS2 Metacritic 97（56 篇）| GTA III | average score of 97 out of 100… based on 56 reviews | ✅ |
+| 29 | 與 THPS3 並列 PS2 最高分 | GTA III、sources/02 | tied with Tony Hawk's Pro Skater 3 as the highest-rated PlayStation 2 game | ✅（與 raw/01 矛盾，已並陳）|
+| 30 | Windows 93、手機 80 | GTA III | average score of 93 out of 100 ／ average score of 80 out of 100 | ✅ |
+| 31 | 2001 年最暢銷遊戲 | GTA III | It was the best-selling video game of 2001 | ✅ |
+| 32 | 2nd GDC Awards 年度遊戲 | GTA III | awarded Game of the Year at the 2nd Game Developers Choice Awards | ✅ |
+| 33 | 2016 年入選 World Video Game Hall of Fame | GTA III | In 2016, the Strong National Museum of Play inducted Grand Theft Auto III to its World Video Game Hall of Fame | ✅ |
+| 34 | 截至 2008-03 銷量 14.5 million、PS2 11.6 million | GTA III、sources/02 | 11.6 million copies sold, and sold 14.5 million units overall by March 2008 | ✅（與 raw/01 矛盾，已並陳）|
+| 35 | 澳洲 MA15+ → 禁售，2001-12-11 維持禁售 | GTA III | initially released in Australia with an MA15+ classification… reaffirmed its ban on 11 December 2001 | ✅ |
+| 36 | 修改版 2002-01 以 MA15+ 上架 | GTA III | a modified version was released with an MA15+ classification in January 2002 | ✅ |
+| 37 | 2019-09 改評 R18+ | GTA III | re-rated with an R18+ classification in September 2019 | ✅ |
+| 38 | 2005-06 神奈川縣指定有害 | GTA III | designated "harmful" for children in Kanagawa Prefecture in June 2005 | ✅ |
+| 39 | 2002-01 NOW 要求下架 | GTA III | In January 2002, the National Organization for Women called for Rockstar and Take-Two to withdraw the game | ✅ |
+| 40 | GameSpy「Most Offensive Game of the Year」| GTA III | GameSpy awarded it "Most Offensive Game of the Year" | ✅ |
+| 41 | 2003-06-25 槍擊、2003-10-20 求償 US$246 million | GTA III | On 25 June 2003… on 20 October 2003, the families… filed a US$246 million lawsuit | ✅ |
+| 42 | 影響 Crackdown、Mafia、Saints Row、True Crime、Watch Dogs | GTA III、開放世界 | inspiring those such as Crackdown, Mafia, Saints Row, True Crime, and Watch Dogs | ✅ |
+| 43 | Bramwell：「brought them all together」| 開放世界 | did not invent a lot of its gameplay features, but "brought them all together" | ✅ |
+| 44 | 擴展到 3D、大量小遊戲與支線 | 開放世界 | expanded it into a 3D world, offering an unprecedented variety of minigames and side-missions | ✅ |
+| 45 | 混入芝加哥、匹茲堡、底特律、紐約、費城 | GTA III、自由城 | including Chicago, Pittsburgh, Detroit, New York, and Philadelphia | ✅（與 raw/01 矛盾，已並陳）|
+| 46 | 三島：工業區／商業中心／郊區 | 自由城 | an industrial section representing Brooklyn and Queens, a commercial centre resembling Manhattan, and suburbs similar to New Jersey | ✅ |
+| 47 | 「start out feeling poor and work to being richer」| 自由城 | the team wanted the player to "start out feeling poor and work to being richer" | ✅ |
+| 48 | 成人向遊戲風潮、分級制度改進 | GTA III | The game also led the trend of mature video games ／ Greg Ford… noted the improvement of video game classification as a result of its controversy | ❌→已修正：原寫成 wiki 的定論，raw 是 Greg Ford 個人看法，改為「Greg Ford 認為」 |
+
+- 本次發現的來源問題：
+  - ⚠ GTA III 銷量：raw/01 17.5 million vs raw/02 14.5 million（截至 2008-03），已在 GTA III、sources/02 並陳。
+  - ⚠ Metacritic PS2 排名：raw/01 第 2 vs raw/02 並列第 1，已並陳。
+  - ⚠ 自由城混入的城市：raw/01 有波士頓、raw/02 有匹茲堡與紐約，已在 GTA III、自由城並陳。
+  - DMA Design 地點：raw/01 Dundee vs raw/02 GTA III 團隊在 Edinburgh，可能是不同據點，並陳於 Rockstar Games，待查。
+  - GTA III 的 ESRB 分級 raw/02 未明寫，維持待查。
+- 人工檢查（使用者請 Claude 代為抽查，以 shuf 隨機抽出 #7、#31）：
+  - #7 iOS／Android 2011-12-15：wiki GTA III 第 17 行「iOS／Android（2011-12-15）」；raw/02 第 21 行「Android, iOS WW: 15 December 2011」、第 217 行「On 15 December 2011, for the game's tenth anniversary, War Drum Studios ported it to iOS and Android」→ 相符。
+  - #31 2001 年最暢銷遊戲：wiki GTA III 第 50 行「2001 年最暢銷的遊戲」；raw/02 第 29 行「It was the best-selling video game of 2001」→ 相符。補充：raw/02 第 191 行另有「In the United States… highest-selling game of 2001」，是美國範圍的說法，兩者不衝突。
