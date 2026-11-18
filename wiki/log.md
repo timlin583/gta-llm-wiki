@@ -459,3 +459,67 @@
 - 人工檢查（使用者請 Claude 代為抽查，以 shuf 隨機抽出 #14、#7）：
   - #14 偷車轉賣也能得分：wiki GTA 第 47 行「分數可以靠完成任務、製造破壞、偷車轉賣等方式取得」；raw/07 第 37 行「Points can be gained from anything, such as causing death and destruction amid the traffic in the city, completing special challenges, or stealing and selling cars for profit」→ 相符。補充：wiki 把「death and destruction」寫成「製造破壞」，是依 CLAUDE.md「以教學角度描述、不渲染細節」的寫法，意思沒有改變。
   - #7 從 8 個角色中選（PS 版 4 個）：wiki GTA 第 22 行「開局從 8 個角色中選一個（PS 版 4 個），只影響外觀，不影響玩法與劇情」；raw/07 第 37 行「choosing a character from among eight—four in the PlayStation version… the choice is purely aesthetic」、第 45 行「this choice does not affect the gameplay or story」→ 相符。
+
+## [2026-11-18] ingest | Wikipedia：Grand Theft Auto 2（raw/08）
+- 背景：外層 loop 第 2 圈第 3 篇，補第一次 Lint 指出「GTA 2 只有 raw/01 一篇來源、待查 4 項」的缺口。
+- 新增／更新的頁：
+  - 新增：sources/08-wikipedia-gta-2
+  - 更新：GTA 2（大幅改寫）、2D 時代、通緝等級、index.md
+- 自我檢查：對照 41 個事實，修正 4 個
+
+| # | 事實 | wiki 頁 | raw 原句 | 是否符合 |
+|---|---|---|---|---|
+| 1 | 系列第二部主線、初代續作 | GTA 2 | It is the sequel to 1997's Grand Theft Auto, and the second main entry | ✅ |
+| 2 | 開發商 DMA Design、GBC 版 Tarantula Studios | GTA 2 | DMA DesignTarantula Studios (GBC) | ✅ |
+| 3 | 發行商 Rockstar Games、編劇 Dan Houser | GTA 2 | \| Publisher \| Rockstar Games \| ／ \| Writer \| Dan Houser \| | ✅ |
+| 4 | PS、Windows 1999-10-22 | GTA 2、sources/08 | 22 October 1999 PlayStation, Windows | ✅（與 raw/01 矛盾，已並陳）|
+| 5 | Dreamcast 北美 2000-05-01、歐洲 2000-05-20 | GTA 2 | Dreamcast NA: 1 May 2000EU: 20 May 2000 | ✅ |
+| 6 | GBC 2000 年 12 月 | GTA 2 | Game Boy Color December 2000 | ✅ |
+| 7 | 2008 年 1 月 Steam 重新上架 | GTA 2 | re-released on Steam in January 2008 | ✅ |
+| 8 | 單人、多人 | GTA 2 | Single-player, multiplayer | ✅ |
+| 9 | 舞台 Anywhere City（復古未來都市）| GTA 2 | retrofuturistic metropolis known as "Anywhere City" | ✅ |
+| 10 | 玩法段寫「Anywhere, USA」| GTA 2、sources/08 | referred to as "Anywhere, USA" | ✅（raw/08 內部差異，已並陳）|
+| 11 | 三區 Downtown、Residential、Industrial | GTA 2 | divided into three districts (Downtown, Residential, and Industrial) | ✅ |
+| 12 | 各區是一座島 | GTA 2 | （raw/01）Each district is depicted as its own individual island | ✅（標 [raw/01]）|
+| 13 | 故事年代不明確（三週後到 2013）| GTA 2 | conflicting sources suggest anything from "three weeks into the future", to the year being 2013 | ✅（與 raw/01 一致）|
+| 14 | 遊戲內提到「新千年」| GTA 2 | references to the "new millennium" that is coming | ✅ |
+| 15 | 開局一個角色（GBC 六個）| GTA 2 | Players begin a game with one character (six in the Game Boy Color version) | ✅ |
+| 16 | 每關要達到目標分數 | GTA 2 | each requiring a set target score being achieved to progress to the next stage | ✅ |
+| 17 | 幫派任務得分比單純犯罪多 | GTA 2 | the latter awarding more points than doing simple criminal actions | ✅ |
+| 18 | 通緝等級越高警方反應越強 | GTA 2、通緝等級 | higher wanted levels increasing the level of response used | ✅ |
+| 19 | 被逮捕或死亡失去裝備 | GTA 2、通緝等級 | Being arrested or dying loses the player any equipment they found | ✅ |
+| 20 | 回教堂存檔要付分數 | GTA 2 | visiting the church where they start, but must pay a set number of points | ✅ |
+| 21 | 每關兩個專屬幫派加一個共通幫派 | GTA 2 | each level features two unique syndicates, alongside a third syndicate present in all levels | ✅ |
+| 22 | 累積尊重、失去對手尊重並被鎖在任務外 | GTA 2、2D 時代 | gains respect with that syndicate… lose it with their chief rivals, locking them out of their jobs and making the syndicate's members hostile | ✅ |
+| 23 | 血量條、改裝車庫 | GTA 2 | a health meter, garages that can modify vehicles with special improvements | ✅ |
+| 24 | 計程車到大貨車的支線任務 | GTA 2 | running a taxi to driving a semi-truck | ✅ |
+| 25 | 隱藏包裹 | GTA 2 | 'hidden' packages | ✅ |
+| 26 | 幫派成員與警察打起來、有搶匪 | GTA 2 | gang members engaging in fights with police… the presence of other criminals (such as muggers) | ✅ |
+| 27 | Dundee 開發、主程式 Keith Hamilton | GTA 2 | developed by DMA Design in Dundee under the lead programmer Keith Hamilton | ✅ |
+| 28 | 原考慮取名 Eh Stole E' Motur、後怕妨礙國際市場 | GTA 2 | Eh Stole E' Motur… could hamper the game's international appeal | ✅ |
+| 29 | 8 分鐘真人短片、紐約拍攝 | GTA 2 | eight-minute short film of live-action footage, filmed within New York City | ✅ |
+| 30 | Claude Speed（Scott Maslen）被他搶過的幫派的殺手殺死 | GTA 2 | Claude Speed (played by Scott Maslen)… killed by an assassin from one of the gangs he robbed | ❌→已修正：原寫「被其中一個幫派派出的殺手殺死」，漏掉「他搶過的」 |
+| 31 | 編劇 Dan Houser、導演 Alex De Rakoff；此 Claude 不是 GTA III 的 Claude | GTA 2 | screenplay by Dan Houser, and directed by Alex De Rakoff ／ Not to be confused with Claude, the protagonist of Grand Theft Auto III | ✅ |
+| 32 | 每區 5 個電台、共 11 個；幫派電台限特定區域 | GTA 2 | five radio stations available in each area, selected from a total of eleven ／ Each gang… limited to specific areas | ✅ |
+| 33 | Head Radio、緊急車輛只聽緊急無線電 | GTA 2 | "Head Radio" station… Emergency vehicles | ✅ |
+| 34 | 選單歌曲 Short Change（E-Z Rollers）| GTA 2 | "Short Change", was produced by the British band E-Z Rollers | ✅ |
+| 35 | GameRankings 小數點兩位、Metacritic PS1 70 | GTA 2 | 71.50% (PC) 70.80% (DC) 69.92% (PS1) 35.00% (GBC) ／ 70/100 (PS1) | ✅（與 raw/01 整數吻合）|
+| 36 | 多數平台評價褒貶不一、GBC 負面、中等商業成功 | GTA 2 | mixed reviews for most platforms, and negative reviews for the Game Boy Color, but was a moderate commercial success | ❌→已修正：原寫「整體評價普通」，改為原文的「褒貶不一」並補上「中等商業成功」 |
+| 37 | 稱讚配樂、幫派系統；批評畫面操作設定 | GTA 2、2D 時代 | the soundtrack and some gameplay elements, such as the gang loyalty system, were praised, the graphics, controls, and setting received a more mixed response | ❌→已修正（2 處）：GTA 2 頁原寫「批評：畫面、操作、設定」，原文是「評價較為兩極」，不是批評；2D 時代頁原寫「評價普通」，同樣改為「褒貶不一」 |
+| 38 | 沒有為初代公式帶來創新 | GTA 2、2D 時代 | criticised for failing to innovate the formula | ✅ |
+| 39 | 出貨超過 1.2 million、預期營收超過 US$33 million、總銷量約 2 million | GTA 2、sources/08 | More than 1.2 million copies… over US$33 million in gross revenue ／ sell about 2 million copies worldwide | ✅（與 raw/01 的 1 million 矛盾，已並陳）|
+| 40 | ELSPA Silver（≥100,000）、Platinum（≥300,000）| GTA 2 | "Silver" sales award… at least 100,000 copies in the United Kingdom ／ "Platinum" sales award (300,000 or more units in the United Kingdom) | ✅ |
+| 41 | 2026 年 Top Gear 回顧：aberration、哥譚市與銀翼殺手的混合 | GTA 2 | In 2026, Top Gear magazine reviewed the game, describing it as an "aberration"… Tim Burton's Gotham City and Blade Runner's neon lights | ✅ |
+
+- 另外清理 1 處不屬於事實對照的寫法：GTA 2 頁「分級」欄原有一句「GBC 版評價為負面，但 raw/08 沒有提到分級內容」，把評價和分級混在一起，已刪除，改為「raw/08 沒有提到任何地區的分級：待查」。
+- 第一次 Lint 問題的處理結果：
+  - 補強：GTA 2 頁的來源從 1 篇增加到 2 篇；開發商、發售日、各平台日期、玩法、配樂、短片都補齊；「待查」從 4 項降到 3 項（主角姓名、ESRB 分級、爭議）。
+  - 未解決：GTA 2 的主角姓名、ESRB 分級、爭議事件，raw/08 都沒寫。
+- 本次新發現的來源問題：
+  - ⚠ 銷量：raw/08「約 2 million」（出貨超過 1.2 million）vs raw/01「1 million」，兩者都沒有統計日期。
+  - ⚠ PS 版發售時間：raw/08 與 Windows 版同日 1999-10-22 vs raw/01「Windows 版先發售，之後移植到 PS」。
+  - raw/08 內部：「Anywhere City」vs「Anywhere, USA」，已並陳。
+- 本次的錯誤類型：4 個修正裡有 3 個是「把原文的中性或兩極描述寫成偏負面」（「評價普通」「批評畫面操作」），1 個是漏掉修飾語（「他搶過的」）。和 raw/06、raw/07 那兩次不同：這次不是補了原文沒有的資訊，而是用字改變了語氣。
+- 人工檢查（使用者請 Claude 代為抽查，以 shuf 隨機抽出 #12、#27）：
+  - #12 各區是一座島：wiki GTA 2 第 44 行「城市分為三個區，各自是一座島 [raw/01]」；raw/01 第 192 行「Each district is depicted as its own individual island」→ 相符。補充：這一條來源是 raw/01，不是 raw/08；raw/08 只寫「divided into three districts」，沒有提到島，所以 wiki 正確地標了 [raw/01]。
+  - #27 Dundee 開發、主程式 Keith Hamilton：wiki GTA 2 第 47 行「DMA Design 在 Dundee 開發，主程式 Keith Hamilton」；raw/08 第 40 行「Grand Theft Auto 2 was developed by DMA Design in Dundee under the lead programmer Keith Hamilton」→ 相符。
