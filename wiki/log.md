@@ -261,3 +261,75 @@
 - 人工檢查（使用者請 Claude 代為抽查，以 shuf 隨機抽出 #2、#4）：
   - #2 發布日 2025-11-06：wiki sources/05 第 13 行「發布日：2025-11-06」、GTA VI 時間線第 53 行「2025-11-06｜第二次延期」；raw/05 第 12 行「Published 6 November 2025」，第 67 行 Rockstar 推文日期「November 6, 2025」→ 相符。
   - #4 原發售日 2026-05-26、延後六個月：wiki GTA VI 第 53 行「從 2026-05-26 延後六個月至 2026-11-19」、sources/05 第 17 行；raw/05 第 47 行「which is six months after the previous release date of May 26, 2026」→ 相符。
+
+## [2026-11-18] lint | 第一次健檢（raw/01–05 ingest 後）
+- 範圍：wiki/ 下 23 頁（games 9、concepts 5、entities 4、sources 5，另有 index、log）
+- 方法：用腳本掃描連結、未標來源的數字、⚠ 標記、「截至」日期、game 頁欄位與待查數、術語首次出現；腳本結果再人工判讀，排除誤判（例如相關頁連結清單、簡報素材建議）。
+- 本次只列問題與建議修法，未修改任何 wiki 頁。
+
+### 1. 孤兒頁（除 index 外沒有任何頁連入）：5 頁
+- sources/01～05 只有 index 連入；引用它們的 game／concept 頁只寫 [raw/0X]，沒有連到摘要頁。
+- 建議：在各頁「相關頁」加一行「來源摘要：[[0X-...]]」。
+- 斷鏈：0；index 漏列：0。
+
+### 2. 沒有標來源的事實：8 處
+| 頁 | 內容 | 建議 |
+|---|---|---|
+| GTA V | 一句話介紹「是系列商業上最成功的一款」| raw 沒有這句；raw/01 銷量表可支持「系列中銷量最高」，改寫並標 [raw/01] |
+| GTA | 一句話介紹「三座虛構美國城市」| 補 [raw/01] |
+| GTA 2 | 一句話介紹「不對應任何真實城市的復古未來都市」| 補 [raw/01] |
+| GTA III | 一句話介紹「第一次變成 3D」| 補 [raw/01][raw/02] |
+| GTA Vice City | 一句話介紹「1980 年代」「第一款主角會開口說話」| 補 [raw/01] |
+| GTA San Andreas | 一句話介紹「三座城市、自訂角色」| 補 [raw/01] |
+| 3D 時代 | 一句話「從 GTA III 開始改用 3D」| 補 [raw/01] |
+| GTA VI | 「截至 2026-11-18，尚未發售，無評價與銷量資料」| 補 [raw/04] |
+- 共同原因：「一句話介紹」被當成摘要而漏標來源（raw/04 ingest 時已在 GTA VI 修過一次同樣問題）。
+
+### 3. 來源矛盾：共 12 筆（其中 2 筆在 Rockstar Games 頁只寫「並陳」，沒加 ⚠）
+| 矛盾 | 所在頁 | 可能的解法 |
+|---|---|---|
+| GTA VI 是否已發售（raw/03 vs raw/01、raw/04）| GTA VI | 11-19 發售後抓新來源確認 |
+| GTA VI 公布時間（raw/05「2025 公布」vs raw/01「2023-12」）| GTA VI | ingest raw/06 |
+| Leonida 是州還是罪惡城別稱（raw/05 內部）| GTA VI | ingest raw/06 |
+| GTA III 銷量 17.5M vs 14.5M | GTA III | 兩者日期不同，維持並陳 |
+| GTA III Metacritic PS2 排名 | GTA III | 維持並陳 |
+| 自由城混入的城市 | GTA III、自由城 | 維持並陳 |
+| GTA V 首日營收 $800M vs $815M（raw/03 內部）| GTA V | 維持並陳 |
+| GTA V 金氏紀錄年份（raw/01 vs raw/03）| GTA V | 維持並陳 |
+| GTA V 地圖限制說法 | GTA V | 維持並陳 |
+| 跨性別內容刪除月份（raw/03 內部）| GTA V、sources/03 | 維持並陳 |
+| DMA Design 在 Dundee 或 Edinburgh | Rockstar Games（未加 ⚠）| 統一加 ⚠；ingest raw/07 可能釐清 |
+| Zelnick 拼字 Strauss vs Strass | Rockstar Games（未加 ⚠）| 統一加 ⚠ |
+
+### 4. 「截至」日期：3 類問題
+- **即將過期（最優先）**：GTA VI 頁有 7 處「截至 2026-11-18 尚未發售」，2026-11-19 發售後就過時。建議發售後抓一篇新來源（官方 Newswire 或新聞）存成新的 raw，再 ingest 更新。
+- **資料很舊**：GTA III「截至 2008 年 3 月 14.5 million」是 18 年前的數字。
+- **規則不夠清楚**：CLAUDE.md 規定「日期採用來源的日期」，但維基百科沒有發布日，raw/01–03 的「截至」都用了抓取日 2026-11-18。建議在 CLAUDE.md 補一條：「來源沒有日期時，用抓取日，並在 sources 頁註明」。
+- **排名類說法缺「截至」**：GTA III「與 THPS3 並列 PS2 最高分」[raw/02]、GTA V「史上銷售最快的娛樂產品」[raw/03]。前者補「截至 2026-11-18」；後者是 2013 年當時的紀錄，補「截至 2013 年」。
+
+### 5. 缺少的代數與資料厚度
+- 涵蓋範圍內 8 代＋GTA Online 都有頁面，沒有缺頁；每頁都有 8 個欄位，也都連到所屬時代頁（GTA VI 時代歸屬待查）。
+- 但資料很薄：
+| 頁 | 來源數 | 待查數 | 可補的 raw |
+|---|---|---|---|
+| GTA | 1（raw/01）| 3 | raw/07 |
+| GTA 2 | 1（raw/01）| 4 | raw/08 |
+| GTA Vice City | 1（raw/01）| 2 | raw/09 |
+| GTA San Andreas | 2（raw/02 只提一句）| 3 | raw/10 |
+| GTA IV | 1（raw/01）| 2 | raw/11 |
+| GTA Online | 1（raw/03 的一段）| 4 | raw/12 |
+| GTA VI | 4 | 7 | raw/06 |
+- 「分級」欄：ESRB 在 GTA、GTA 2、GTA III、GTA Vice City、GTA V、GTA Online、GTA VI 都是待查。
+
+### 6. 術語第一次出現沒有解釋
+- 全 wiki 都沒解釋過的：主線、支線、移植、限時獨占、外傳、Metacritic、GameRankings、ESRB（San Andreas 頁只解釋了「M 級」，沒解釋 ESRB 本身）。
+- 在別頁解釋過、但本頁首次出現沒解釋的：宇宙（3D 時代、HD 時代、GTA VI）、GTA clone（3D 時代）、mod（GTA Online）、開放世界（3D 時代、GTA III、GTA V、通緝等級、聖安地列斯）。
+- 建議：在每頁首次出現時加一句括號解釋；Metacritic、ESRB 這兩個對沒玩過遊戲的大學生最陌生，優先處理。
+
+### 建議的修正順序
+1. 回到「取得資料」：ingest raw/06–12，補齊薄的代數，也可能解決 3 筆矛盾。
+2. GTA VI 發售後（2026-11-19 之後）抓新來源，更新 7 處「截至」。
+3. 補第 2 類的 8 處來源標記。
+4. 補第 6 類的術語解釋。
+5. 第 1 類加來源摘要連結、第 3 類統一 ⚠ 標記、第 4 類補排名的「截至」。
+6. 規則修改：CLAUDE.md 補「來源沒有日期時用抓取日」；「一句話介紹也要標來源」。
