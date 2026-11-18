@@ -403,3 +403,59 @@
 - 人工檢查（使用者請 Claude 代為抽查，以 shuf 隨機抽出 #8、#39）：
   - #8 Lucia 由 Manni L. Perez 演出、系列第一位正式女主角：wiki GTA VI 第 34 行「Lucia Caminos（Manni L. Perez 演出）…是系列第一位正式設定的女主角」；raw/06 第 49 行「Lucia Caminos (Manni L. Perez), the series' first canon female protagonist」→ 相符。補充：raw/06 第 202 行註腳說明，GTA（1997）、GTA 2（GBC 版）、GTA Online 都有可選的女性角色，但都不是有劇情對白的主角；wiki 用「正式設定的」對應原文的「canon」，意思正確。
   - #39 實體版不附光碟、部分零售商拒絕上架：wiki GTA VI 第 73 行「實體版只附下載碼，加上部分內容綁定特別版，引發玩家與記者批評，部分零售商拒絕上架」；raw/06 第 109 行「Physical versions, containing download codes in lieu of discs…」「Players and journalists criticised content locked behind special editions and the lack of discs… and some retailers refused to stock the game」→ 相符。
+
+## [2026-11-18] ingest | Wikipedia：Grand Theft Auto（1997）（raw/07）
+- 背景：外層 loop 第 2 圈第 2 篇，補第一次 Lint 指出「GTA 只有 raw/01 一篇來源」的缺口。
+- 新增／更新的頁：
+  - 新增：sources/07-wikipedia-gta-1997
+  - 更新：GTA（大幅改寫）、2D 時代、通緝等級、GTA III、Rockstar Games、index.md
+- 自我檢查：對照 35 個事實，修正 3 個
+
+| # | 事實 | wiki 頁 | raw 原句 | 是否符合 |
+|---|---|---|---|---|
+| 1 | 開發商 DMA Design | GTA | \| Developer \| DMA Design \| | ✅ |
+| 2 | 歐洲 BMG Interactive 發行，PC 1997-11-28、PS 1997-12-12 | GTA、Rockstar Games | published in Europe by BMG Interactive on 28 November 1997, followed by the PlayStation version on 12 December 1997 | ✅ |
+| 3 | 北美 ASC Games（PC 1998-03-24）、Take-Two（PS 1998-06-30）| GTA、Rockstar Games | published by ASC Games for MS-DOS and Windows on 24 March 1998, and by Take-Two Interactive for the PlayStation on 30 June 1998 | ✅（PS 年份與 raw/01 矛盾，已並陳）|
+| 4 | GBC 版 Rockstar 發行，歐洲 1999-10-22、北美 1999-11 | GTA、Rockstar Games | published by Rockstar Games in Europe on 22 October 1999, and in North America in November | ✅ |
+| 5 | PS 版 Visual Sciences 移植、GBC 版 Tarantula Studios | GTA | Visual Sciences ported the game to the PlayStation. Tarantula Studios developed the Game Boy Color version | ✅ |
+| 6 | 三座城市與原型 | GTA | Liberty City (New York City), San Andreas (San Francisco), and Vice City (Miami) | ✅ |
+| 7 | 從 8 個角色中選（PS 版 4 個）| GTA | choosing a character from among eight—four in the PlayStation version | ✅ |
+| 8 | 選角不影響玩法與劇情 | GTA | this choice does not affect the gameplay or story | ✅ |
+| 9 | 資料片舞台 1960 年代英國 | GTA | Two expansions taking place in 1960s England | ✅ |
+| 10 | 故事結局拿退休金 | GTA | The player receives their retirement money, and the game ends | ✅ |
+| 11 | GBC 版刪除血腥與髒話 | GTA | heavily toned down to target younger demographic, with most gore and swearing removed | ✅ |
+| 12 | 自由行動、生命數有限 | GTA | The player is free to do whatever they want, but have limited lives | ✅ |
+| 13 | 目標分數起始 $1,000,000 | GTA | which starts at $1,000,000 | ✅ |
+| 14 | 偷車轉賣也能得分 | GTA | stealing and selling cars for profit | ✅ |
+| 15 | 電話亭接任務 | GTA | Jobs can be initiated by visiting and touching a ringing telephone box | ✅ |
+| 16 | 任務可任意順序 | GTA | Jobs can be completed in any order | ✅ |
+| 17 | 警方注意度越高反應越強 | GTA、通緝等級 | the higher the level, the tougher the response | ✅ |
+| 18 | 被捕失去裝備、加乘減半 | 通緝等級 | they forfeit all equipment and have their multiplier bonus halved | ✅ |
+| 19 | 7 個電台加警用無線電 | GTA、2D 時代、GTA III | Grand Theft Auto features seven radio stations and a police band track | ✅ |
+| 20 | PC 版 IPX 網路多人 | GTA | PC versions of the game were released with networked multiplayer gameplay using the IPX protocol | ❌→已修正：原寫「區域網路多人連線」，「區域網路」是我自己對 IPX 的解讀，改為原文的「使用 IPX 協定的網路多人連線」 |
+| 21 | 1995-04-04 在 Dundee 開始開發 | GTA、Rockstar Games | The development of Grand Theft Auto began on 4 April 1995 at DMA Design in Dundee | ✅ |
+| 22 | 原名 Race'n'Chase、原本扮演警察、太無聊 | GTA、2D 時代 | The game was originally titled Race'n'Chase ／ the player controlled a police officer pursuing criminals. However, the game was considered dull | ✅ |
+| 23 | Gary Penn：「nobody wants to be the cop」| GTA | nobody wants to be the cop, it's more fun to be bad | ✅ |
+| 24 | David Jones：Pac-Man | GTA | David Jones, the game's producer, cited Pac-Man as an influence | ✅ |
+| 25 | Gary Penn：Elite | GTA | Gary Penn… cited Elite as a major influence ／ basically Elite in a city | ❌→已修正：原寫「太空遊戲 Elite」，「太空」不在 raw 裡，是用自己的記憶補的；改為引用原文「basically Elite in a city」 |
+| 26 | Saturn、N64 版取消 | GTA | Sega Saturn and the Nintendo 64. However, it was never released for the latter two consoles | ✅ |
+| 27 | 畫面與操作被批評，娛樂性、音效、自由度受讚 | GTA | the graphics and controls were criticised, the entertainment value, sound design, and freedom of the gameplay were praised | ✅ |
+| 28 | GameRankings PC 79%、PS 68%、GBC 57% | GTA | PC: 79% PS: 68% GBC: 57% | ✅（與 raw/01 一致）|
+| 29 | 1998-11 破 1 million | GTA | had surpassed 1 million units combined by November 1998 | ✅ |
+| 30 | 1999-10 3.5 million、2001-03 6 million | GTA | It sold 3.5 million units by October 1999, and 6 million by March 2001 | ✅（與 raw/01 的 6 million 一致，補上統計日期）|
+| 31 | Milia Gold 獎、€17 million | GTA | took home a "Gold" prize for revenues above €17 million in the European Union during 1998 | ✅ |
+| 32 | 被列為史上最佳遊戲之一 | GTA | Grand Theft Auto has been named one of the greatest video games by several publications | ✅ |
+| 33 | 巴西司法部禁售 | GTA | Grand Theft Auto was banned by the Justice Ministry of Brazil | ✅ |
+| 34 | 發售前討論禁售、Max Clifford 當免費宣傳 | GTA | discussions about banning its sale ／ organised by publicist Max Clifford, exploited this stirring of controversy as free promotion | ✅ |
+| 35 | GTA III 頁：GTA III 之後電台加入 DJ、廣告、談話 | GTA III | (raw/01) simulate driving to music with disc jockeys, radio personalities, commercials, talk radio | ❌→已修正：原寫「GTA III 的突破是把電台做成完整節目」，是我自己的評論且沒標來源，改為 raw/01 的說法並標 [raw/01] |
+
+- 第一次 Lint 問題的處理結果：
+  - 補強：GTA 頁的來源從 1 篇增加到 2 篇，「主角」從待查補齊；剩下「故事年代」「ESRB」待查。
+  - 補強：DMA Design 地點，raw/07 支持 raw/01 的 Dundee（1995 年）；raw/02 的 Edinburgh 是 2001 年 GTA III 團隊，時間不同，仍並陳。
+- 本次新發現的來源問題：
+  - ⚠ PS 版年份：raw/07 歐洲 1997-12-12 vs raw/01「ported to the PlayStation in 1998」（可能只寫了北美）。
+  - 不算矛盾但需要說明：遊戲內電台在初代就有（raw/07），已在 GTA III 頁補註，避免讀者以為是 GTA III 才有。
+- 本次的錯誤類型：3 個修正都是「把自己的知識或評論混進去」（「太空」遊戲、「區域」網路、「GTA III 的突破」），和 raw/06 那次一樣。這類錯誤 grep 原句抓不到，只能靠逐句比對語意。
+- 人工檢查（使用者請 Claude 代為抽查，以 shuf 隨機抽出 #14、#7）：
+  - #14 偷車轉賣也能得分：wiki GTA 第 47 行「分數可以靠完成任務、製造破壞、偷車轉賣等方式取得」；raw/07 第 37 行「Points can be gained from anything, such as causing death and destruction amid the traffic in the city, completing special challenges, or stealing and selling cars for profit」→ 相符。補充：wiki 把「death and destruction」寫成「製造破壞」，是依 CLAUDE.md「以教學角度描述、不渲染細節」的寫法，意思沒有改變。
+  - #7 從 8 個角色中選（PS 版 4 個）：wiki GTA 第 22 行「開局從 8 個角色中選一個（PS 版 4 個），只影響外觀，不影響玩法與劇情」；raw/07 第 37 行「choosing a character from among eight—four in the PlayStation version… the choice is purely aesthetic」、第 45 行「this choice does not affect the gameplay or story」→ 相符。

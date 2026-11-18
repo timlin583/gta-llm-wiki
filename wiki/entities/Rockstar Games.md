@@ -1,7 +1,7 @@
 ---
 title: Rockstar Games
 type: entity
-sources: [raw/01-wikipedia-gta-series.md, raw/02-wikipedia-gta-iii.md, raw/03-wikipedia-gta-v.md, raw/05-news-gta-vi-delay.md, raw/06-wikipedia-gta-vi.md]
+sources: [raw/01-wikipedia-gta-series.md, raw/02-wikipedia-gta-iii.md, raw/03-wikipedia-gta-v.md, raw/05-news-gta-vi-delay.md, raw/06-wikipedia-gta-vi.md, raw/07-wikipedia-gta-1997.md]
 updated: 2026-11-18
 ---
 
@@ -12,7 +12,8 @@ GTA 系列的發行商，旗下工作室 Rockstar North（前身 DMA Design）�
 
 ## 基本資料
 - GTA 系列由 David Jones 與 Mike Dailly 在 DMA Design 創立；DMA Design 現在叫 Rockstar North [raw/01]。
-- DMA Design 位於蘇格蘭的 Dundee [raw/01]。
+- DMA Design 位於蘇格蘭的 Dundee [raw/01]；初代 GTA 於 1995-04-04 在 Dundee 的 DMA Design 開始開發 [raw/07]。
+- 初代 GTA 在歐洲由 BMG Interactive 發行，北美 PS 版由 Take-Two Interactive 發行；1999 年的 GBC 版才由 Rockstar Games 發行 [raw/07]。
 - 系列主要由 Rockstar North 開發、由 Rockstar Games 發行 [raw/01]。
 - 後期作品由 Dan Houser、Sam Houser 兄弟，以及 Leslie Benzies、Aaron Garbut 主導 [raw/01]。
 - 母公司是 Take-Two Interactive [raw/01]。

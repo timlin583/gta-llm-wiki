@@ -1,7 +1,7 @@
 ---
 title: GTA III
 type: game
-sources: [raw/01-wikipedia-gta-series.md, raw/02-wikipedia-gta-iii.md]
+sources: [raw/01-wikipedia-gta-series.md, raw/02-wikipedia-gta-iii.md, raw/07-wikipedia-gta-1997.md]
 updated: 2026-11-18
 ---
 
@@ -35,7 +35,7 @@ GTA 第一次變成 3D，讓玩家在立體城市裡自由開車、探索，被�
 ## 4. 這一代的新東西
 - 系列第一款 3D 作品 [raw/01][raw/02]，也是第一款採用第三人稱視角（鏡頭跟在角色身後）的作品 [raw/02]。
 - 美術總監 Aaron Garbut 希望它不只是「a thing you played」，而是「a place you lived in」[raw/02]。
-- 約 3.5 小時的遊戲內電台內容，請真正的 DJ 錄製 [raw/02]。
+- 約 3.5 小時的遊戲內電台內容，請真正的 DJ 錄製 [raw/02]。（電台不是 GTA III 才有，初代 GTA 就有 7 個電台 [raw/07]；GTA III 之後的電台加入了 DJ、廣告、談話節目等內容 [raw/01]。）
 - 第一款替角色標註配音演員的 GTA，請來 Frank Vincent、Michael Madsen、Kyle MacLachlan 等影視演員 [raw/01]。
 - 原本計畫的線上多人模式，因時間與資源不足而取消 [raw/02]。
 
