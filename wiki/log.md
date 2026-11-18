@@ -1058,3 +1058,42 @@
   | log 格式 | 只有 ingest 一種 | 新增 lint、fix 兩種；人工檢查若為 AI 代抽要註明 | 12 篇 ingest 的人工檢查有 11 篇是 Claude 代抽，原格式沒有位置註明 |
 - 尚未完成：`wiki/concepts/術語表.md` 還沒有建立，規則已經先寫入；下一步建立。
 - 規則生效範圍：從這筆起新增的內容適用；已存在的頁面依第二次 Lint 的建議修法逐步修正。
+
+## [2026-11-19] fix | 新增術語表（對應第二次 Lint 第 8 項）
+- 新增：`wiki/concepts/術語表.md`（28 個術語，分「評分與分級」「作品與版本」「玩法與畫面」「技術與商業」四組）。
+- 更新：index.md 加一行；18 個內容頁（9 game、5 concept、4 entity）的「相關頁」後面加一行「術語：[[術語表]]」，讓術語表有入口，也讓各頁首次出現的術語可以連到這裡。
+- 做法：先用 grep 從 raw 找每個術語的原文用法，再寫說明；raw 沒有給定義的 4 個詞（沙盒、HUD、第一人稱視角、遊戲引擎）明確標「（通用說明）」，不當成 GTA 的事實。
+- 自我檢查：每條說明回 raw 找原句，28 條全部對照：
+  | 術語 | raw 原句（節錄）| 符合 |
+  |---|---|---|
+  | Metacritic | according to review aggregator Metacritic（raw/03）／review aggregator site Metacritic（raw/06）| ✅ |
+  | GameRankings | review aggregators Metacritic and GameRankings's highest-rated（raw/03）；raw/01 表格「GTA V (XONE) 98%」| ✅ |
+  | OpenCritic | OpenCritic assessed that 100% of critics recommend it（raw/06）| ✅ |
+  | ESRB／M／AO | Entertainment Software Rating Board (ESRB)（raw/10）；from "M" for ages seventeen and up to "AO", for adults only（raw/01）| ✅ |
+  | MA15+、R18+ | initially released in Australia with an MA15+ classification… R18+ classification in September 2019（raw/02）| ✅ |
+  | 通緝等級 | （連到 通緝等級 頁，raw/01 說明）| ✅ |
+  | 主線作品 | fifth main game… and the seventh overall entry（raw/10）| ✅ |
+  | 外傳 | Grand Theft Auto has spawned numerous additional games and expansion packs（raw/01 "Other games"）| ✅ |
+  | 資料片 | expansion packs: London 1969 and London 1961… new missions and characters（raw/01）；episodic expansion packs（raw/11）| ✅ |
+  | DLC | single-player downloadable content (DLC) were later scrapped（raw/03）| ✅ |
+  | 移植 | ported to the PlayStation in 1998（raw/01）| ✅ |
+  | 限時獨占 | released as timed exclusives under a deal between Take-Two Interactive and Sony… before being ported to Windows and Xbox（raw/01）| ✅ |
+  | 重製版 | graphical and gameplay upgrades（raw/01）；「Expanded & Enhanced」（raw/03）| ✅ |
+  | 預載 | allowing pre-loading a week before the game unlocks（raw/06）| ✅ |
+  | 宇宙 | split into separate fictional universes… Each universe is considered separate with only brands, place names and background characters shared（raw/01）| ✅ |
+  | 開放世界 | （連到 開放世界 頁）| ✅ |
+  | 沙盒遊戲 | popularisation of sandbox games, inspiring Crackdown, Mafia, Saints Row…（raw/02）；定義為通用說明 | ✅（已標）|
+  | GTA clone | Grand Theft Auto clones are a type of 3D action-adventure game, where players are given the ability to drive any vehicle or fire any weapon as they explore an open world（raw/01）| ✅ |
+  | HUD | wanted meter in the head-up display (HUD)（raw/11）；定義為通用說明 | ✅（已標）|
+  | 第三人稱視角 | first game in the series to use a third-person perspective view, positioning the camera closer to the player character（raw/02）| ✅ |
+  | 第一人稱視角 | first-person perspective option when using vehicles（raw/11）；重製版 on-foot first-person（raw/03）；定義為通用說明 | ✅（已標）|
+  | NPC | non-player characters (NPCs)（raw/06）；each non-player character had around an hour of dialogue（raw/10）| ✅ |
+  | 搶案 | teams of four players must complete several "prep jobs" in the lead-up to a major crime（raw/12）；story is centred on the heist sequences（raw/03）| ✅ |
+  | 遊戲引擎 | using Criterion Games's game engine, RenderWare（raw/02）；RAGE… overhauled… to improve its draw distance rendering capabilities（raw/03）；定義為通用說明 | ✅（已標）|
+  | 動態捕捉 | recorded using motion capture（raw/11）| ✅ |
+  | mod | Modding… performed by the player community since around the early 2000s（raw/01）；Take-Two… would not take action against single-player mods（raw/01）| ✅ |
+  | 內購 | microtransaction system, which allows players to purchase game content using real money（raw/12）| ✅ |
+  | 出貨量 | shipped nearly 29 million copies of the game to retailers／sold-in over 34 million units to retailers（raw/03）| ✅ |
+  - 修正 3 處（寫完後逐條重讀發現）：①Metacritic 的例子「根據 50 篇評論」只在 raw/03、卻標了 [raw/03][raw/06]，改為 GTA V 的 97/100 標 raw/03、GTA VI 的 99/100 標 raw/06；②HUD 的「固定顯示資訊的介面」是我加的通用解釋，補標「（通用說明）」；③mod 原寫「Take-Two 也表示不會對單人遊戲的 mod 採取行動」，漏了 raw/01 同段的限制（2019 年更新聲明加上限制），已補。
+- 驗證：重跑 lint2.py 結構檢查：孤兒頁 0、內容頁都在 index；術語表有 18 頁連入。
+- 尚未做：各頁內文裡「第一次出現就用括號解釋」尚未逐頁補；目前靠頁尾的「術語」連結。Lint 的「術語首次出現」檢查仍會標出多頁，需決定是否要求內文逐一加括號。

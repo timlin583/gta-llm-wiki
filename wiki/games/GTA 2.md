@@ -73,4 +73,5 @@ raw/08 沒有提到爭議事件：待查
 - 玩法：[[通緝等級]]
 - 前一代：[[GTA]]
 - 下一代：[[GTA III]]
+- 術語：[[術語表]]
 - 來源摘要：[[01-wikipedia-gta-series]]、[[08-wikipedia-gta-2]]

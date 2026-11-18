@@ -57,4 +57,6 @@ GTA V 團隊為了重現洛杉磯，組織實地考察，拍了約 250,000 張�
 ## 相關頁
 [[自由城（Liberty City）]]、[[罪惡城（Vice City）]]、[[GTA]]、[[GTA San Andreas]]、[[GTA V]]
 
+術語：[[術語表]]
+
 來源摘要：[[01-wikipedia-gta-series]]、[[03-wikipedia-gta-v]]、[[10-wikipedia-gta-san-andreas]]、[[12-wikipedia-gta-online]]

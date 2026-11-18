@@ -89,4 +89,5 @@ updated: 2026-11-18
 - 玩法：[[通緝等級]]、[[開放世界]]
 - 開發：[[Rockstar Games]]
 - 前一代：[[GTA Vice City]]；下一代：[[GTA IV]]
+- 術語：[[術語表]]
 - 來源摘要：[[01-wikipedia-gta-series]]、[[02-wikipedia-gta-iii]]、[[09-wikipedia-gta-vice-city]]、[[10-wikipedia-gta-san-andreas]]

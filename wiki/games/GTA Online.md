@@ -115,4 +115,5 @@ GTA V 的線上多人部分，內容靠持續的免費更新不斷增加 [raw/03
 - 城市：[[聖安地列斯（San Andreas）]]
 - 開發與營運：[[Rockstar Games]]
 - 玩法：[[通緝等級]]
+- 術語：[[術語表]]
 - 來源摘要：[[03-wikipedia-gta-v]]、[[12-wikipedia-gta-online]]

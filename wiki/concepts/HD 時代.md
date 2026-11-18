@@ -46,4 +46,6 @@ updated: 2026-11-18
 ## 相關頁
 [[2D 時代]]、[[3D 時代]]、[[GTA IV]]、[[GTA V]]、[[GTA VI]]
 
+術語：[[術語表]]
+
 來源摘要：[[01-wikipedia-gta-series]]、[[03-wikipedia-gta-v]]、[[10-wikipedia-gta-san-andreas]]、[[11-wikipedia-gta-iv]]、[[12-wikipedia-gta-online]]

@@ -71,4 +71,5 @@ GTA 第一次變成 3D [raw/01][raw/02]，讓玩家在立體城市裡自由開�
 - 玩法：[[開放世界]]、[[通緝等級]]
 - 開發：[[Rockstar Games]]
 - 前一代：[[GTA 2]]；下一代：[[GTA Vice City]]
+- 術語：[[術語表]]
 - 來源摘要：[[01-wikipedia-gta-series]]、[[02-wikipedia-gta-iii]]、[[07-wikipedia-gta-1997]]、[[09-wikipedia-gta-vice-city]]
